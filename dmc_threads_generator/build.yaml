@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      dmc_threads_generator|dmc:
+        enabled: true
+
+builders:
+  dmc_threads_generator:
+    target: ":dmc_threads_generator"
+    import: "package:dmc_threads_generator/builder.dart"
+    builder_factories: ["dmcThreads"]
+    build_extensions: {".dart": [".dmc.g.dart"]}
+    auto_apply: root_package
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]

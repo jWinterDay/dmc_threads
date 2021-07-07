@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# flutter clean && \
+# flutter pub get && \
+flutter packages pub run build_runner build --delete-conflicting-outputs && \
+flutter format -l 120 lib
+  
+# use vscode console: Dart: Restart Analysis Server
+# shift+command+p

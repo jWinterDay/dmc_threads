@@ -1,0 +1,23 @@
+name: dmc_threads
+description: dmc_threads
+version: 0.0.1
+
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  built_value: ^8.0.6
+  dmc_threads_annotation:
+    path: dmc_threads_annotation
+
+  # flutter:
+  #   sdk: flutter
+  
+dev_dependencies:
+  pedantic: ^1.11.1
+  build_runner: ^1.12.2
+  built_value_generator: ^8.0.6
+  dmc_threads_generator:
+    path: ./dmc_threads_generator

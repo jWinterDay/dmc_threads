@@ -1,0 +1,3 @@
+class DmcThreadsAnnotation {
+  const DmcThreadsAnnotation();
+}

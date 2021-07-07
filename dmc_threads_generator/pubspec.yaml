@@ -1,0 +1,24 @@
+name: dmc_threads_generator
+description: dmc_threads_generator
+version: 0.0.1
+
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  dmc_threads_annotation:
+    path: ../dmc_threads_annotation
+
+  analyzer: ^1.2.0
+  build: ^2.0.0
+  dart_style: ^2.0.0
+  source_gen: ^1.0.0
+  code_builder: ^3.7.0
+  
+dev_dependencies:
+  build_runner: ^1.12.1
+  # build_test: '>=1.2.0 <3.0.0'
+  # build_runner: '>=1.0.0 <3.0.0'
+  pedantic: ^1.11.1
