@@ -2,48 +2,58 @@ import 'dart:math' as math;
 import 'package:built_collection/built_collection.dart';
 import 'package:collection/collection.dart';
 import 'package:dmc_threads/src/entities/dmc.dart';
+import 'package:dmc_threads/src/entities/lab.dart';
+import 'package:dmc_threads/src/entities/rgba.dart';
+import 'package:dmc_threads/src/utils/constants.dart';
 
 class DmcUtils {
-  Dmc? findDmcByCode(String code, BuiltList<Dmc> dmcList) {
-    return dmcList.firstWhereOrNull(
-      (Dmc item) => item.code == code,
+  DmcUtils._();
+
+  static Dmc? findDmcByCode(String code, BuiltMap<String, Dmc> dmcMap) {
+    return dmcMap[code];
+  }
+
+  static double getDeltaE(Lab lab, Lab? paletteLab) {
+    if (paletteLab == null) {
+      return 0;
+    }
+
+    return math.sqrt(
+      math.pow(lab.l - paletteLab.l, 2) + math.pow(lab.a - paletteLab.a, 2) + math.pow(lab.b - paletteLab.b, 2),
     );
   }
+
+  static Dmc? findNearestPalette(Lab lab, BuiltMap<String, Dmc> dmcMap) {
+    return dmcMap.values.firstWhereOrNull((Dmc item) {
+      final double deltaE = getDeltaE(lab, item.lab);
+
+      return deltaE < optimalDeltaE;
+    });
+  }
+
+  static Rgba getAvgColor(Iterable<Rgba> colors) {
+    final int cnt = colors.length;
+    num r = 0;
+    num g = 0;
+    num b = 0;
+    num a = 0;
+
+    colors.forEach((Rgba color) {
+      r += color.r;
+      g += color.g;
+      b += color.b;
+      a += color.a;
+    });
+
+    return Rgba((RgbaBuilder updates) {
+      return updates
+        ..r = (r / cnt).ceil()
+        ..g = (g / cnt).ceil()
+        ..b = (b / cnt).ceil()
+        ..a = (a / cnt).ceil();
+    });
+  }
 }
-
-// import 'package:dmc_threads/src/entities/lab.dart';
-// import 'package:dmc_threads/src/entities/rgba.dart';
-
-// PaletteType findDmcByCode(String code) {
-//   if (code == null) throw ArgumentError.notNull('code');
-
-//   return kDmcValues.firstWhere(
-//     (item) => item.code == code,
-//     orElse: () => null,
-//   );
-// }
-
-// double getDeltaE(Lab lab, Lab paletteLab) {
-//   if (lab == null) throw ArgumentError.notNull('lab');
-//   if (paletteLab == null) throw ArgumentError.notNull('paletteLab');
-
-//   return math.sqrt(
-//     math.pow(lab.l - paletteLab.l, 2) + math.pow(lab.a - paletteLab.a, 2) + math.pow(lab.b - paletteLab.b, 2),
-//   );
-// }
-
-// PaletteType findNearestPalette(Lab lab, List<PaletteType> paletteList) {
-//   if (lab == null) throw ArgumentError.notNull('lab');
-//   if (paletteList == null) throw ArgumentError.notNull('paletteList');
-
-//   return paletteList.firstWhere(
-//     (item) {
-//       final deltaE = getDeltaE(lab, item.lab);
-//       return deltaE < optimalDeltaE;
-//     },
-//     orElse: () => null,
-//   );
-// }
 
 // Rgba getAvgColor(List<Rgba> colors) {
 //   if (colors == null) {
