@@ -72,15 +72,23 @@ class DmcThreadsGeneratorGenerator extends Generator {
       ''';
     }).join();
 
-    StringBuffer output = StringBuffer();
+    final StringBuffer output = StringBuffer();
 
     output.write('''
-    BuiltList<Dmc> _dmc() {
-      return BuiltList<Dmc>.of(<Dmc>[
+    Iterable<Dmc> _dmc() {
+      return <Dmc>[
         $data
-      ]);
+      ];
     }
     ''');
+
+    // output.write('''
+    // BuiltList<Dmc> _dmc() {
+    //   return BuiltList<Dmc>.of(<Dmc>[
+    //     $data
+    //   ]);
+    // }
+    // ''');
 
     return output.toString();
   }

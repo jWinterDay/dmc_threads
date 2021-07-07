@@ -6,8 +6,8 @@ part of 'palette.dart';
 // DmcThreadsGenerator
 // **************************************************************************
 
-BuiltList<Dmc> _dmc() {
-  return BuiltList<Dmc>.of(<Dmc>[
+Iterable<Dmc> _dmc() {
+  return <Dmc>[
     Dmc((DmcBuilder b) {
       return b
         ..name = 'Salmon Very Light'
@@ -5456,5 +5456,5 @@ BuiltList<Dmc> _dmc() {
         }).toBuilder()
         ..hex = '0';
     }),
-  ]);
+  ];
 }

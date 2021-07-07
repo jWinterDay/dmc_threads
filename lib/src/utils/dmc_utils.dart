@@ -1,4 +1,15 @@
-// import 'dart:math' as math;
+import 'dart:math' as math;
+import 'package:built_collection/built_collection.dart';
+import 'package:collection/collection.dart';
+import 'package:dmc_threads/src/entities/dmc.dart';
+
+class DmcUtils {
+  Dmc? findDmcByCode(String code, BuiltList<Dmc> dmcList) {
+    return dmcList.firstWhereOrNull(
+      (Dmc item) => item.code == code,
+    );
+  }
+}
 
 // import 'package:dmc_threads/src/entities/lab.dart';
 // import 'package:dmc_threads/src/entities/rgba.dart';

@@ -10,4 +10,4 @@ export 'src/palette/palette.dart';
 
 // utils
 export 'src/utils/constants.dart';
-export 'src/utils/utils.dart';
+export 'src/utils/dmc_utils.dart';
