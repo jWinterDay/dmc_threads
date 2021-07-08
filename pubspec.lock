@@ -79,7 +79,7 @@ packages:
     source: hosted
     version: "6.1.12"
   built_collection:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: built_collection
       url: "https://pub.dartlang.org"
@@ -128,7 +128,7 @@ packages:
     source: hosted
     version: "3.7.0"
   collection:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: collection
       url: "https://pub.dartlang.org"
@@ -165,16 +165,16 @@ packages:
   dmc_threads_annotation:
     dependency: "direct main"
     description:
-      path: dmc_threads_annotation
-      relative: true
-    source: path
+      name: dmc_threads_annotation
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.0.1"
   dmc_threads_generator:
     dependency: "direct dev"
     description:
-      path: dmc_threads_generator
-      relative: true
-    source: path
+      name: dmc_threads_generator
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.0.1"
   file:
     dependency: transitive

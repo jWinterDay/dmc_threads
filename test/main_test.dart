@@ -1,7 +1,6 @@
 import 'package:built_collection/src/map.dart';
 import 'package:dmc_threads/dmc_threads.dart';
 import 'package:test/test.dart';
-import 'dart:math' as math;
 
 /// to run tests write `flutter test test/entry_point.dart` in terminal
 void main() {

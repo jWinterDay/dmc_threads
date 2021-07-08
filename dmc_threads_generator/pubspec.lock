@@ -144,9 +144,9 @@ packages:
   dmc_threads_annotation:
     dependency: "direct main"
     description:
-      path: "../dmc_threads_annotation"
-      relative: true
-    source: path
+      name: dmc_threads_annotation
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.0.1"
   file:
     dependency: transitive
