@@ -7,6 +7,12 @@ import 'package:dmc_threads/src/entities/rgba.dart';
 import 'package:dmc_threads/src/utils/constants.dart';
 
 const double kDeltaLab = 0.008856;
+final Rgba kDefaultBgColor = Rgba((RgbaBuilder b) {
+  return b
+    ..r = 255
+    ..g = 255
+    ..b = 255;
+});
 
 class DmcUtils {
   DmcUtils._();
@@ -56,19 +62,20 @@ class DmcUtils {
     });
   }
 
-  static Lab rgbaToLab(Rgba color, {Rgba? bg}) {
-    bg ??= Rgba((RgbaBuilder b) {
-      return b
-        ..r = 255
-        ..g = 255
-        ..b = 255;
-    });
+  static Lab rgbaToLab({
+    required int r,
+    required int g,
+    required int b,
+    required int a,
+    Rgba? bg,
+  }) {
+    bg ??= kDefaultBgColor;
 
     // RGBA -> RGB
-    final double pAlpha = (color.a) / 255;
-    double pR = color.r.toDouble();
-    double pG = color.g.toDouble();
-    double pB = color.b.toDouble();
+    final double pAlpha = (a) / 255;
+    double pR = r.toDouble();
+    double pG = g.toDouble();
+    double pB = b.toDouble();
 
     pR = (1 - pAlpha) * bg.r + pR * pAlpha;
     pG = (1 - pAlpha) * bg.g + pG * pAlpha;

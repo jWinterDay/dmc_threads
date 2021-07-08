@@ -13,11 +13,6 @@ part 'palette.g.dart';
 abstract class Palette {
   Palette._();
 
-  // TODO lab
-  // static final Iterable<Dmc> _dmcList = _dmc();
-
-  // static BuiltList<Dmc> dmc = BuiltList<Dmc>.from(_dmcList);
-
   static BuiltMap<String, Dmc> dmcMap = BuiltMap<String, Dmc>.of(
     <String, Dmc>{
       for (Dmc v in _dmc()) v.code: v,

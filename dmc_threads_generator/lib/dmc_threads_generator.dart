@@ -1,18 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
-import 'dart:io';
-// import 'dart:typed_data';
-// import 'package:analyzer/dart/ast/ast.dart';
-// import 'package:analyzer/dart/constant/value.dart';
-// import 'package:analyzer/dart/element/element.dart';
-// import 'package:analyzer/dart/element/type.dart';
 import 'package:build/build.dart';
 import 'package:dmc_threads_generator/dmc_content.dart';
-// import 'package:built_collection/built_collection.dart';
+import 'package:dmc_threads_generator/utils/utils.dart';
 import 'package:source_gen/source_gen.dart';
-// import 'package:code_builder/code_builder.dart';
-// import 'package:dart_style/dart_style.dart';
-
 import 'package:dmc_threads_annotation/dmc_threads_annotation.dart';
 
 class DmcThreadsGeneratorGenerator extends Generator {
@@ -47,27 +38,34 @@ class DmcThreadsGeneratorGenerator extends Generator {
       final String r = dataMap['r'].toString();
       final String g = dataMap['g'].toString();
       final String b = dataMap['b'].toString();
+      final String? a = dataMap['a']?.toString();
       final String hex = dataMap['hex'].toString();
 
-      // ..lab = Lab((LabBuilder b3) {
-      //         return b3
-      //           ..l = 92.196
-      //           ..a = 9.944
-      //           ..b = 3.638;
-      //       }).toBuilder();
+      final Lab lab = Utils.rgbaToLab(
+        r: int.parse(r),
+        g: int.parse(g),
+        b: int.parse(b),
+        a: a == null ? 255 : int.parse(a),
+      );
 
       return '''
       Dmc((DmcBuilder b) {
-          return b
-            ..name = '$name'
-            ..code = '$code'
-            ..rgba = Rgba((RgbaBuilder b2) {
-              return b2
-                ..r = $r
-                ..g = $g
-                ..b = $b;
-            }).toBuilder()
-            ..hex = '$hex';
+        return b
+          ..name = '$name'
+          ..code = '$code'
+          ..rgba = Rgba((RgbaBuilder b2) {
+            return b2
+              ..r = $r
+              ..g = $g
+              ..b = $b;
+          }).toBuilder()
+          ..hex = '$hex'
+          ..lab = Lab((LabBuilder b3) {
+            return b3
+                ..l = ${lab.l}
+                ..a = ${lab.a}
+                ..b = ${lab.b};
+            }).toBuilder();
         }),
       ''';
     }).join();
@@ -81,14 +79,6 @@ class DmcThreadsGeneratorGenerator extends Generator {
       ];
     }
     ''');
-
-    // output.write('''
-    // BuiltList<Dmc> _dmc() {
-    //   return BuiltList<Dmc>.of(<Dmc>[
-    //     $data
-    //   ]);
-    // }
-    // ''');
 
     return output.toString();
   }
