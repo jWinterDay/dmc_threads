@@ -35,4 +35,8 @@ abstract class Palette {
   static Rgba getAvgColor(Iterable<Rgba> colors) {
     return DmcUtils.getAvgColor(colors);
   }
+
+  static Lab rgbaToLab({required int r, required int g, required int b, Rgba? bg}) {
+    return DmcUtils.rgbaToLab(r: r, g: g, b: b, bg: bg);
+  }
 }

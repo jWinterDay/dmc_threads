@@ -66,7 +66,7 @@ class DmcUtils {
     required int r,
     required int g,
     required int b,
-    required int a,
+    int a = 255,
     Rgba? bg,
   }) {
     bg ??= kDefaultBgColor;
