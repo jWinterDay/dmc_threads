@@ -4,6 +4,7 @@ library dmc_threads;
 export 'src/entities/dmc.dart';
 export 'src/entities/lab.dart';
 export 'src/entities/rgba.dart';
+export 'src/entities/thread_type.dart';
 
 // palette
 export 'src/palette/palette.dart';

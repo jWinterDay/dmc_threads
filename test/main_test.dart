@@ -2,19 +2,19 @@ import 'package:built_collection/src/map.dart';
 import 'package:dmc_threads/dmc_threads.dart';
 import 'package:test/test.dart';
 
-/// to run tests write `flutter test test/entry_point.dart` in terminal
+/// to run tests write `flutter test test/main_test.dart` in terminal
 void main() {
   group('dmc', () {
-    final BuiltMap<String, Dmc> dmcMap = Palette.dmcMap;
+    final BuiltMap<String, ThreadType> dmcMap = Palette.dmcMap;
 
     test('known code', () {
-      final Dmc? dmc = Palette.findDmcByCode('3713');
+      final ThreadType? dmc = Palette.findDmcByCode('3713');
 
       expect(dmc?.code, '3713');
     });
 
     test('unknown code', () {
-      final Dmc? dmc = Palette.findDmcByCode('unknown');
+      final ThreadType? dmc = Palette.findDmcByCode('unknown');
 
       expect(dmc, isNull);
     });
@@ -83,7 +83,7 @@ void main() {
           ..b = 0;
       });
 
-      final Dmc? blackDmc = Palette.findNearestPalette(blackLab);
+      final ThreadType? blackDmc = Palette.findNearestPalette(blackLab);
 
       expect(blackDmc?.code, '310');
     });
@@ -96,7 +96,7 @@ void main() {
           ..b = -1000;
       });
 
-      final Dmc? blackDmc = Palette.findNearestPalette(blackLab);
+      final ThreadType? blackDmc = Palette.findNearestPalette(blackLab);
 
       expect(blackDmc, isNull);
     });
