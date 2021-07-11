@@ -1,11 +1,10 @@
-import 'package:built_collection/src/map.dart';
 import 'package:dmc_threads/dmc_threads.dart';
 import 'package:test/test.dart';
 
 /// to run tests write `flutter test test/main_test.dart` in terminal
 void main() {
   group('dmc', () {
-    final BuiltMap<String, ThreadType> dmcMap = Palette.dmcMap;
+    final Map<String, ThreadType> dmcMap = Palette.dmcMap;
 
     test('known code', () {
       final ThreadType? dmc = Palette.findDmcByCode('3713');
@@ -37,19 +36,9 @@ void main() {
     });
 
     test('delta E all zeros', () {
-      final Lab lab1 = Lab((LabBuilder updates) {
-        return updates
-          ..l = 0
-          ..a = 0
-          ..b = 0;
-      });
+      const Lab lab1 = Lab(0, 0, 0);
 
-      final Lab lab2 = Lab((LabBuilder updates) {
-        return updates
-          ..l = 0
-          ..a = 0
-          ..b = 0;
-      });
+      const Lab lab2 = Lab(0, 0, 0);
 
       final double deltaE = Palette.getDeltaE(lab1, lab2);
 
@@ -57,31 +46,16 @@ void main() {
     });
 
     test('delta E l', () {
-      final Lab lab1 = Lab((LabBuilder updates) {
-        return updates
-          ..l = 2
-          ..a = 0
-          ..b = 0;
-      });
+      const Lab lab1 = Lab(2, 0, 0);
 
-      final Lab lab2 = Lab((LabBuilder updates) {
-        return updates
-          ..l = 0
-          ..a = 0
-          ..b = 0;
-      });
+      const Lab lab2 = Lab(0, 0, 0);
 
       expect(Palette.getDeltaE(lab1, lab2), 2);
       expect(Palette.getDeltaE(lab2, lab1), 2);
     });
 
     test('find nearest black color', () {
-      final Lab blackLab = Lab((LabBuilder updates) {
-        return updates
-          ..l = 0
-          ..a = 0
-          ..b = 0;
-      });
+      const Lab blackLab = Lab(0, 0, 0);
 
       final ThreadType? blackDmc = Palette.findNearestPalette(blackLab);
 
@@ -89,16 +63,17 @@ void main() {
     });
 
     test('not exists color', () {
-      final Lab blackLab = Lab((LabBuilder updates) {
-        return updates
-          ..l = -1000
-          ..a = -1000
-          ..b = -1000;
-      });
+      const Lab blackLab = Lab(-1000, -1000, -1000);
 
       final ThreadType? blackDmc = Palette.findNearestPalette(blackLab);
 
       expect(blackDmc, isNull);
+    });
+
+    test('default alpha color value = 255', () {
+      const Rgba rgba = Rgba(0, 0, 0);
+
+      expect(rgba.a, 255);
     });
   });
 }

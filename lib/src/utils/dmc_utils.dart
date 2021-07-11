@@ -1,5 +1,4 @@
 import 'dart:math' as math;
-import 'package:built_collection/built_collection.dart';
 import 'package:collection/collection.dart';
 import 'package:dmc_threads/src/entities/dmc.dart';
 import 'package:dmc_threads/src/entities/lab.dart';
@@ -7,17 +6,12 @@ import 'package:dmc_threads/src/entities/rgba.dart';
 import 'package:dmc_threads/src/utils/constants.dart';
 
 const double kDeltaLab = 0.008856;
-final Rgba kDefaultBgColor = Rgba((RgbaBuilder b) {
-  return b
-    ..r = 255
-    ..g = 255
-    ..b = 255;
-});
+const Rgba kDefaultBgColor = Rgba(255, 255, 255, a: 255);
 
 class DmcUtils {
   DmcUtils._();
 
-  static Dmc? findDmcByCode(String code, BuiltMap<String, Dmc> dmcMap) {
+  static Dmc? findDmcByCode(String code, Map<String, Dmc> dmcMap) {
     return dmcMap[code];
   }
 
@@ -31,12 +25,14 @@ class DmcUtils {
     );
   }
 
-  static Dmc? findNearestPalette(Lab lab, BuiltMap<String, Dmc> dmcMap) {
-    return dmcMap.values.firstWhereOrNull((Dmc item) {
-      final double deltaE = getDeltaE(lab, item.lab);
+  static Dmc? findNearestPalette(Lab lab, Map<String, Dmc> dmcMap) {
+    return dmcMap.values.firstWhereOrNull(
+      (Dmc item) {
+        final double deltaE = getDeltaE(lab, item.lab);
 
-      return deltaE < optimalDeltaE;
-    });
+        return deltaE < optimalDeltaE;
+      },
+    );
   }
 
   static Rgba getAvgColor(Iterable<Rgba> colors) {
@@ -53,13 +49,12 @@ class DmcUtils {
       a += color.a;
     });
 
-    return Rgba((RgbaBuilder updates) {
-      return updates
-        ..r = (r / cnt).ceil()
-        ..g = (g / cnt).ceil()
-        ..b = (b / cnt).ceil()
-        ..a = (a / cnt).ceil();
-    });
+    return Rgba(
+      (r / cnt).ceil(),
+      (g / cnt).ceil(),
+      (b / cnt).ceil(),
+      a: (a / cnt).ceil(),
+    );
   }
 
   static Lab rgbaToLab({
@@ -104,12 +99,11 @@ class DmcUtils {
     y = _normalizeXYZ(y);
     z = _normalizeXYZ(z);
 
-    return Lab((LabBuilder b) {
-      return b
-        ..l = double.parse(((116.0 * y) - 16.0).toStringAsFixed(3))
-        ..a = double.parse((500.0 * (x - y)).toStringAsFixed(3))
-        ..b = double.parse((200.0 * (y - z)).toStringAsFixed(3));
-    });
+    return Lab(
+      double.parse(((116.0 * y) - 16.0).toStringAsFixed(3)),
+      double.parse((500.0 * (x - y)).toStringAsFixed(3)),
+      double.parse((200.0 * (y - z)).toStringAsFixed(3)),
+    );
   }
 
   static double _normalizeColor(double color) {

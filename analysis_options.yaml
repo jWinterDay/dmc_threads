@@ -9,7 +9,7 @@ analyzer:
     must_be_immutable: ignore
   exclude:
     - lib/**/*.freezed.dart
-    # - lib/**/*.g.dart
+    - lib/**/*.g.dart
 
     - .gitignore
     - .vscode/**

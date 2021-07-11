@@ -7,8178 +7,3184 @@ part of 'palette.dart';
 // **************************************************************************
 
 Iterable<Dmc> _dmc() {
-  return <Dmc>[
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Salmon Very Light'
-        ..code = '3713'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 226
-            ..b = 226;
-        }).toBuilder()
-        ..hex = 'FFE2E2'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 92.196
-            ..a = 9.944
-            ..b = 3.638;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Salmon Light'
-        ..code = '761'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 201
-            ..b = 201;
-        }).toBuilder()
-        ..hex = 'FFC9C9'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 85.63
-            ..a = 19.14
-            ..b = 7.334;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Salmon'
-        ..code = '760'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 245
-            ..g = 173
-            ..b = 173;
-        }).toBuilder()
-        ..hex = 'F5ADAD'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 77.47
-            ..a = 26.37
-            ..b = 10.582;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Salmon Medium'
-        ..code = '3712'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 241
-            ..g = 135
-            ..b = 135;
-        }).toBuilder()
-        ..hex = 'F18787'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.857
-            ..a = 40.318
-            ..b = 17.984;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Salmon Dark'
-        ..code = '3328'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 227
-            ..g = 109
-            ..b = 109;
-        }).toBuilder()
-        ..hex = 'E36D6D'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 60.224
-            ..a = 45.855
-            ..b = 21.978;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Salmon Very Dark'
-        ..code = '347'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 191
-            ..g = 45
-            ..b = 45;
-        }).toBuilder()
-        ..hex = 'BF2D2D'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 42.977
-            ..a = 56.903
-            ..b = 36.254;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Peach'
-        ..code = '353'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 254
-            ..g = 215
-            ..b = 204;
-        }).toBuilder()
-        ..hex = 'FED7CC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 88.937
-            ..a = 11.914
-            ..b = 10.471;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Coral Light'
-        ..code = '352'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 253
-            ..g = 156
-            ..b = 151;
-        }).toBuilder()
-        ..hex = 'FD9C97'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 74.122
-            ..a = 35.599
-            ..b = 18.023;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Coral'
-        ..code = '351'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 233
-            ..g = 106
-            ..b = 103;
-        }).toBuilder()
-        ..hex = 'E96A67'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 60.437
-            ..a = 48.956
-            ..b = 25.848;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Coral Medium'
-        ..code = '350'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 224
-            ..g = 72
-            ..b = 72;
-        }).toBuilder()
-        ..hex = 'E04848'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.895
-            ..a = 58.767
-            ..b = 33.743;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Coral Dark'
-        ..code = '349'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 210
-            ..g = 16
-            ..b = 53;
-        }).toBuilder()
-        ..hex = 'D21035'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 44.701
-            ..a = 68.68
-            ..b = 34.552;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Coral Red Very Dark'
-        ..code = '817'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 187
-            ..g = 5
-            ..b = 31;
-        }).toBuilder()
-        ..hex = 'BB051F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 39.194
-            ..a = 63.379
-            ..b = 40.04;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Melon Light'
-        ..code = '3708'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 203
-            ..b = 213;
-        }).toBuilder()
-        ..hex = 'FFCBD5'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.393
-            ..a = 19.879
-            ..b = 2.061;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Melon Medium'
-        ..code = '3706'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 173
-            ..b = 188;
-        }).toBuilder()
-        ..hex = 'FFADBC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 78.913
-            ..a = 31.995
-            ..b = 4.642;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Melon Dark'
-        ..code = '3705'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 121
-            ..b = 146;
-        }).toBuilder()
-        ..hex = 'FF7992'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.285
-            ..a = 53.245
-            ..b = 11.276;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Melon Very Dark'
-        ..code = '3801'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 231
-            ..g = 73
-            ..b = 103;
-        }).toBuilder()
-        ..hex = 'E74967'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.797
-            ..a = 62.491
-            ..b = 18.248;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Bright Red'
-        ..code = '666'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 227
-            ..g = 29
-            ..b = 66;
-        }).toBuilder()
-        ..hex = 'E31D42'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 49.011
-            ..a = 71.561
-            ..b = 32.709;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Red'
-        ..code = '321'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 199
-            ..g = 43
-            ..b = 59;
-        }).toBuilder()
-        ..hex = 'C72B3B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 44.498
-            ..a = 60.472
-            ..b = 30.164;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Red Medium'
-        ..code = '304'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 183
-            ..g = 31
-            ..b = 51;
-        }).toBuilder()
-        ..hex = 'B71F33'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 40.058
-            ..a = 58.786
-            ..b = 28.949;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Red Dark'
-        ..code = '498'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 167
-            ..g = 19
-            ..b = 43;
-        }).toBuilder()
-        ..hex = 'A7132B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 35.705
-            ..a = 56.65
-            ..b = 27.947;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Garnet'
-        ..code = '816'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 151
-            ..g = 11
-            ..b = 35;
-        }).toBuilder()
-        ..hex = '970B23'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 31.67
-            ..a = 53.361
-            ..b = 27.431;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Garnet Medium'
-        ..code = '815'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 135
-            ..g = 7
-            ..b = 31;
-        }).toBuilder()
-        ..hex = '87071F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 27.85
-            ..a = 49.486
-            ..b = 24.699;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Garnet Dark'
-        ..code = '814'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 123
-            ..g = 0
-            ..b = 27;
-        }).toBuilder()
-        ..hex = '7B001B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 24.608
-            ..a = 47.381
-            ..b = 22.893;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Carnation Very Light'
-        ..code = '894'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 178
-            ..b = 187;
-        }).toBuilder()
-        ..hex = 'FFB2BB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 80.004
-            ..a = 29.243
-            ..b = 6.756;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Carnation Light'
-        ..code = '893'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 252
-            ..g = 144
-            ..b = 162;
-        }).toBuilder()
-        ..hex = 'FC90A2'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.725
-            ..a = 42.633
-            ..b = 8.555;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Carnation Medium'
-        ..code = '892'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 121
-            ..b = 140;
-        }).toBuilder()
-        ..hex = 'FF798C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.148
-            ..a = 52.658
-            ..b = 14.478;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Carnation Dark'
-        ..code = '891'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 87
-            ..b = 115;
-        }).toBuilder()
-        ..hex = 'FF5773'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 61.058
-            ..a = 65.313
-            ..b = 20.392;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Pink'
-        ..code = '818'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 223
-            ..b = 217;
-        }).toBuilder()
-        ..hex = 'FFDFD9'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 91.255
-            ..a = 10.08
-            ..b = 6.984;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Geranium Pale'
-        ..code = '957'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 253
-            ..g = 181
-            ..b = 181;
-        }).toBuilder()
-        ..hex = 'FDB5B5'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 80.329
-            ..a = 26.143
-            ..b = 10.435;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Geranium'
-        ..code = '956'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 145
-            ..b = 145;
-        }).toBuilder()
-        ..hex = 'FF9191'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.93
-            ..a = 41.342
-            ..b = 18.33;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Rose Dark'
-        ..code = '309'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 86
-            ..g = 74
-            ..b = 74;
-        }).toBuilder()
-        ..hex = 'BA4A4A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 32.636
-            ..a = 5.037
-            ..b = 1.853;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose Ult Vy Lt'
-        ..code = '963'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 215
-            ..b = 215;
-        }).toBuilder()
-        ..hex = 'FFD7D7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 89.284
-            ..a = 13.92
-            ..b = 5.192;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose Med Vy Lt'
-        ..code = '3716'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 189
-            ..b = 189;
-        }).toBuilder()
-        ..hex = 'FFBDBD'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 82.555
-            ..a = 23.745
-            ..b = 9.335;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose Medium'
-        ..code = '962'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 230
-            ..g = 138
-            ..b = 138;
-        }).toBuilder()
-        ..hex = 'E68A8A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.153
-            ..a = 35.022
-            ..b = 15.112;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose Dark'
-        ..code = '961'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 207
-            ..g = 115
-            ..b = 115;
-        }).toBuilder()
-        ..hex = 'CF7373'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 58.756
-            ..a = 36.013
-            ..b = 16.072;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Raspberry Light'
-        ..code = '3833'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 234
-            ..g = 134
-            ..b = 153;
-        }).toBuilder()
-        ..hex = 'EA8699'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.159
-            ..a = 40.3
-            ..b = 6.756;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Raspberry Medium'
-        ..code = '3832'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 219
-            ..g = 85
-            ..b = 110;
-        }).toBuilder()
-        ..hex = 'DB556E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.744
-            ..a = 54.391
-            ..b = 13.709;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Raspberry Dark'
-        ..code = '3831'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 179
-            ..g = 47
-            ..b = 72;
-        }).toBuilder()
-        ..hex = 'B32F48'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 41.35
-            ..a = 53.996
-            ..b = 17.378;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Raspberry Very Dark'
-        ..code = '777'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 145
-            ..g = 53
-            ..b = 70;
-        }).toBuilder()
-        ..hex = '913546'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 36.0
-            ..a = 40.27
-            ..b = 10.335;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Pink Light'
-        ..code = '819'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 238
-            ..b = 235;
-        }).toBuilder()
-        ..hex = 'FFEEEB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 95.332
-            ..a = 5.238
-            ..b = 3.503;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Rose Light'
-        ..code = '3326'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 251
-            ..g = 173
-            ..b = 180;
-        }).toBuilder()
-        ..hex = 'FBADB4'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 78.282
-            ..a = 29.485
-            ..b = 8.023;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pink Medium'
-        ..code = '776'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 252
-            ..g = 176
-            ..b = 185;
-        }).toBuilder()
-        ..hex = 'FCB0B9'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 79.184
-            ..a = 28.94
-            ..b = 6.619;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Rose Medium'
-        ..code = '899'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 242
-            ..g = 118
-            ..b = 136;
-        }).toBuilder()
-        ..hex = 'F27688'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.653
-            ..a = 49.254
-            ..b = 12.982;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Rose'
-        ..code = '335'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 238
-            ..g = 84
-            ..b = 110;
-        }).toBuilder()
-        ..hex = 'EE546E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.697
-            ..a = 60.881
-            ..b = 18.267;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Rose Very Dark'
-        ..code = '326'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 179
-            ..g = 59
-            ..b = 75;
-        }).toBuilder()
-        ..hex = 'B33B4B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 43.092
-            ..a = 49.586
-            ..b = 17.841;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose Vry Lt'
-        ..code = '151'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 240
-            ..g = 206
-            ..b = 212;
-        }).toBuilder()
-        ..hex = 'F0CED4'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 85.716
-            ..a = 12.865
-            ..b = 1.44;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose Light'
-        ..code = '3354'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 228
-            ..g = 166
-            ..b = 172;
-        }).toBuilder()
-        ..hex = 'E4A6AC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 74.026
-            ..a = 23.7
-            ..b = 5.962;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose'
-        ..code = '3733'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 232
-            ..g = 135
-            ..b = 155;
-        }).toBuilder()
-        ..hex = 'E8879B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.165
-            ..a = 39.314
-            ..b = 5.604;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose Very Dark'
-        ..code = '3731'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 218
-            ..g = 103
-            ..b = 131;
-        }).toBuilder()
-        ..hex = 'DA6783'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 58.269
-            ..a = 47.768
-            ..b = 6.332;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose Ultra Dark'
-        ..code = '3350'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 188
-            ..g = 67
-            ..b = 101;
-        }).toBuilder()
-        ..hex = 'BC4365'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 46.506
-            ..a = 51.344
-            ..b = 6.801;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Dusty Rose Ult Vy Dk'
-        ..code = '150'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 171
-            ..g = 2
-            ..b = 73;
-        }).toBuilder()
-        ..hex = 'AB0249'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 36.333
-            ..a = 61.659
-            ..b = 9.631;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mauve Light'
-        ..code = '3689'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 251
-            ..g = 191
-            ..b = 194;
-        }).toBuilder()
-        ..hex = 'FBBFC2'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 82.735
-            ..a = 21.941
-            ..b = 6.86;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mauve Medium'
-        ..code = '3688'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 231
-            ..g = 169
-            ..b = 172;
-        }).toBuilder()
-        ..hex = 'E7A9AC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 75.041
-            ..a = 23.199
-            ..b = 7.46;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mauve'
-        ..code = '3687'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 201
-            ..g = 107
-            ..b = 112;
-        }).toBuilder()
-        ..hex = 'C96B70'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 56.191
-            ..a = 37.644
-            ..b = 14.133;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mauve Dark'
-        ..code = '3803'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 171
-            ..g = 51
-            ..b = 87;
-        }).toBuilder()
-        ..hex = 'AB3357'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 40.757
-            ..a = 51.25
-            ..b = 6.907;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mauve Very Dark'
-        ..code = '3685'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 136
-            ..g = 21
-            ..b = 49;
-        }).toBuilder()
-        ..hex = '881531'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 29.393
-            ..a = 47.824
-            ..b = 14.77;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cranberry Very Light'
-        ..code = '605'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 192
-            ..b = 205;
-        }).toBuilder()
-        ..hex = 'FFC0CD'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 83.635
-            ..a = 24.444
-            ..b = 2.318;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cranberry Light'
-        ..code = '604'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 176
-            ..b = 190;
-        }).toBuilder()
-        ..hex = 'FFB0BE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 79.63
-            ..a = 30.699
-            ..b = 4.593;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cranberry'
-        ..code = '603'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 164
-            ..b = 190;
-        }).toBuilder()
-        ..hex = 'FFA4BE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 76.998
-            ..a = 36.957
-            ..b = 0.773;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cranberry Medium'
-        ..code = '602'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 226
-            ..g = 72
-            ..b = 116;
-        }).toBuilder()
-        ..hex = 'E24874'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.095
-            ..a = 62.4
-            ..b = 9.405;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cranberry Dark'
-        ..code = '601'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 209
-            ..g = 40
-            ..b = 106;
-        }).toBuilder()
-        ..hex = 'D1286A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 47.123
-            ..a = 67.04
-            ..b = 5.121;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cranberry Very Dark'
-        ..code = '600'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 205
-            ..g = 47
-            ..b = 99;
-        }).toBuilder()
-        ..hex = 'CD2F63'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 46.86
-            ..a = 63.499
-            ..b = 8.955;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cyclamen Pink Light'
-        ..code = '3806'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 140
-            ..b = 174;
-        }).toBuilder()
-        ..hex = 'FF8CAE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.604
-            ..a = 47.123
-            ..b = 1.749;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cyclamen Pink'
-        ..code = '3805'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 243
-            ..g = 71
-            ..b = 139;
-        }).toBuilder()
-        ..hex = 'F3478B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.487
-            ..a = 69.669
-            ..b = 1.019;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cyclamen Pink Dark'
-        ..code = '3804'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 224
-            ..g = 40
-            ..b = 118;
-        }).toBuilder()
-        ..hex = 'E02876'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 50.302
-            ..a = 71.807
-            ..b = 2.727;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Plum Ultra Light'
-        ..code = '3609'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 244
-            ..g = 174
-            ..b = 213;
-        }).toBuilder()
-        ..hex = 'F4AED7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 78.642
-            ..a = 31.342
-            ..b = -9.468;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Plum Very Light'
-        ..code = '3608'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 234
-            ..g = 156
-            ..b = 196;
-        }).toBuilder()
-        ..hex = 'EA9CC4'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 73.059
-            ..a = 34.75
-            ..b = -8.593;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Plum Light'
-        ..code = '3607'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 197
-            ..g = 73
-            ..b = 137;
-        }).toBuilder()
-        ..hex = 'C54989'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 50.027
-            ..a = 55.544
-            ..b = -9.679;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Plum'
-        ..code = '718'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 156
-            ..g = 36
-            ..b = 98;
-        }).toBuilder()
-        ..hex = '9C2462'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 36.388
-            ..a = 53.369
-            ..b = -6.778;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Plum Medium'
-        ..code = '917'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 155
-            ..g = 19
-            ..b = 89;
-        }).toBuilder()
-        ..hex = '9B1359'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 34.305
-            ..a = 56.654
-            ..b = -4.117;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Plum Dark'
-        ..code = '915'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 130
-            ..g = 0
-            ..b = 67;
-        }).toBuilder()
-        ..hex = '820043'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 27.161
-            ..a = 51.715
-            ..b = -0.689;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Pink Ult Vy Lt'
-        ..code = '225'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 223
-            ..b = 213;
-        }).toBuilder()
-        ..hex = 'FFDFD7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 91.162
-            ..a = 9.469
-            ..b = 8.943;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Pink Very Light'
-        ..code = '224'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 235
-            ..g = 183
-            ..b = 175;
-        }).toBuilder()
-        ..hex = 'EBB7AF'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 78.824
-            ..a = 17.633
-            ..b = 11.281;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Pink Med Light'
-        ..code = '152'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 226
-            ..g = 160
-            ..b = 153;
-        }).toBuilder()
-        ..hex = 'E2A099'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.967
-            ..a = 23.608
-            ..b = 13.453;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Pink Light'
-        ..code = '223'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 204
-            ..g = 132
-            ..b = 124;
-        }).toBuilder()
-        ..hex = 'CC847C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 62.334
-            ..a = 26.747
-            ..b = 15.821;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Pink Med'
-        ..code = '3722'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 188
-            ..g = 108
-            ..b = 100;
-        }).toBuilder()
-        ..hex = 'BC6C64'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.382
-            ..a = 30.905
-            ..b = 18.352;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Pink Dark'
-        ..code = '3721'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 161
-            ..g = 75
-            ..b = 81;
-        }).toBuilder()
-        ..hex = 'A14B51'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 43.068
-            ..a = 36.199
-            ..b = 13.613;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Pink Vy Dk'
-        ..code = '221'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 136
-            ..g = 62
-            ..b = 67;
-        }).toBuilder()
-        ..hex = '8.83E+45'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 36.147
-            ..a = 32.109
-            ..b = 12.209;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Mauve Vy Lt'
-        ..code = '778'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 223
-            ..g = 179
-            ..b = 187;
-        }).toBuilder()
-        ..hex = 'DFB3BB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 76.991
-            ..a = 17.147
-            ..b = 1.988;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Mauve Light'
-        ..code = '3727'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 219
-            ..g = 169
-            ..b = 178;
-        }).toBuilder()
-        ..hex = 'DBA9B2'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 73.966
-            ..a = 19.676
-            ..b = 2.463;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Mauve Med'
-        ..code = '316'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 183
-            ..g = 115
-            ..b = 127;
-        }).toBuilder()
-        ..hex = 'B7737F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 55.948
-            ..a = 28.37
-            ..b = 4.714;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Mauve Dark'
-        ..code = '3726'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 155
-            ..g = 91
-            ..b = 102;
-        }).toBuilder()
-        ..hex = '9B5B66'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 46.191
-            ..a = 27.621
-            ..b = 5.072;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Mauve Md Dk'
-        ..code = '315'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 129
-            ..g = 73
-            ..b = 82;
-        }).toBuilder()
-        ..hex = '814952'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 37.917
-            ..a = 24.943
-            ..b = 5.078;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Mauve Vy Dk'
-        ..code = '3802'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 113
-            ..g = 65
-            ..b = 73;
-        }).toBuilder()
-        ..hex = '714149'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 33.504
-            ..a = 21.896
-            ..b = 4.171;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Garnet Very Dark'
-        ..code = '902'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 130
-            ..g = 38
-            ..b = 55;
-        }).toBuilder()
-        ..hex = '822637'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 30.419
-            ..a = 40.504
-            ..b = 11.961;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Violet Vy Lt'
-        ..code = '3743'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 215
-            ..g = 203
-            ..b = 211;
-        }).toBuilder()
-        ..hex = 'D7CBD3'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 82.84
-            ..a = 5.578
-            ..b = -2.484;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Violet Light'
-        ..code = '3042'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 183
-            ..g = 157
-            ..b = 167;
-        }).toBuilder()
-        ..hex = 'B79DA7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.255
-            ..a = 11.285
-            ..b = -1.654;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Violet Medium'
-        ..code = '3041'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 149
-            ..g = 111
-            ..b = 124;
-        }).toBuilder()
-        ..hex = '956F7C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 50.936
-            ..a = 17.154
-            ..b = -1.295;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Violet Dark'
-        ..code = '3740'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 120
-            ..g = 87
-            ..b = 98;
-        }).toBuilder()
-        ..hex = '785762'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 40.721
-            ..a = 15.474
-            ..b = -0.959;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Grape Light'
-        ..code = '3836'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 186
-            ..g = 145
-            ..b = 170;
-        }).toBuilder()
-        ..hex = 'BA91AA'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.638
-            ..a = 19.57
-            ..b = -7.169;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Grape Medium'
-        ..code = '3835'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 148
-            ..g = 96
-            ..b = 131;
-        }).toBuilder()
-        ..hex = '946083'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 47.366
-            ..a = 26.686
-            ..b = -10.783;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Grape Dark'
-        ..code = '3834'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 114
-            ..g = 55
-            ..b = 93;
-        }).toBuilder()
-        ..hex = '72375D'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 32.034
-            ..a = 31.194
-            ..b = -10.849;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Grape Very Dark'
-        ..code = '154'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 87
-            ..g = 36
-            ..b = 51;
-        }).toBuilder()
-        ..hex = '572433'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 22.042
-            ..a = 25.338
-            ..b = 1.751;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lavender Light'
-        ..code = '211'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 227
-            ..g = 203
-            ..b = 227;
-        }).toBuilder()
-        ..hex = 'E3CBE3'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 84.271
-            ..a = 12.562
-            ..b = -8.794;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lavender Medium'
-        ..code = '210'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 195
-            ..g = 159
-            ..b = 195;
-        }).toBuilder()
-        ..hex = 'D29FC3'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.71
-            ..a = 19.547
-            ..b = -13.467;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lavender Dark'
-        ..code = '209'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 163
-            ..g = 123
-            ..b = 167;
-        }).toBuilder()
-        ..hex = 'A37BA7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 56.824
-            ..a = 23.339
-            ..b = -17.44;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lavender Very Dark'
-        ..code = '208'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 131
-            ..g = 91
-            ..b = 139;
-        }).toBuilder()
-        ..hex = '835B8B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 44.478
-            ..a = 25.176
-            ..b = -20.165;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lavender Ultra Dark'
-        ..code = '3837'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 108
-            ..g = 58
-            ..b = 110;
-        }).toBuilder()
-        ..hex = '6C3A6E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 32.569
-            ..a = 30.655
-            ..b = -20.946;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Violet Dark'
-        ..code = '327'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 99
-            ..g = 54
-            ..b = 102;
-        }).toBuilder()
-        ..hex = '633666'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 30.035
-            ..a = 28.306
-            ..b = -19.887;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Violet Very Light'
-        ..code = '153'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 230
-            ..g = 204
-            ..b = 217;
-        }).toBuilder()
-        ..hex = 'E6CCD9'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 84.493
-            ..a = 11.275
-            ..b = -3.112;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Violet Light'
-        ..code = '554'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 219
-            ..g = 179
-            ..b = 203;
-        }).toBuilder()
-        ..hex = 'DBB3CB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 77.048
-            ..a = 18.378
-            ..b = -6.673;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Violet'
-        ..code = '553'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 163
-            ..g = 99
-            ..b = 139;
-        }).toBuilder()
-        ..hex = 'A3638B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 50.185
-            ..a = 31.738
-            ..b = -11.125;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Violet  Medium'
-        ..code = '552'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 128
-            ..g = 58
-            ..b = 107;
-        }).toBuilder()
-        ..hex = '803A6B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 35.355
-            ..a = 36.715
-            ..b = -14.512;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Violet Very Dark'
-        ..code = '550'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 92
-            ..g = 24
-            ..b = 78;
-        }).toBuilder()
-        ..hex = '5C184E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 21.867
-            ..a = 37.135
-            ..b = -16.903;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Violet Vy Lt'
-        ..code = '3747'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 211
-            ..g = 215
-            ..b = 237;
-        }).toBuilder()
-        ..hex = 'D3D7ED'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.288
-            ..a = 2.873
-            ..b = -11.236;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Violet Light'
-        ..code = '341'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 183
-            ..g = 191
-            ..b = 221;
-        }).toBuilder()
-        ..hex = 'B7BFDD'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 77.608
-            ..a = 3.375
-            ..b = -15.902;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Violet Med Lt'
-        ..code = '156'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 163
-            ..g = 174
-            ..b = 209;
-        }).toBuilder()
-        ..hex = 'A3AED1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.325
-            ..a = 3.677
-            ..b = -19.005;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Violet Medium'
-        ..code = '340'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 173
-            ..g = 167
-            ..b = 199;
-        }).toBuilder()
-        ..hex = 'ADA7C7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.927
-            ..a = 8.524
-            ..b = -15.544;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Violet Med Dark'
-        ..code = '155'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 152
-            ..g = 145
-            ..b = 182;
-        }).toBuilder()
-        ..hex = '9891B6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 61.915
-            ..a = 10.238
-            ..b = -18.346;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Violet Dark'
-        ..code = '3746'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 119
-            ..g = 107
-            ..b = 152;
-        }).toBuilder()
-        ..hex = '776B98'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 47.885
-            ..a = 14.57
-            ..b = -22.76;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Violet Very Dark'
-        ..code = '333'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 92
-            ..g = 84
-            ..b = 120;
-        }).toBuilder()
-        ..hex = '5C5478'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 37.792
-            ..a = 11.608
-            ..b = -19.243;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cornflower Blue Vy Lt'
-        ..code = '157'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 187
-            ..g = 195
-            ..b = 217;
-        }).toBuilder()
-        ..hex = 'BBC3D9'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 78.813
-            ..a = 1.654
-            ..b = -11.907;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cornflower Blue Light'
-        ..code = '794'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 143
-            ..g = 156
-            ..b = 193;
-        }).toBuilder()
-        ..hex = '8F9CC1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.537
-            ..a = 3.716
-            ..b = -20.598;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cornflower Blue Med'
-        ..code = '793'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 112
-            ..g = 125
-            ..b = 162;
-        }).toBuilder()
-        ..hex = '707DA2'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.642
-            ..a = 4.163
-            ..b = -21.341;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cornflower Blue'
-        ..code = '3807'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 96
-            ..g = 103
-            ..b = 140;
-        }).toBuilder()
-        ..hex = '60678C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 44.349
-            ..a = 6.475
-            ..b = -21.243;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cornflower Blue Dark'
-        ..code = '792'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 85
-            ..g = 91
-            ..b = 123;
-        }).toBuilder()
-        ..hex = '555B7B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 39.316
-            ..a = 5.694
-            ..b = -18.787;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cornflower Blu M V D'
-        ..code = '158'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 76
-            ..g = 82
-            ..b = 110;
-        }).toBuilder()
-        ..hex = '4C526E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 35.394
-            ..a = 4.775
-            ..b = -16.855;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cornflower Blue V D'
-        ..code = '791'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 70
-            ..g = 69
-            ..b = 99;
-        }).toBuilder()
-        ..hex = '464563'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 30.543
-            ..a = 8.027
-            ..b = -17.44;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lavender Blue Light'
-        ..code = '3840'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 176
-            ..g = 192
-            ..b = 218;
-        }).toBuilder()
-        ..hex = 'B0C0DA'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 77.276
-            ..a = -0.019
-            ..b = -14.831;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lavender Blue Med'
-        ..code = '3839'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 123
-            ..g = 142
-            ..b = 171;
-        }).toBuilder()
-        ..hex = '7B8EAB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 58.506
-            ..a = 0.031
-            ..b = -17.492;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lavender Blue Dark'
-        ..code = '3838'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 92
-            ..g = 114
-            ..b = 148;
-        }).toBuilder()
-        ..hex = '5C7294'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 47.557
-            ..a = 0.832
-            ..b = -21.08;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Delft Blue Pale'
-        ..code = '800'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 192
-            ..g = 204
-            ..b = 222;
-        }).toBuilder()
-        ..hex = 'C0CCDE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 81.656
-            ..a = -0.483
-            ..b = -10.309;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Delft Blue'
-        ..code = '809'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 148
-            ..g = 168
-            ..b = 198;
-        }).toBuilder()
-        ..hex = '94A8C6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 68.299
-            ..a = -0.23
-            ..b = -17.632;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Delft Blue Medium'
-        ..code = '799'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 116
-            ..g = 142
-            ..b = 182;
-        }).toBuilder()
-        ..hex = '748EB6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 58.449
-            ..a = 0.815
-            ..b = -23.88;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Delft Blue Dark'
-        ..code = '798'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 70
-            ..g = 106
-            ..b = 142;
-        }).toBuilder()
-        ..hex = '466A8E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 43.6
-            ..a = -2.205
-            ..b = -23.735;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Royal Blue'
-        ..code = '797'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 19
-            ..g = 71
-            ..b = 125;
-        }).toBuilder()
-        ..hex = '13477D'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 29.727
-            ..a = 4.428
-            ..b = -35.333;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Royal Blue Dark'
-        ..code = '796'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 17
-            ..g = 65
-            ..b = 109;
-        }).toBuilder()
-        ..hex = '11416D'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 26.746
-            ..a = 1.61
-            ..b = -29.998;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Royal Blue Very Dark'
-        ..code = '820'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 14
-            ..g = 54
-            ..b = 92;
-        }).toBuilder()
-        ..hex = '0E365C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 21.96
-            ..a = 1.641
-            ..b = -26.616;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Ultra Very Light'
-        ..code = '162'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 219
-            ..g = 236
-            ..b = 245;
-        }).toBuilder()
-        ..hex = 'DBECF5'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 92.417
-            ..a = -3.865
-            ..b = -6.277;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Very Light'
-        ..code = '827'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 189
-            ..g = 221
-            ..b = 237;
-        }).toBuilder()
-        ..hex = 'BDDDED'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.329
-            ..a = -7.139
-            ..b = -11.335;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Light'
-        ..code = '813'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 161
-            ..g = 194
-            ..b = 215;
-        }).toBuilder()
-        ..hex = 'A1C2D7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 76.72
-            ..a = -6.364
-            ..b = -14.146;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Medium'
-        ..code = '826'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 107
-            ..g = 158
-            ..b = 191;
-        }).toBuilder()
-        ..hex = '6B9EBF'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 62.795
-            ..a = -8.154
-            ..b = -22.34;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Dark'
-        ..code = '825'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 71
-            ..g = 129
-            ..b = 165;
-        }).toBuilder()
-        ..hex = '4781A5'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 51.561
-            ..a = -8.177
-            ..b = -24.944;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Very Dark'
-        ..code = '824'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 57
-            ..g = 105
-            ..b = 135;
-        }).toBuilder()
-        ..hex = '396987'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 42.342
-            ..a = -6.986
-            ..b = -21.538;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Electric Blue Medium'
-        ..code = '996'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 48
-            ..g = 194
-            ..b = 236;
-        }).toBuilder()
-        ..hex = '30C2EC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 73.068
-            ..a = -23.323
-            ..b = -31.463;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Electric Blue'
-        ..code = '3843'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 20
-            ..g = 170
-            ..b = 208;
-        }).toBuilder()
-        ..hex = '14AAD0'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.525
-            ..a = -22.316
-            ..b = -29.356;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Electric Blue Dark'
-        ..code = '995'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 38
-            ..g = 150
-            ..b = 182;
-        }).toBuilder()
-        ..hex = '2696B6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.657
-            ..a = -19.356
-            ..b = -25.363;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Turquoise Bright Light'
-        ..code = '3846'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 6
-            ..g = 227
-            ..b = 230;
-        }).toBuilder()
-        ..hex = '06E3E6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 82.212
-            ..a = -43.012
-            ..b = -14.37;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Turquoise Bright Med'
-        ..code = '3845'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 4
-            ..g = 196
-            ..b = 202;
-        }).toBuilder()
-        ..hex = '04C4CA'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 72.074
-            ..a = -37.503
-            ..b = -14.558;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Turquoise Bright Dark'
-        ..code = '3844'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 18
-            ..g = 174
-            ..b = 186;
-        }).toBuilder()
-        ..hex = '12AEBA'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.92
-            ..a = -31.675
-            ..b = -16.542;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Gray Light'
-        ..code = '159'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 199
-            ..g = 202
-            ..b = 215;
-        }).toBuilder()
-        ..hex = 'C7CAD7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 81.45
-            ..a = 1.452
-            ..b = -6.814;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Gray Medium'
-        ..code = '160'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 153
-            ..g = 159
-            ..b = 183;
-        }).toBuilder()
-        ..hex = '999FB7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 65.739
-            ..a = 2.899
-            ..b = -13.12;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Gray'
-        ..code = '161'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 120
-            ..g = 128
-            ..b = 164;
-        }).toBuilder()
-        ..hex = '7880A4'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.145
-            ..a = 5.413
-            ..b = -20.144;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Blue Ult Vy Lt'
-        ..code = '3756'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 238
-            ..g = 252
-            ..b = 252;
-        }).toBuilder()
-        ..hex = 'EEFCFC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 97.964
-            ..a = -4.563
-            ..b = -1.592;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Blue Very Light'
-        ..code = '775'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 217
-            ..g = 235
-            ..b = 241;
-        }).toBuilder()
-        ..hex = 'D9EBF1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 91.917
-            ..a = -4.77
-            ..b = -4.946;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Blue Pale'
-        ..code = '3841'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 205
-            ..g = 223
-            ..b = 237;
-        }).toBuilder()
-        ..hex = 'CDDFED'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 87.905
-            ..a = -3.211
-            ..b = -8.876;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Blue Light'
-        ..code = '3325'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 184
-            ..g = 210
-            ..b = 230;
-        }).toBuilder()
-        ..hex = 'B8D2E6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 82.912
-            ..a = -4.458
-            ..b = -12.761;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Blue'
-        ..code = '3755'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 147
-            ..g = 180
-            ..b = 206;
-        }).toBuilder()
-        ..hex = '92B4CE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.759
-            ..a = -5.164
-            ..b = -16.807;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Blue Medium'
-        ..code = '334'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 115
-            ..g = 159
-            ..b = 193;
-        }).toBuilder()
-        ..hex = '739FC1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 63.583
-            ..a = -6.06
-            ..b = -22.215;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Blue Dark'
-        ..code = '322'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 90
-            ..g = 143
-            ..b = 184;
-        }).toBuilder()
-        ..hex = '5A8FB8'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.347
-            ..a = -5.974
-            ..b = -26.837;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Blue Very Dark'
-        ..code = '312'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 53
-            ..g = 102
-            ..b = 139;
-        }).toBuilder()
-        ..hex = '35668B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 41.412
-            ..a = -4.695
-            ..b = -25.399;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Baby Blue Ult Vy Dk'
-        ..code = '803'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 44
-            ..g = 89
-            ..b = 124;
-        }).toBuilder()
-        ..hex = '2C597C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 36.244
-            ..a = -3.814
-            ..b = -24.362;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Navy Blue'
-        ..code = '336'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 37
-            ..g = 59
-            ..b = 115;
-        }).toBuilder()
-        ..hex = '253B73'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 26.037
-            ..a = 11.276
-            ..b = -34.904;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Navy Blue Dark'
-        ..code = '823'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 33
-            ..g = 48
-            ..b = 99;
-        }).toBuilder()
-        ..hex = '213063'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 21.35
-            ..a = 11.998
-            ..b = -32.131;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Navy Blue Very Dark'
-        ..code = '939'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 27
-            ..g = 40
-            ..b = 83;
-        }).toBuilder()
-        ..hex = '1B2853'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 17.344
-            ..a = 10.183
-            ..b = -27.973;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Blue Ult Vy Lt'
-        ..code = '3753'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 219
-            ..g = 226
-            ..b = 233;
-        }).toBuilder()
-        ..hex = 'DBE2E9'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 89.55
-            ..a = -1.033
-            ..b = -4.231;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Blue Very Lt'
-        ..code = '3752'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 199
-            ..g = 209
-            ..b = 219;
-        }).toBuilder()
-        ..hex = 'C7D1DB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 83.367
-            ..a = -1.449
-            ..b = -6.114;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Blue Light'
-        ..code = '932'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 162
-            ..g = 181
-            ..b = 198;
-        }).toBuilder()
-        ..hex = 'A2B5C6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 72.764
-            ..a = -2.927
-            ..b = -10.818;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Blue Medium'
-        ..code = '931'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 106
-            ..g = 133
-            ..b = 158;
-        }).toBuilder()
-        ..hex = '6A859E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.352
-            ..a = -3.375
-            ..b = -16.451;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Blue Dark'
-        ..code = '930'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 69
-            ..g = 92
-            ..b = 113;
-        }).toBuilder()
-        ..hex = '455C71'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 38.042
-            ..a = -2.854
-            ..b = -14.7;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Antique Blue Very Dk'
-        ..code = '3750'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 56
-            ..g = 76
-            ..b = 94;
-        }).toBuilder()
-        ..hex = '384C5E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 31.388
-            ..a = -2.601
-            ..b = -13.045;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Sky Blue Vy Lt'
-        ..code = '828'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 197
-            ..g = 232
-            ..b = 237;
-        }).toBuilder()
-        ..hex = 'C5E8ED'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 89.719
-            ..a = -10.323
-            ..b = -6.248;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Sky Blue Light'
-        ..code = '3761'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 172
-            ..g = 216
-            ..b = 226;
-        }).toBuilder()
-        ..hex = 'ACD8E2'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 83.638
-            ..a = -12.072
-            ..b = -9.63;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Sky Blue'
-        ..code = '519'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 126
-            ..g = 177
-            ..b = 200;
-        }).toBuilder()
-        ..hex = '7EB1C8'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.505
-            ..a = -11.024
-            ..b = -17.038;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Wedgewood Light'
-        ..code = '518'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 79
-            ..g = 147
-            ..b = 167;
-        }).toBuilder()
-        ..hex = '4F93A7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.386
-            ..a = -15.816
-            ..b = -17.14;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Wedgewood Med'
-        ..code = '3760'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 62
-            ..g = 133
-            ..b = 162;
-        }).toBuilder()
-        ..hex = '3E85A2'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.295
-            ..a = -13.24
-            ..b = -22.105;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Wedgewood Dark'
-        ..code = '517'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 59
-            ..g = 118
-            ..b = 143;
-        }).toBuilder()
-        ..hex = '3B768F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 46.803
-            ..a = -11.513
-            ..b = -19.432;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Wedgewood Vry Dk'
-        ..code = '3842'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 50
-            ..g = 102
-            ..b = 124;
-        }).toBuilder()
-        ..hex = '32667C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 40.632
-            ..a = -10.405
-            ..b = -17.55;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Wedgewood Ult VyDk'
-        ..code = '311'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 28
-            ..g = 80
-            ..b = 102;
-        }).toBuilder()
-        ..hex = '1C5066'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 31.678
-            ..a = -9.274
-            ..b = -17.79;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Peacock Blue Vy Lt'
-        ..code = '747'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 229
-            ..g = 252
-            ..b = 253;
-        }).toBuilder()
-        ..hex = 'E5FCFD'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 97.378
-            ..a = -7.253
-            ..b = -3.038;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Peacock Blue Light'
-        ..code = '3766'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 153
-            ..g = 207
-            ..b = 217;
-        }).toBuilder()
-        ..hex = '99CFD9'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 79.845
-            ..a = -15.026
-            ..b = -10.595;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Peacock Blue'
-        ..code = '807'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 100
-            ..g = 171
-            ..b = 186;
-        }).toBuilder()
-        ..hex = '64ABBA'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 66.044
-            ..a = -18.267
-            ..b = -14.647;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Peacock Blue Dark'
-        ..code = '806'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 61
-            ..g = 149
-            ..b = 165;
-        }).toBuilder()
-        ..hex = '3D95A5'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.273
-            ..a = -21.122
-            ..b = -16.23;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Peacock Blue Vy Dk'
-        ..code = '3765'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 52
-            ..g = 127
-            ..b = 140;
-        }).toBuilder()
-        ..hex = '347F8C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 49.255
-            ..a = -18.865
-            ..b = -13.947;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Turquoise Very Light'
-        ..code = '3811'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 188
-            ..g = 227
-            ..b = 230;
-        }).toBuilder()
-        ..hex = 'BCE3E6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 87.651
-            ..a = -11.999
-            ..b = -5.691;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Turquoise Light'
-        ..code = '598'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 144
-            ..g = 195
-            ..b = 204;
-        }).toBuilder()
-        ..hex = '90C3CC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 75.649
-            ..a = -14.457
-            ..b = -9.898;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Turquoise'
-        ..code = '597'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 91
-            ..g = 163
-            ..b = 179;
-        }).toBuilder()
-        ..hex = '5BA3B3'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 63.072
-            ..a = -18.143
-            ..b = -15.263;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Turquoise Dark'
-        ..code = '3810'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 72
-            ..g = 142
-            ..b = 154;
-        }).toBuilder()
-        ..hex = '488E9A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 55.131
-            ..a = -18.522
-            ..b = -13.132;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Turquoise Vy Dark'
-        ..code = '3809'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 63
-            ..g = 124
-            ..b = 133;
-        }).toBuilder()
-        ..hex = '3F7C85'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 48.468
-            ..a = -17.059
-            ..b = -10.977;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Turquoise Ult Vy Dk'
-        ..code = '3808'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 54
-            ..g = 105
-            ..b = 112;
-        }).toBuilder()
-        ..hex = '366970'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 41.307
-            ..a = -14.992
-            ..b = -9.217;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Gray Green Vy Lt'
-        ..code = '928'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 221
-            ..g = 227
-            ..b = 227;
-        }).toBuilder()
-        ..hex = 'DDE3E3'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 89.793
-            ..a = -2.004
-            ..b = -0.711;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Gray Green Light'
-        ..code = '927'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 189
-            ..g = 203
-            ..b = 203;
-        }).toBuilder()
-        ..hex = 'BDCBCB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 80.651
-            ..a = -4.741
-            ..b = -1.645;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Gray Green Med'
-        ..code = '926'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 152
-            ..g = 174
-            ..b = 174;
-        }).toBuilder()
-        ..hex = '98AEAE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.472
-            ..a = -7.574
-            ..b = -2.578;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Gray Green Dark'
-        ..code = '3768'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 101
-            ..g = 127
-            ..b = 127;
-        }).toBuilder()
-        ..hex = '657F7F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 51.242
-            ..a = -9.303
-            ..b = -3.097;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Gray Green Vy Dark'
-        ..code = '924'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 86
-            ..g = 106
-            ..b = 106;
-        }).toBuilder()
-        ..hex = '566A6A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 43.252
-            ..a = -7.43
-            ..b = -2.488;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Teal Green Light'
-        ..code = '3849'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 82
-            ..g = 179
-            ..b = 164;
-        }).toBuilder()
-        ..hex = '52B3AE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.062
-            ..a = -32.206
-            ..b = -1.004;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Teal Green Med'
-        ..code = '3848'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 85
-            ..g = 147
-            ..b = 146;
-        }).toBuilder()
-        ..hex = '419392'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 56.953
-            ..a = -20.22
-            ..b = -5.756;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Teal Green Dark'
-        ..code = '3847'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 52
-            ..g = 125
-            ..b = 117;
-        }).toBuilder()
-        ..hex = '347D75'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 47.856
-            ..a = -24.685
-            ..b = -2.481;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Sea Green Light'
-        ..code = '964'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 169
-            ..g = 226
-            ..b = 216;
-        }).toBuilder()
-        ..hex = 'A9E2D8'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 85.899
-            ..a = -20.171
-            ..b = -1.021;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Sea Green Med'
-        ..code = '959'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 89
-            ..g = 199
-            ..b = 180;
-        }).toBuilder()
-        ..hex = '59C7B4'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 73.718
-            ..a = -36.07
-            ..b = -0.007;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Sea Green Dark'
-        ..code = '958'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 62
-            ..g = 182
-            ..b = 161;
-        }).toBuilder()
-        ..hex = '3EB6A1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.317
-            ..a = -38.136
-            ..b = 0.956;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Sea Green Vy Dk'
-        ..code = '3812'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 47
-            ..g = 140
-            ..b = 132;
-        }).toBuilder()
-        ..hex = '2F8C84'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.978
-            ..a = -28.84
-            ..b = -3.724;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Green Bright Lt'
-        ..code = '3851'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 73
-            ..g = 179
-            ..b = 161;
-        }).toBuilder()
-        ..hex = '49B3A1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 66.695
-            ..a = -34.806
-            ..b = 0.085;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Green Bright Md'
-        ..code = '943'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 61
-            ..g = 147
-            ..b = 132;
-        }).toBuilder()
-        ..hex = '3D9384'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 55.61
-            ..a = -29.608
-            ..b = 0.186;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Green Bright Dk'
-        ..code = '3850'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 55
-            ..g = 132
-            ..b = 119;
-        }).toBuilder()
-        ..hex = '378477'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 50.271
-            ..a = -27.006
-            ..b = -0.104;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Aquamarine Vy Lt'
-        ..code = '993'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 144
-            ..g = 192
-            ..b = 180;
-        }).toBuilder()
-        ..hex = '90C0B4'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 74.141
-            ..a = -18.302
-            ..b = 0.906;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Aquamarine Lt'
-        ..code = '992'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 111
-            ..g = 174
-            ..b = 159;
-        }).toBuilder()
-        ..hex = '6FAE9F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 66.638
-            ..a = -23.706
-            ..b = 1.291;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Aquamarine'
-        ..code = '3814'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 80
-            ..g = 139
-            ..b = 125;
-        }).toBuilder()
-        ..hex = '508B7D'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 53.655
-            ..a = -22.772
-            ..b = 1.46;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Aquamarine Dk'
-        ..code = '991'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 71
-            ..g = 123
-            ..b = 110;
-        }).toBuilder()
-        ..hex = '477B6E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 47.792
-            ..a = -20.724
-            ..b = 1.655;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Jade Ultra Vy Lt'
-        ..code = '966'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 185
-            ..g = 215
-            ..b = 192;
-        }).toBuilder()
-        ..hex = 'B9D7C0'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 83.295
-            ..a = -14.336
-            ..b = 8.019;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Jade Very Light'
-        ..code = '564'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 167
-            ..g = 205
-            ..b = 175;
-        }).toBuilder()
-        ..hex = 'A7CDAF'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 79.026
-            ..a = -18.443
-            ..b = 10.813;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Jade Light'
-        ..code = '563'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 143
-            ..g = 192
-            ..b = 152;
-        }).toBuilder()
-        ..hex = '8FC098'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 73.419
-            ..a = -24.186
-            ..b = 15.038;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Jade Medium'
-        ..code = '562'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 83
-            ..g = 151
-            ..b = 106;
-        }).toBuilder()
-        ..hex = '53976A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.088
-            ..a = -32.027
-            ..b = 17.159;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Jade Green'
-        ..code = '505'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 51
-            ..g = 131
-            ..b = 98;
-        }).toBuilder()
-        ..hex = '338362'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 49.275
-            ..a = -32.731
-            ..b = 10.696;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Celadon Green Lt'
-        ..code = '3817'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 153
-            ..g = 195
-            ..b = 170;
-        }).toBuilder()
-        ..hex = '99C3AA'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 75.267
-            ..a = -18.988
-            ..b = 8.021;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Celadon Green'
-        ..code = '3816'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 101
-            ..g = 165
-            ..b = 125;
-        }).toBuilder()
-        ..hex = '65A57D'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 62.64
-            ..a = -29.556
-            ..b = 14.391;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Celadon Green Md'
-        ..code = '163'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 77
-            ..g = 131
-            ..b = 97;
-        }).toBuilder()
-        ..hex = '4D8361'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 50.303
-            ..a = -25.982
-            ..b = 12.866;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Celadon Green Dk'
-        ..code = '3815'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 71
-            ..g = 119
-            ..b = 89;
-        }).toBuilder()
-        ..hex = '477759'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 45.981
-            ..a = -23.507
-            ..b = 11.467;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Celadon Green VD'
-        ..code = '561'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 44
-            ..g = 106
-            ..b = 69;
-        }).toBuilder()
-        ..hex = '2C6A45'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 40.037
-            ..a = -29.324
-            ..b = 14.912;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Green Vy Lt'
-        ..code = '504'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 196
-            ..g = 222
-            ..b = 204;
-        }).toBuilder()
-        ..hex = 'C4DECC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.175
-            ..a = -12.004
-            ..b = 5.911;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Green Lt'
-        ..code = '3813'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 178
-            ..g = 212
-            ..b = 189;
-        }).toBuilder()
-        ..hex = 'B2D4BD'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 81.961
-            ..a = -15.709
-            ..b = 7.637;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Green Med'
-        ..code = '503'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 123
-            ..g = 172
-            ..b = 148;
-        }).toBuilder()
-        ..hex = '7BAC94'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 66.408
-            ..a = -21.465
-            ..b = 7.136;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Green'
-        ..code = '502'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 91
-            ..g = 144
-            ..b = 113;
-        }).toBuilder()
-        ..hex = '5B9071'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 55.444
-            ..a = -24.762
-            ..b = 10.984;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Green Dark'
-        ..code = '501'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 57
-            ..g = 111
-            ..b = 82;
-        }).toBuilder()
-        ..hex = '396F52'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 42.533
-            ..a = -25.293
-            ..b = 10.703;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Blue Green Vy Dk'
-        ..code = '500'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 4
-            ..g = 77
-            ..b = 51;
-        }).toBuilder()
-        ..hex = '044D33'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 28.307
-            ..a = -27.84
-            ..b = 9.721;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Nile Green Light'
-        ..code = '955'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 162
-            ..g = 214
-            ..b = 173;
-        }).toBuilder()
-        ..hex = 'A2D6AD'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 81.177
-            ..a = -24.915
-            ..b = 14.875;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Nile Green'
-        ..code = '954'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 136
-            ..g = 186
-            ..b = 145;
-        }).toBuilder()
-        ..hex = '88BA91'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.143
-            ..a = -24.825
-            ..b = 15.577;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Nile Green Med'
-        ..code = '913'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 109
-            ..g = 171
-            ..b = 119;
-        }).toBuilder()
-        ..hex = '6DAB77'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.731
-            ..a = -31.076
-            ..b = 20.628;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Emerald Green Lt'
-        ..code = '912'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 27
-            ..g = 157
-            ..b = 107;
-        }).toBuilder()
-        ..hex = '1B9D6B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.471
-            ..a = -45.511
-            ..b = 16.878;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Emerald Green Med'
-        ..code = '911'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 24
-            ..g = 144
-            ..b = 101;
-        }).toBuilder()
-        ..hex = '189065'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 53.037
-            ..a = -41.963
-            ..b = 14.128;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Emerald Green Dark'
-        ..code = '910'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 24
-            ..g = 126
-            ..b = 86;
-        }).toBuilder()
-        ..hex = '1.87E+58'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 46.695
-            ..a = -38.055
-            ..b = 13.969;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Emerald Green Vy Dk'
-        ..code = '909'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 21
-            ..g = 111
-            ..b = 73;
-        }).toBuilder()
-        ..hex = '156F49'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 41.231
-            ..a = -35.161
-            ..b = 14.07;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Emerald Grn Ult V Dk'
-        ..code = '3818'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 17
-            ..g = 90
-            ..b = 59;
-        }).toBuilder()
-        ..hex = '115A3B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 33.451
-            ..a = -29.931
-            ..b = 11.84;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pistachio Green Vy Lt'
-        ..code = '369'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 215
-            ..g = 237
-            ..b = 204;
-        }).toBuilder()
-        ..hex = 'D7EDCC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 91.404
-            ..a = -13.124
-            ..b = 13.557;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pistachio Green Lt'
-        ..code = '368'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 166
-            ..g = 194
-            ..b = 152;
-        }).toBuilder()
-        ..hex = 'A6C298'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 75.425
-            ..a = -17.251
-            ..b = 18.05;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pistachio Green Med'
-        ..code = '320'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 105
-            ..g = 136
-            ..b = 90;
-        }).toBuilder()
-        ..hex = '69885A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 53.33
-            ..a = -20.053
-            ..b = 21.241;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pistachio Green Dk'
-        ..code = '367'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 97
-            ..g = 122
-            ..b = 82;
-        }).toBuilder()
-        ..hex = '617A52'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 48.348
-            ..a = -17.05
-            ..b = 19.025;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pistachio Grn Vy Dk'
-        ..code = '319'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 32
-            ..g = 95
-            ..b = 46;
-        }).toBuilder()
-        ..hex = '205F2E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 35.378
-            ..a = -31.876
-            ..b = 22.159;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pistachio Grn Ult V D'
-        ..code = '890'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 23
-            ..g = 73
-            ..b = 35;
-        }).toBuilder()
-        ..hex = '184923'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 26.929
-            ..a = -26.339
-            ..b = 17.875;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Forest Green Lt'
-        ..code = '164'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 200
-            ..g = 216
-            ..b = 184;
-        }).toBuilder()
-        ..hex = 'C8D8B8'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 84.407
-            ..a = -11.077
-            ..b = 13.971;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Forest Green '
-        ..code = '989'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 141
-            ..g = 166
-            ..b = 117;
-        }).toBuilder()
-        ..hex = '8DA675'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 65.136
-            ..a = -17.702
-            ..b = 22.588;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Forest Green Med'
-        ..code = '988'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 115
-            ..g = 139
-            ..b = 91;
-        }).toBuilder()
-        ..hex = '738B5B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.933
-            ..a = -17.603
-            ..b = 22.935;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Forest Green Dk'
-        ..code = '987'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 88
-            ..g = 113
-            ..b = 65;
-        }).toBuilder()
-        ..hex = '587141'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 44.613
-            ..a = -18.462
-            ..b = 23.7;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Forest Green Vy Dk'
-        ..code = '986'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 64
-            ..g = 82
-            ..b = 48;
-        }).toBuilder()
-        ..hex = '405230'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 32.564
-            ..a = -14.017
-            ..b = 17.725;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Green Vy Lt'
-        ..code = '772'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 228
-            ..g = 236
-            ..b = 212;
-        }).toBuilder()
-        ..hex = 'E4ECD4'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 92.238
-            ..a = -6.828
-            ..b = 10.717;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Green Lt'
-        ..code = '3348'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 204
-            ..g = 217
-            ..b = 177;
-        }).toBuilder()
-        ..hex = 'CCD9B1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 84.811
-            ..a = -11.286
-            ..b = 18.261;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Green Med'
-        ..code = '3347'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 113
-            ..g = 147
-            ..b = 92;
-        }).toBuilder()
-        ..hex = '71935C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.222
-            ..a = -22.361
-            ..b = 25.374;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Hunter Green'
-        ..code = '3346'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 64
-            ..g = 106
-            ..b = 58;
-        }).toBuilder()
-        ..hex = '406A3A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 40.741
-            ..a = -25.158
-            ..b = 22.41;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Hunter Green Dk'
-        ..code = '3345'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 27
-            ..g = 89
-            ..b = 21;
-        }).toBuilder()
-        ..hex = '1B5915'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 32.771
-            ..a = -34.016
-            ..b = 31.988;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Hunter Green Vy Dk'
-        ..code = '895'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 27
-            ..g = 83
-            ..b = 0;
-        }).toBuilder()
-        ..hex = '1B5300'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 30.447
-            ..a = -33.143
-            ..b = 37.481;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Chartreuse Bright'
-        ..code = '704'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 158
-            ..g = 207
-            ..b = 52;
-        }).toBuilder()
-        ..hex = '9ECF34'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 77.366
-            ..a = -37.248
-            ..b = 66.818;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Chartreuse'
-        ..code = '703'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 123
-            ..g = 181
-            ..b = 71;
-        }).toBuilder()
-        ..hex = '7BB547'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.809
-            ..a = -37.382
-            ..b = 48.931;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Kelly Green'
-        ..code = '702'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 71
-            ..g = 167
-            ..b = 47;
-        }).toBuilder()
-        ..hex = '47A72F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 60.942
-            ..a = -50.32
-            ..b = 50.931;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Green Light'
-        ..code = '701'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 63
-            ..g = 143
-            ..b = 41;
-        }).toBuilder()
-        ..hex = '3F8F29'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.798
-            ..a = -43.825
-            ..b = 44.785;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Green Bright'
-        ..code = '700'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 7
-            ..g = 115
-            ..b = 27;
-        }).toBuilder()
-        ..hex = '07731B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 41.823
-            ..a = -45.649
-            ..b = 38.694;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Green'
-        ..code = '699'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 5
-            ..g = 101
-            ..b = 23;
-        }).toBuilder()
-        ..hex = '56517'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 36.746
-            ..a = -41.633
-            ..b = 35.111;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Parrot Green Lt'
-        ..code = '907'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 199
-            ..g = 230
-            ..b = 102;
-        }).toBuilder()
-        ..hex = 'C7E666'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.847
-            ..a = -28.557
-            ..b = 57.929;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Parrot Green Md'
-        ..code = '906'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 127
-            ..g = 179
-            ..b = 53;
-        }).toBuilder()
-        ..hex = '7FB335'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.284
-            ..a = -36.438
-            ..b = 55.937;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Parrot Green Dk'
-        ..code = '905'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 98
-            ..g = 138
-            ..b = 40;
-        }).toBuilder()
-        ..hex = '628A28'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.869
-            ..a = -29.633
-            ..b = 45.798;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Parrot Green V Dk'
-        ..code = '904'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 85
-            ..g = 120
-            ..b = 34;
-        }).toBuilder()
-        ..hex = '557822'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 46.284
-            ..a = -26.654
-            ..b = 41.265;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Avocado Grn U Lt'
-        ..code = '472'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 216
-            ..g = 228
-            ..b = 152;
-        }).toBuilder()
-        ..hex = 'D8E498'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 88.138
-            ..a = -15.87
-            ..b = 35.812;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Avocado Grn V Lt'
-        ..code = '471'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 174
-            ..g = 191
-            ..b = 121;
-        }).toBuilder()
-        ..hex = 'AEBF79'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 74.598
-            ..a = -17.263
-            ..b = 33.408;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Avocado Grn Lt'
-        ..code = '470'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 148
-            ..g = 171
-            ..b = 79;
-        }).toBuilder()
-        ..hex = '94AB4F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 66.509
-            ..a = -22.213
-            ..b = 44.136;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Avocado Green'
-        ..code = '469'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 114
-            ..g = 132
-            ..b = 60;
-        }).toBuilder()
-        ..hex = '72843C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.293
-            ..a = -18.255
-            ..b = 36.239;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Avocado Green Md'
-        ..code = '937'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 98
-            ..g = 113
-            ..b = 51;
-        }).toBuilder()
-        ..hex = '627133'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 45.145
-            ..a = -15.974
-            ..b = 32.166;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Avocado Grn V Dk'
-        ..code = '936'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 76
-            ..g = 88
-            ..b = 38;
-        }).toBuilder()
-        ..hex = '4C5826'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 35.313
-            ..a = -13.405
-            ..b = 27.106;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Avocado Green Dk'
-        ..code = '935'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 66
-            ..g = 77
-            ..b = 33;
-        }).toBuilder()
-        ..hex = '424D21'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 30.821
-            ..a = -12.305
-            ..b = 24.376;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Avocado Grn Black'
-        ..code = '934'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 49
-            ..g = 57
-            ..b = 25;
-        }).toBuilder()
-        ..hex = '313919'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 22.477
-            ..a = -9.515
-            ..b = 18.706;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Fern Green Lt'
-        ..code = '523'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 171
-            ..g = 177
-            ..b = 151;
-        }).toBuilder()
-        ..hex = 'ABB197'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.102
-            ..a = -6.767
-            ..b = 12.599;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Green Gray'
-        ..code = '3053'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 156
-            ..g = 164
-            ..b = 130;
-        }).toBuilder()
-        ..hex = '9CA482'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 65.928
-            ..a = -8.908
-            ..b = 16.724;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Green Gray Md'
-        ..code = '3052'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 136
-            ..g = 146
-            ..b = 104;
-        }).toBuilder()
-        ..hex = '889268'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 58.781
-            ..a = -11.066
-            ..b = 21.113;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Green Gray Dk'
-        ..code = '3051'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 95
-            ..g = 102
-            ..b = 72;
-        }).toBuilder()
-        ..hex = '5F6648'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 41.85
-            ..a = -8.378
-            ..b = 16.1;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Fern Green Vy Lt'
-        ..code = '524'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 196
-            ..g = 205
-            ..b = 172;
-        }).toBuilder()
-        ..hex = 'C4CDAC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 80.948
-            ..a = -8.828
-            ..b = 15.409;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Fern Green'
-        ..code = '522'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 150
-            ..g = 158
-            ..b = 126;
-        }).toBuilder()
-        ..hex = '969E7E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 63.708
-            ..a = -8.633
-            ..b = 15.79;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Fern Green Dark'
-        ..code = '520'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 102
-            ..g = 109
-            ..b = 79;
-        }).toBuilder()
-        ..hex = '666D4F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 44.698
-            ..a = -8.316
-            ..b = 15.911;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pine Green'
-        ..code = '3364'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 131
-            ..g = 151
-            ..b = 95;
-        }).toBuilder()
-        ..hex = '83975F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 59.694
-            ..a = -16.998
-            ..b = 27.204;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pine Green Md'
-        ..code = '3363'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 114
-            ..g = 130
-            ..b = 86;
-        }).toBuilder()
-        ..hex = '728256'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.079
-            ..a = -13.948
-            ..b = 21.941;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pine Green Dk'
-        ..code = '3362'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 94
-            ..g = 107
-            ..b = 71;
-        }).toBuilder()
-        ..hex = '5E6B47'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 43.286
-            ..a = -11.799
-            ..b = 18.598;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Moss Green Vy Lt'
-        ..code = '165'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 239
-            ..g = 244
-            ..b = 164;
-        }).toBuilder()
-        ..hex = 'EFF4A4'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 94.198
-            ..a = -13.676
-            ..b = 38.061;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Moss Green Lt'
-        ..code = '3819'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 224
-            ..g = 232
-            ..b = 104;
-        }).toBuilder()
-        ..hex = 'E0E868'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 89.186
-            ..a = -19.535
-            ..b = 60.183;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Moss Green Md Lt'
-        ..code = '166'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 192
-            ..g = 200
-            ..b = 64;
-        }).toBuilder()
-        ..hex = 'C0C840'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 77.807
-            ..a = -19.561
-            ..b = 63.825;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Moss Green'
-        ..code = '581'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 167
-            ..g = 174
-            ..b = 56;
-        }).toBuilder()
-        ..hex = 'A7AE38'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 68.587
-            ..a = -17.538
-            ..b = 56.978;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Moss Green Dk'
-        ..code = '580'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 136
-            ..g = 141
-            ..b = 51;
-        }).toBuilder()
-        ..hex = '888D33'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 56.608
-            ..a = -14.208
-            ..b = 45.848;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Olive Green Lt'
-        ..code = '734'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 199
-            ..g = 192
-            ..b = 119;
-        }).toBuilder()
-        ..hex = 'C7C077'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 76.784
-            ..a = -8.129
-            ..b = 37.635;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Olive Green Md'
-        ..code = '733'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 188
-            ..g = 179
-            ..b = 76;
-        }).toBuilder()
-        ..hex = 'BCB34C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.862
-            ..a = -9.843
-            ..b = 52.467;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Olive Green'
-        ..code = '732'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 148
-            ..g = 140
-            ..b = 54;
-        }).toBuilder()
-        ..hex = '948C36'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.384
-            ..a = -8.127
-            ..b = 45.634;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Olive Green Dk'
-        ..code = '731'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 147
-            ..g = 139
-            ..b = 55;
-        }).toBuilder()
-        ..hex = '938B37'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 57.021
-            ..a = -7.961
-            ..b = 44.753;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Olive Green V Dk'
-        ..code = '730'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 130
-            ..g = 123
-            ..b = 48;
-        }).toBuilder()
-        ..hex = '827B30'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 50.833
-            ..a = -7.346
-            ..b = 40.847;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Khaki Green Lt'
-        ..code = '3013'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 185
-            ..g = 185
-            ..b = 130;
-        }).toBuilder()
-        ..hex = 'B9B982'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 73.949
-            ..a = -8.737
-            ..b = 27.996;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Khaki Green Md'
-        ..code = '3012'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 166
-            ..g = 167
-            ..b = 93;
-        }).toBuilder()
-        ..hex = 'A6A75D'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 66.926
-            ..a = -11.353
-            ..b = 37.997;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Khaki Green Dk'
-        ..code = '3011'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 137
-            ..g = 138
-            ..b = 88;
-        }).toBuilder()
-        ..hex = '898A58'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 56.287
-            ..a = -8.516
-            ..b = 26.69;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mustard Lt'
-        ..code = '372'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 204
-            ..g = 183
-            ..b = 132;
-        }).toBuilder()
-        ..hex = 'CCB784'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 75.058
-            ..a = 0.073
-            ..b = 28.7;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mustard'
-        ..code = '371'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 191
-            ..g = 166
-            ..b = 113;
-        }).toBuilder()
-        ..hex = 'BFA671'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.141
-            ..a = 1.685
-            ..b = 30.791;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mustard Medium'
-        ..code = '370'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 184
-            ..g = 157
-            ..b = 100;
-        }).toBuilder()
-        ..hex = 'B89D64'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 65.923
-            ..a = 2.252
-            ..b = 33.432;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Olive Vy Lt'
-        ..code = '834'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 219
-            ..g = 190
-            ..b = 127;
-        }).toBuilder()
-        ..hex = 'DBBE7F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 78.122
-            ..a = 1.814
-            ..b = 35.586;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Olive Lt'
-        ..code = '833'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 200
-            ..g = 171
-            ..b = 108;
-        }).toBuilder()
-        ..hex = 'C8AB6C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.206
-            ..a = 2.177
-            ..b = 36.245;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Olive'
-        ..code = '832'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 189
-            ..g = 155
-            ..b = 81;
-        }).toBuilder()
-        ..hex = 'BD9B51'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 65.636
-            ..a = 3.726
-            ..b = 43.007;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Olive Md'
-        ..code = '831'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 170
-            ..g = 143
-            ..b = 86;
-        }).toBuilder()
-        ..hex = 'AA8F56'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 60.66
-            ..a = 2.575
-            ..b = 33.956;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Olive Dk'
-        ..code = '830'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 141
-            ..g = 120
-            ..b = 75;
-        }).toBuilder()
-        ..hex = '8D784B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 51.386
-            ..a = 1.747
-            ..b = 27.663;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Olive Vy Dk'
-        ..code = '829'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 126
-            ..g = 107
-            ..b = 66;
-        }).toBuilder()
-        ..hex = '7E6B42'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 46.102
-            ..a = 1.587
-            ..b = 25.7;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Drab Brown V Lt'
-        ..code = '613'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 220
-            ..g = 196
-            ..b = 170;
-        }).toBuilder()
-        ..hex = 'DCC4AA'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 80.515
-            ..a = 4.426
-            ..b = 16.15;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Drab Brown Lt'
-        ..code = '612'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 188
-            ..g = 154
-            ..b = 120;
-        }).toBuilder()
-        ..hex = 'BC9A78'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 65.872
-            ..a = 7.808
-            ..b = 22.611;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Drab Brown'
-        ..code = '611'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 150
-            ..g = 118
-            ..b = 86;
-        }).toBuilder()
-        ..hex = '967656'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 51.964
-            ..a = 8.048
-            ..b = 22.386;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Drab Brown Dk'
-        ..code = '610'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 121
-            ..g = 96
-            ..b = 71;
-        }).toBuilder()
-        ..hex = '796047'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 42.59
-            ..a = 6.42
-            ..b = 18.124;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Beige Lt'
-        ..code = '3047'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 231
-            ..g = 214
-            ..b = 193;
-        }).toBuilder()
-        ..hex = 'E7D6C1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.471
-            ..a = 2.478
-            ..b = 12.481;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Beige Md'
-        ..code = '3046'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 216
-            ..g = 188
-            ..b = 154;
-        }).toBuilder()
-        ..hex = 'D8BC9A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 77.815
-            ..a = 4.917
-            ..b = 20.896;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Beige Dk'
-        ..code = '3045'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 188
-            ..g = 150
-            ..b = 106;
-        }).toBuilder()
-        ..hex = 'BC966A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.6
-            ..a = 8.381
-            ..b = 28.581;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Beige V Dk'
-        ..code = '167'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 167
-            ..g = 124
-            ..b = 73;
-        }).toBuilder()
-        ..hex = 'A77C49'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 55.187
-            ..a = 10.702
-            ..b = 34.09;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Off White'
-        ..code = '746'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 252
-            ..g = 252
-            ..b = 238;
-        }).toBuilder()
-        ..hex = 'FCFCEE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 98.626
-            ..a = -2.386
-            ..b = 6.689;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Old Gold Vy Lt'
-        ..code = '677'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 245
-            ..g = 236
-            ..b = 203;
-        }).toBuilder()
-        ..hex = 'F5ECCB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 93.327
-            ..a = -2.257
-            ..b = 17.101;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Hazelnut Brown Lt'
-        ..code = '422'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 198
-            ..g = 159
-            ..b = 123;
-        }).toBuilder()
-        ..hex = 'C69F7B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 68.191
-            ..a = 9.482
-            ..b = 24.262;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Hazelnut Brown'
-        ..code = '3828'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 183
-            ..g = 139
-            ..b = 97;
-        }).toBuilder()
-        ..hex = 'B78B61'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 61.129
-            ..a = 11.419
-            ..b = 28.882;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Hazelnut Brown Dk'
-        ..code = '420'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 160
-            ..g = 112
-            ..b = 66;
-        }).toBuilder()
-        ..hex = 'A07042'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 51.216
-            ..a = 13.861
-            ..b = 32.868;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Hazelnut Brown V Dk'
-        ..code = '869'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 131
-            ..g = 94
-            ..b = 57;
-        }).toBuilder()
-        ..hex = '8.35E+41'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 42.953
-            ..a = 10.587
-            ..b = 26.995;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Topaz'
-        ..code = '728'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 228
-            ..g = 180
-            ..b = 104;
-        }).toBuilder()
-        ..hex = 'E4B468'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 76.153
-            ..a = 8.598
-            ..b = 45.013;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Topaz Medium'
-        ..code = '783'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 206
-            ..g = 145
-            ..b = 36;
-        }).toBuilder()
-        ..hex = 'CE9124'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.564
-            ..a = 14.162
-            ..b = 61.781;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Topaz Dark'
-        ..code = '782'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 174
-            ..g = 119
-            ..b = 32;
-        }).toBuilder()
-        ..hex = 'AE7720'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.34
-            ..a = 14.207
-            ..b = 52.703;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Topaz Very Dark'
-        ..code = '781'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 162
-            ..g = 109
-            ..b = 32;
-        }).toBuilder()
-        ..hex = 'A26D20'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 50.361
-            ..a = 14.443
-            ..b = 48.528;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Topaz Ultra Vy Dk'
-        ..code = '780'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 148
-            ..g = 99
-            ..b = 26;
-        }).toBuilder()
-        ..hex = '94631A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 46.034
-            ..a = 13.553
-            ..b = 46.278;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Old Gold Lt'
-        ..code = '676'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 229
-            ..g = 206
-            ..b = 151;
-        }).toBuilder()
-        ..hex = 'E5CE97'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 83.461
-            ..a = 0.137
-            ..b = 30.322;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Old Gold Medium'
-        ..code = '729'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 208
-            ..g = 165
-            ..b = 62;
-        }).toBuilder()
-        ..hex = 'D0A53E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.943
-            ..a = 5.301
-            ..b = 57.104;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Old Gold Dark'
-        ..code = '680'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 188
-            ..g = 141
-            ..b = 14;
-        }).toBuilder()
-        ..hex = 'BC8D0E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 61.458
-            ..a = 7.856
-            ..b = 64.079;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Old Gold Vy Dark'
-        ..code = '3829'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 169
-            ..g = 130
-            ..b = 4;
-        }).toBuilder()
-        ..hex = 'A98204'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 56.495
-            ..a = 5.152
-            ..b = 61.146;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Straw Light'
-        ..code = '3822'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 246
-            ..g = 220
-            ..b = 152;
-        }).toBuilder()
-        ..hex = 'F6DC98'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 88.47
-            ..a = -0.349
-            ..b = 36.697;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Straw'
-        ..code = '3821'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 243
-            ..g = 206
-            ..b = 117;
-        }).toBuilder()
-        ..hex = 'F3CE75'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 84.216
-            ..a = 2.236
-            ..b = 48.714;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Straw Dark'
-        ..code = '3820'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 223
-            ..g = 182
-            ..b = 95;
-        }).toBuilder()
-        ..hex = 'DFB65F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 76.051
-            ..a = 4.76
-            ..b = 49.193;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Straw Very Dark'
-        ..code = '3852'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 205
-            ..g = 157
-            ..b = 55;
-        }).toBuilder()
-        ..hex = 'CD9D37'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 67.553
-            ..a = 7.953
-            ..b = 57.492;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lemon Light'
-        ..code = '445'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 251
-            ..b = 139;
-        }).toBuilder()
-        ..hex = 'FFFB8B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 96.869
-            ..a = -13.637
-            ..b = 53.828;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lemon'
-        ..code = '307'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 253
-            ..g = 237
-            ..b = 84;
-        }).toBuilder()
-        ..hex = 'FDED54'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 92.615
-            ..a = -11.548
-            ..b = 72.793;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Canary Bright'
-        ..code = '973'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 227
-            ..b = 0;
-        }).toBuilder()
-        ..hex = 'FFE300'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 89.951
-            ..a = -7.946
-            ..b = 89.283;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Lemon Dark'
-        ..code = '444'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 214
-            ..b = 0;
-        }).toBuilder()
-        ..hex = 'FFD600'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.679
-            ..a = -1.418
-            ..b = 86.961;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Yellow Vy Lt'
-        ..code = '3078'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 253
-            ..g = 249
-            ..b = 205;
-        }).toBuilder()
-        ..hex = 'FDF9CD'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 97.245
-            ..a = -5.64
-            ..b = 21.642;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Topaz Vy Lt'
-        ..code = '727'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 241
-            ..b = 175;
-        }).toBuilder()
-        ..hex = 'FFF1AF'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 94.851
-            ..a = -4.87
-            ..b = 33.635;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Topaz Light'
-        ..code = '726'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 253
-            ..g = 215
-            ..b = 85;
-        }).toBuilder()
-        ..hex = 'FDD755'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 87.065
-            ..a = -0.483
-            ..b = 66.666;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Topaz Med Lt'
-        ..code = '725'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 200
-            ..b = 64;
-        }).toBuilder()
-        ..hex = 'FFC840'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 83.41
-            ..a = 7.042
-            ..b = 71.207;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Canary Deep'
-        ..code = '972'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 181
-            ..b = 21;
-        }).toBuilder()
-        ..hex = 'FFB515'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 78.672
-            ..a = 15.782
-            ..b = 78.938;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Pale Light'
-        ..code = '745'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 233
-            ..b = 173;
-        }).toBuilder()
-        ..hex = 'FFE9AD'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 92.819
-            ..a = -1.087
-            ..b = 31.93;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Pale'
-        ..code = '744'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 231
-            ..b = 147;
-        }).toBuilder()
-        ..hex = 'FFE793'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 91.917
-            ..a = -2.952
-            ..b = 43.8;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Med'
-        ..code = '743'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 254
-            ..g = 211
-            ..b = 118;
-        }).toBuilder()
-        ..hex = 'FED376'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.488
-            ..a = 4.196
-            ..b = 51.212;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tangerine Light'
-        ..code = '742'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 191
-            ..b = 87;
-        }).toBuilder()
-        ..hex = 'FFBF57'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 81.407
-            ..a = 12.82
-            ..b = 59.829;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tangerine Med'
-        ..code = '741'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 163
-            ..b = 43;
-        }).toBuilder()
-        ..hex = 'FFA32B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 74.59
-            ..a = 25.608
-            ..b = 70.406;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tangerine'
-        ..code = '740'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 139
-            ..b = 0;
-        }).toBuilder()
-        ..hex = 'FF8B00'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.273
-            ..a = 37.337
-            ..b = 75.367;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pumpkin Light'
-        ..code = '970'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 247
-            ..g = 139
-            ..b = 19;
-        }).toBuilder()
-        ..hex = 'F78B13'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 68.231
-            ..a = 34.298
-            ..b = 71.332;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pumpkin'
-        ..code = '971'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 246
-            ..g = 127
-            ..b = 0;
-        }).toBuilder()
-        ..hex = 'F67F00'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 65.57
-            ..a = 39.812
-            ..b = 72.486;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Burnt Orange'
-        ..code = '947'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 123
-            ..b = 77;
-        }).toBuilder()
-        ..hex = 'FF7B4D'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 66.491
-            ..a = 47.154
-            ..b = 48.113;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Burnt Orange Med'
-        ..code = '946'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 235
-            ..g = 99
-            ..b = 7;
-        }).toBuilder()
-        ..hex = 'EB6307'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 58.603
-            ..a = 49.219
-            ..b = 66.317;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Burnt Orange Dark'
-        ..code = '900'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 209
-            ..g = 88
-            ..b = 7;
-        }).toBuilder()
-        ..hex = 'D15807'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.454
-            ..a = 44.702
-            ..b = 60.462;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Apricot Very Light'
-        ..code = '967'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 222
-            ..b = 213;
-        }).toBuilder()
-        ..hex = 'FFDED5'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 90.92
-            ..a = 9.985
-            ..b = 8.596;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Apricot Light'
-        ..code = '3824'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 254
-            ..g = 205
-            ..b = 194;
-        }).toBuilder()
-        ..hex = 'FECDC2'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.32
-            ..a = 15.691
-            ..b = 12.02;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Apricot'
-        ..code = '3341'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 252
-            ..g = 171
-            ..b = 152;
-        }).toBuilder()
-        ..hex = 'FCAB98'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 77.334
-            ..a = 27.51
-            ..b = 21.888;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Apricot Med'
-        ..code = '3340'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 131
-            ..b = 111;
-        }).toBuilder()
-        ..hex = 'FF836F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 68.49
-            ..a = 45.349
-            ..b = 32.469;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Burnt Orange Bright'
-        ..code = '608'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 253
-            ..g = 93
-            ..b = 53;
-        }).toBuilder()
-        ..hex = 'FD5D35'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 60.754
-            ..a = 59.05
-            ..b = 53.832;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Orange?Red Bright'
-        ..code = '606'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 250
-            ..g = 50
-            ..b = 3;
-        }).toBuilder()
-        ..hex = 'FA3203'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.67
-            ..a = 71.888
-            ..b = 66.464;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tawny Light'
-        ..code = '951'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 226
-            ..b = 207;
-        }).toBuilder()
-        ..hex = 'FFE2CF'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 91.756
-            ..a = 7.029
-            ..b = 12.923;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mahogany Ult Vy Lt'
-        ..code = '3856'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 211
-            ..b = 181;
-        }).toBuilder()
-        ..hex = 'FFD3B5'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 87.575
-            ..a = 11.189
-            ..b = 20.644;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Orange Spice Light'
-        ..code = '722'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 247
-            ..g = 151
-            ..b = 111;
-        }).toBuilder()
-        ..hex = 'F7976F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 71.592
-            ..a = 32.154
-            ..b = 36.219;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Orange Spice Med'
-        ..code = '721'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 242
-            ..g = 120
-            ..b = 66;
-        }).toBuilder()
-        ..hex = 'F27842'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 63.92
-            ..a = 43.235
-            ..b = 50.252;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Orange Spice Dark'
-        ..code = '720'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 229
-            ..g = 92
-            ..b = 31;
-        }).toBuilder()
-        ..hex = 'E55C1F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 56.497
-            ..a = 50.569
-            ..b = 58.012;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pumpkin Pale'
-        ..code = '3825'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 253
-            ..g = 189
-            ..b = 150;
-        }).toBuilder()
-        ..hex = 'FDBD96'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 81.555
-            ..a = 18.231
-            ..b = 28.695;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Copper Light'
-        ..code = '922'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 226
-            ..g = 115
-            ..b = 35;
-        }).toBuilder()
-        ..hex = 'E27323'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 60.384
-            ..a = 38.448
-            ..b = 59.56;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Copper'
-        ..code = '921'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 198
-            ..g = 98
-            ..b = 24;
-        }).toBuilder()
-        ..hex = 'C66218'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 52.738
-            ..a = 35.7
-            ..b = 55.447;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Copper Med'
-        ..code = '920'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 172
-            ..g = 84
-            ..b = 20;
-        }).toBuilder()
-        ..hex = 'AC5414'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 45.855
-            ..a = 32.307
-            ..b = 49.667;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Red?Copper'
-        ..code = '919'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 166
-            ..g = 69
-            ..b = 16;
-        }).toBuilder()
-        ..hex = 'A64510'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 41.846
-            ..a = 37.517
-            ..b = 47.517;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Red?Copper Dark'
-        ..code = '918'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 130
-            ..g = 52
-            ..b = 10;
-        }).toBuilder()
-        ..hex = '82340A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 32.311
-            ..a = 31.59
-            ..b = 39.687;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tawny Vy Light'
-        ..code = '3770'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 238
-            ..b = 227;
-        }).toBuilder()
-        ..hex = 'FFEEE3'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 95.142
-            ..a = 3.942
-            ..b = 7.373;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tawny'
-        ..code = '945'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 251
-            ..g = 213
-            ..b = 187;
-        }).toBuilder()
-        ..hex = 'FBD5BB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 87.817
-            ..a = 9.459
-            ..b = 17.781;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mahogany Vy Lt'
-        ..code = '402'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 247
-            ..g = 167
-            ..b = 119;
-        }).toBuilder()
-        ..hex = 'F7A777'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 75.291
-            ..a = 24.433
-            ..b = 36.694;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mahogany Light'
-        ..code = '3776'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 207
-            ..g = 121
-            ..b = 57;
-        }).toBuilder()
-        ..hex = 'CF7939'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 59.192
-            ..a = 28.409
-            ..b = 48.124;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mahogany Med'
-        ..code = '301'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 179
-            ..g = 95
-            ..b = 43;
-        }).toBuilder()
-        ..hex = 'B35F2B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 49.426
-            ..a = 30.103
-            ..b = 43.501;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mahogany Dark'
-        ..code = '400'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 143
-            ..g = 67
-            ..b = 15;
-        }).toBuilder()
-        ..hex = '8F430F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 37.641
-            ..a = 29.154
-            ..b = 42.961;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mahogany Vy Dk'
-        ..code = '300'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 111
-            ..g = 47
-            ..b = 0;
-        }).toBuilder()
-        ..hex = '6F2F00'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 27.879
-            ..a = 26.009
-            ..b = 38.833;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Yellow Ultra Pale'
-        ..code = '3823'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 253
-            ..b = 227;
-        }).toBuilder()
-        ..hex = 'FFFDE3'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 98.851
-            ..a = -3.638
-            ..b = 12.679;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Autumn Gold Lt'
-        ..code = '3855'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 250
-            ..g = 211
-            ..b = 150;
-        }).toBuilder()
-        ..hex = 'FAD396'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.561
-            ..a = 5.609
-            ..b = 35.282;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Autumn Gold Med'
-        ..code = '3854'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 242
-            ..g = 175
-            ..b = 104;
-        }).toBuilder()
-        ..hex = 'F2AF68'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 76.397
-            ..a = 16.989
-            ..b = 45.651;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Autumn Gold Dk'
-        ..code = '3853'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 242
-            ..g = 151
-            ..b = 70;
-        }).toBuilder()
-        ..hex = 'F29746'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 70.492
-            ..a = 27.535
-            ..b = 55.348;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Brown Pale'
-        ..code = '3827'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 247
-            ..g = 187
-            ..b = 119;
-        }).toBuilder()
-        ..hex = 'F7BB77'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 79.98
-            ..a = 13.913
-            ..b = 42.604;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Brown Light'
-        ..code = '977'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 220
-            ..g = 156
-            ..b = 86;
-        }).toBuilder()
-        ..hex = 'DC9C56'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.23
-            ..a = 16.715
-            ..b = 45.55;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Brown Med'
-        ..code = '976'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 194
-            ..g = 129
-            ..b = 66;
-        }).toBuilder()
-        ..hex = 'C28142'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 59.492
-            ..a = 19.079
-            ..b = 43.569;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Brown'
-        ..code = '3826'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 173
-            ..g = 114
-            ..b = 57;
-        }).toBuilder()
-        ..hex = 'AD7239'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 53.183
-            ..a = 17.78
-            ..b = 40.317;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Golden Brown Dk'
-        ..code = '975'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 145
-            ..g = 79
-            ..b = 18;
-        }).toBuilder()
-        ..hex = '914F12'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 40.663
-            ..a = 23.432
-            ..b = 44.459;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Peach Very Light'
-        ..code = '948'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 254
-            ..g = 231
-            ..b = 218;
-        }).toBuilder()
-        ..hex = 'FEE7DA'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 93.139
-            ..a = 5.762
-            ..b = 9.157;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Peach Light'
-        ..code = '754'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 247
-            ..g = 203
-            ..b = 191;
-        }).toBuilder()
-        ..hex = 'F7CBBF'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 85.123
-            ..a = 13.755
-            ..b = 11.82;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Terra Cotta Ult Vy Lt'
-        ..code = '3771'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 244
-            ..g = 187
-            ..b = 169;
-        }).toBuilder()
-        ..hex = 'F4BBA9'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 80.537
-            ..a = 18.082
-            ..b = 17.049;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Terra Cotta Vy Lt'
-        ..code = '758'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 238
-            ..g = 170
-            ..b = 155;
-        }).toBuilder()
-        ..hex = 'EEAA9B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 75.633
-            ..a = 23.072
-            ..b = 17.677;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Terra Cotta Light'
-        ..code = '3778'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 217
-            ..g = 137
-            ..b = 120;
-        }).toBuilder()
-        ..hex = 'D98978'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.962
-            ..a = 28.667
-            ..b = 21.923;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Terra Cotta Med'
-        ..code = '356'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 197
-            ..g = 106
-            ..b = 91;
-        }).toBuilder()
-        ..hex = 'C56A5B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 55.004
-            ..a = 34.639
-            ..b = 24.601;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Terra Cotta'
-        ..code = '3830'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 185
-            ..g = 85
-            ..b = 68;
-        }).toBuilder()
-        ..hex = 'BC5544'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 48.547
-            ..a = 39.119
-            ..b = 29.254;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Terra Cotta Dark'
-        ..code = '355'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 152
-            ..g = 68
-            ..b = 54;
-        }).toBuilder()
-        ..hex = '984436'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 39.708
-            ..a = 34.114
-            ..b = 25.39;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Terra Cotta Vy Dk'
-        ..code = '3777'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 134
-            ..g = 48
-            ..b = 34;
-        }).toBuilder()
-        ..hex = '863022'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 32.475
-            ..a = 36.018
-            ..b = 28.029;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Rosewood Ult Vy Lt'
-        ..code = '3779'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 248
-            ..g = 202
-            ..b = 200;
-        }).toBuilder()
-        ..hex = 'F8CAC8'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 85.184
-            ..a = 15.95
-            ..b = 7.138;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Rosewood Light'
-        ..code = '3859'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 186
-            ..g = 139
-            ..b = 124;
-        }).toBuilder()
-        ..hex = 'BA8B7C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 61.963
-            ..a = 15.8
-            ..b = 14.993;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Rosewood Med'
-        ..code = '3858'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 150
-            ..g = 74
-            ..b = 63;
-        }).toBuilder()
-        ..hex = '964A3F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 40.801
-            ..a = 30.807
-            ..b = 21.281;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Rosewood Dark'
-        ..code = '3857'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 104
-            ..g = 37
-            ..b = 26;
-        }).toBuilder()
-        ..hex = '68251A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 24.767
-            ..a = 29.343
-            ..b = 22.671;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Desert Sand Vy Lt'
-        ..code = '3774'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 243
-            ..g = 225
-            ..b = 215;
-        }).toBuilder()
-        ..hex = 'F3E1D7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 90.694
-            ..a = 4.507
-            ..b = 7.094;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Desert Sand Light'
-        ..code = '950'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 238
-            ..g = 211
-            ..b = 196;
-        }).toBuilder()
-        ..hex = 'EED3C4'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.381
-            ..a = 7.028
-            ..b = 10.852;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Desert Sand'
-        ..code = '3064'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 196
-            ..g = 142
-            ..b = 112;
-        }).toBuilder()
-        ..hex = 'C48E70'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 63.55
-            ..a = 16.726
-            ..b = 24.056;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Desert Sand Med'
-        ..code = '407'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 187
-            ..g = 129
-            ..b = 97;
-        }).toBuilder()
-        ..hex = 'BB8161'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 59.093
-            ..a = 18.642
-            ..b = 26.32;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Desert Sand Dark'
-        ..code = '3773'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 182
-            ..g = 117
-            ..b = 82;
-        }).toBuilder()
-        ..hex = 'B67552'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 55.356
-            ..a = 21.825
-            ..b = 29.758;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Desert Sand Vy Dk'
-        ..code = '3772'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 160
-            ..g = 108
-            ..b = 80;
-        }).toBuilder()
-        ..hex = 'A06C50'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 50.426
-            ..a = 17.42
-            ..b = 24.02;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Desert Sand Ult Vy Dk'
-        ..code = '632'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 135
-            ..g = 85
-            ..b = 57;
-        }).toBuilder()
-        ..hex = '875539'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 41.126
-            ..a = 17.692
-            ..b = 24.834;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Gray Light'
-        ..code = '453'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 215
-            ..g = 206
-            ..b = 203;
-        }).toBuilder()
-        ..hex = 'D7CECB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 83.391
-            ..a = 2.586
-            ..b = 2.588;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Gray Med'
-        ..code = '452'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 192
-            ..g = 179
-            ..b = 174;
-        }).toBuilder()
-        ..hex = 'C0B3AE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 73.871
-            ..a = 3.758
-            ..b = 4.205;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Shell Gray Dark'
-        ..code = '451'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 145
-            ..g = 123
-            ..b = 115;
-        }).toBuilder()
-        ..hex = '917B73'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 53.41
-            ..a = 7.136
-            ..b = 7.514;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cocoa Light'
-        ..code = '3861'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 166
-            ..g = 136
-            ..b = 129;
-        }).toBuilder()
-        ..hex = 'A68881'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 59.251
-            ..a = 10.273
-            ..b = 8.037;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cocoa'
-        ..code = '3860'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 125
-            ..g = 93
-            ..b = 87;
-        }).toBuilder()
-        ..hex = '7D5D57'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 42.577
-            ..a = 12.149
-            ..b = 8.53;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cocoa Dark'
-        ..code = '779'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 98
-            ..g = 75
-            ..b = 69;
-        }).toBuilder()
-        ..hex = '624B45'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 34.104
-            ..a = 8.739
-            ..b = 7.306;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Cream'
-        ..code = '712'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 251
-            ..b = 239;
-        }).toBuilder()
-        ..hex = 'FFFBEF'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 98.625
-            ..a = -0.702
-            ..b = 6.203;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tan Ult Vy Lt'
-        ..code = '739'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 248
-            ..g = 228
-            ..b = 200;
-        }).toBuilder()
-        ..hex = 'F8E4C8'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 91.511
-            ..a = 2.457
-            ..b = 16.138;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tan Very Light'
-        ..code = '738'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 236
-            ..g = 204
-            ..b = 158;
-        }).toBuilder()
-        ..hex = 'ECCC9E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 83.698
-            ..a = 4.728
-            ..b = 27.1;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tan Light'
-        ..code = '437'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 228
-            ..g = 187
-            ..b = 142;
-        }).toBuilder()
-        ..hex = 'E4BB8E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 78.455
-            ..a = 8.633
-            ..b = 28.331;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Tan'
-        ..code = '436'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 203
-            ..g = 144
-            ..b = 81;
-        }).toBuilder()
-        ..hex = 'CB9051'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 64.352
-            ..a = 15.708
-            ..b = 41.862;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Brown Very Light'
-        ..code = '435'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 184
-            ..g = 119
-            ..b = 72;
-        }).toBuilder()
-        ..hex = 'B87748'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 55.939
-            ..a = 20.753
-            ..b = 36.006;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Brown Light'
-        ..code = '434'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 152
-            ..g = 94
-            ..b = 51;
-        }).toBuilder()
-        ..hex = '9.85E+35'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 45.524
-            ..a = 19.524
-            ..b = 34.044;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Brown Med'
-        ..code = '433'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 122
-            ..g = 69
-            ..b = 31;
-        }).toBuilder()
-        ..hex = '7A451F'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 34.989
-            ..a = 19.381
-            ..b = 31.934;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Coffee Brown Dk'
-        ..code = '801'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 101
-            ..g = 57
-            ..b = 25;
-        }).toBuilder()
-        ..hex = '653919'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 28.807
-            ..a = 16.504
-            ..b = 27.632;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Coffee Brown Vy Dk'
-        ..code = '898'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 73
-            ..g = 42
-            ..b = 19;
-        }).toBuilder()
-        ..hex = '492A13'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 20.516
-            ..a = 11.956
-            ..b = 20.749;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Coffee Brown Ult Dk'
-        ..code = '938'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 54
-            ..g = 31
-            ..b = 14;
-        }).toBuilder()
-        ..hex = '361F0E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 14.378
-            ..a = 9.153
-            ..b = 15.464;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Black Brown'
-        ..code = '3371'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 30
-            ..g = 17
-            ..b = 8;
-        }).toBuilder()
-        ..hex = '1E1108'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 6.273
-            ..a = 4.901
-            ..b = 6.2;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Brown Ult Vy Lt'
-        ..code = '543'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 242
-            ..g = 227
-            ..b = 206;
-        }).toBuilder()
-        ..hex = 'F2E3CE'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 90.904
-            ..a = 1.713
-            ..b = 12.085;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mocha Beige Light'
-        ..code = '3864'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 203
-            ..g = 182
-            ..b = 156;
-        }).toBuilder()
-        ..hex = 'CBB69C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 75.172
-            ..a = 3.403
-            ..b = 15.978;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mocha Beige Med'
-        ..code = '3863'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 164
-            ..g = 131
-            ..b = 92;
-        }).toBuilder()
-        ..hex = 'A4835C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 56.976
-            ..a = 7.33
-            ..b = 25.859;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mocha Beige Dark'
-        ..code = '3862'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 138
-            ..g = 110
-            ..b = 78;
-        }).toBuilder()
-        ..hex = '8A6E4E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 48.392
-            ..a = 6.528
-            ..b = 22.035;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mocha Brown Vy Dk'
-        ..code = '3031'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 75
-            ..g = 60
-            ..b = 42;
-        }).toBuilder()
-        ..hex = '4B3C2A'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 26.433
-            ..a = 3.637
-            ..b = 13.603;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Snow White'
-        ..code = 'B5200'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 255
-            ..g = 255
-            ..b = 255;
-        }).toBuilder()
-        ..hex = 'FFFFFF'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 100.0
-            ..a = 0.005
-            ..b = -0.01;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'White'
-        ..code = 'White'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 252
-            ..g = 251
-            ..b = 248;
-        }).toBuilder()
-        ..hex = 'FCFBF8'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 98.618
-            ..a = -0.186
-            ..b = 1.54;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Winter White'
-        ..code = '3865'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 249
-            ..g = 247
-            ..b = 241;
-        }).toBuilder()
-        ..hex = 'F9F7F1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 97.233
-            ..a = -0.369
-            ..b = 3.102;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Ecru'
-        ..code = 'Ecru'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 240
-            ..g = 234
-            ..b = 218;
-        }).toBuilder()
-        ..hex = 'F0EADA'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 92.766
-            ..a = -0.673
-            ..b = 8.474;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Gray Light'
-        ..code = '822'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 231
-            ..g = 226
-            ..b = 211;
-        }).toBuilder()
-        ..hex = 'E7E2D3'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 89.899
-            ..a = -0.858
-            ..b = 7.92;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Gray Med'
-        ..code = '644'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 221
-            ..g = 216
-            ..b = 203;
-        }).toBuilder()
-        ..hex = 'DDD8CB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.403
-            ..a = -0.527
-            ..b = 7.001;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Gray Dark'
-        ..code = '642'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 164
-            ..g = 152
-            ..b = 120;
-        }).toBuilder()
-        ..hex = 'A49878'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 63.098
-            ..a = -0.78
-            ..b = 18.466;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Gray Vy Dk'
-        ..code = '640'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 133
-            ..g = 123
-            ..b = 97;
-        }).toBuilder()
-        ..hex = '857B61'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 51.855
-            ..a = -0.568
-            ..b = 15.625;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Brown Gray Dark'
-        ..code = '3787'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 98
-            ..g = 93
-            ..b = 80;
-        }).toBuilder()
-        ..hex = '625D50'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 39.588
-            ..a = -0.46
-            ..b = 8.19;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Brown Gray Vy Dk'
-        ..code = '3021'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 79
-            ..g = 75
-            ..b = 65;
-        }).toBuilder()
-        ..hex = '4F4B41'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 31.979
-            ..a = -0.318
-            ..b = 6.557;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Brown Gray Vy Lt'
-        ..code = '3024'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 235
-            ..g = 234
-            ..b = 231;
-        }).toBuilder()
-        ..hex = 'EBEAE7'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 92.697
-            ..a = -0.189
-            ..b = 1.561;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Brown Gray Light'
-        ..code = '3023'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 177
-            ..g = 170
-            ..b = 151;
-        }).toBuilder()
-        ..hex = 'B1AA97'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.705
-            ..a = -0.777
-            ..b = 10.691;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Brown Gray Med'
-        ..code = '3022'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 142
-            ..g = 144
-            ..b = 120;
-        }).toBuilder()
-        ..hex = '8E9078'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 59.024
-            ..a = -5.088
-            ..b = 12.53;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Ash Gray Vy Lt'
-        ..code = '535'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 99
-            ..g = 100
-            ..b = 88;
-        }).toBuilder()
-        ..hex = '636458'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 41.956
-            ..a = -2.768
-            ..b = 6.676;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mocha Brown Vy Lt'
-        ..code = '3033'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 227
-            ..g = 216
-            ..b = 204;
-        }).toBuilder()
-        ..hex = 'E3D8CC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 86.9
-            ..a = 1.75
-            ..b = 7.249;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mocha Brown Lt'
-        ..code = '3782'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 210
-            ..g = 188
-            ..b = 166;
-        }).toBuilder()
-        ..hex = 'D2BCA6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 77.532
-            ..a = 4.322
-            ..b = 13.98;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mocha Brown Med'
-        ..code = '3032'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 179
-            ..g = 159
-            ..b = 139;
-        }).toBuilder()
-        ..hex = 'B39F8B'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 66.706
-            ..a = 4.092
-            ..b = 13.119;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Gray Ult Dk'
-        ..code = '3790'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 127
-            ..g = 106
-            ..b = 85;
-        }).toBuilder()
-        ..hex = '7F6A55'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 46.279
-            ..a = 4.996
-            ..b = 14.906;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mocha Brown Dk'
-        ..code = '3781'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 107
-            ..g = 87
-            ..b = 67;
-        }).toBuilder()
-        ..hex = '6B5743'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 38.459
-            ..a = 5.06
-            ..b = 14.721;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Mocha Brn Ult Vy Lt'
-        ..code = '3866'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 250
-            ..g = 246
-            ..b = 240;
-        }).toBuilder()
-        ..hex = 'FAF6F0'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 97.035
-            ..a = 0.303
-            ..b = 3.34;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Brown Vy Lt'
-        ..code = '842'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 209
-            ..g = 186
-            ..b = 161;
-        }).toBuilder()
-        ..hex = 'D1BAA1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 76.828
-            ..a = 4.276
-            ..b = 15.672;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Brown Lt'
-        ..code = '841'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 182
-            ..g = 155
-            ..b = 126;
-        }).toBuilder()
-        ..hex = 'B69B7E'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 65.666
-            ..a = 5.616
-            ..b = 18.925;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Brown Med'
-        ..code = '840'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 154
-            ..g = 124
-            ..b = 92;
-        }).toBuilder()
-        ..hex = '9A7C5C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 54.089
-            ..a = 7.041
-            ..b = 21.861;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Brown Dk'
-        ..code = '839'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 103
-            ..g = 85
-            ..b = 65;
-        }).toBuilder()
-        ..hex = '675541'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 37.412
-            ..a = 4.203
-            ..b = 14.453;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beige Brown Vy Dk'
-        ..code = '838'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 89
-            ..g = 73
-            ..b = 55;
-        }).toBuilder()
-        ..hex = '594937'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 32.179
-            ..a = 3.813
-            ..b = 13.318;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beaver Gray Vy Lt'
-        ..code = '3072'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 230
-            ..g = 232
-            ..b = 232;
-        }).toBuilder()
-        ..hex = 'E6E8E8'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 91.847
-            ..a = -0.664
-            ..b = -0.245;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beaver Gray Lt'
-        ..code = '648'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 188
-            ..g = 180
-            ..b = 172;
-        }).toBuilder()
-        ..hex = 'BCB4AC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 73.748
-            ..a = 1.425
-            ..b = 5.078;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beaver Gray Med'
-        ..code = '647'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 176
-            ..g = 166
-            ..b = 156;
-        }).toBuilder()
-        ..hex = 'B0A69C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 68.681
-            ..a = 1.851
-            ..b = 6.458;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beaver Gray Dk'
-        ..code = '646'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 135
-            ..g = 125
-            ..b = 115;
-        }).toBuilder()
-        ..hex = '877D73'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 53.011
-            ..a = 2.002
-            ..b = 6.816;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beaver Gray Vy Dk'
-        ..code = '645'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 110
-            ..g = 101
-            ..b = 92;
-        }).toBuilder()
-        ..hex = '6E655C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 43.353
-            ..a = 1.89
-            ..b = 6.377;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Beaver Gray Ult Dk'
-        ..code = '844'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 72
-            ..g = 72
-            ..b = 72;
-        }).toBuilder()
-        ..hex = '484848'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 30.593
-            ..a = 0.002
-            ..b = -0.004;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pearl Gray Vy Lt'
-        ..code = '762'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 236
-            ..g = 236
-            ..b = 236;
-        }).toBuilder()
-        ..hex = 'ECECEC'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 93.398
-            ..a = 0.005
-            ..b = -0.01;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pearl Gray'
-        ..code = '415'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 211
-            ..g = 211
-            ..b = 214;
-        }).toBuilder()
-        ..hex = 'D3D3D6'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 84.634
-            ..a = 0.552
-            ..b = -1.488;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Steel Gray Lt'
-        ..code = '318'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 171
-            ..g = 171
-            ..b = 171;
-        }).toBuilder()
-        ..hex = 'ABABAB'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 69.982
-            ..a = 0.004
-            ..b = -0.008;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Steel Gray Dk'
-        ..code = '414'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 140
-            ..g = 140
-            ..b = 140;
-        }).toBuilder()
-        ..hex = '8C8C8C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 58.25
-            ..a = 0.003
-            ..b = -0.007;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pewter Very Light'
-        ..code = '168'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 209
-            ..g = 209
-            ..b = 209;
-        }).toBuilder()
-        ..hex = 'D1D1D1'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 83.84
-            ..a = 0.005
-            ..b = -0.009;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pewter Light'
-        ..code = '169'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 132
-            ..g = 132
-            ..b = 132;
-        }).toBuilder()
-        ..hex = '848484'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 55.148
-            ..a = 0.003
-            ..b = -0.006;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pewter Gray'
-        ..code = '317'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 108
-            ..g = 108
-            ..b = 108;
-        }).toBuilder()
-        ..hex = '6C6C6C'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 45.629
-            ..a = 0.003
-            ..b = -0.006;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pewter Gray Dark'
-        ..code = '413'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 86
-            ..g = 86
-            ..b = 86;
-        }).toBuilder()
-        ..hex = '565656'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 36.567
-            ..a = 0.002
-            ..b = -0.005;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Pewter Gray Vy Dk'
-        ..code = '3799'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 66
-            ..g = 66
-            ..b = 66;
-        }).toBuilder()
-        ..hex = '424242'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 27.975
-            ..a = 0.002
-            ..b = -0.004;
-        }).toBuilder();
-    }),
-    Dmc((DmcBuilder b) {
-      return b
-        ..name = 'Black'
-        ..code = '310'
-        ..rgba = Rgba((RgbaBuilder b2) {
-          return b2
-            ..r = 0
-            ..g = 0
-            ..b = 0;
-        }).toBuilder()
-        ..hex = '0'
-        ..lab = Lab((LabBuilder b3) {
-          return b3
-            ..l = 0.0
-            ..a = 0.0
-            ..b = 0.0;
-        }).toBuilder();
-    }),
+  return const <Dmc>[
+    Dmc(
+      'Salmon Very Light',
+      '3713',
+      Rgba(255, 226, 226, a: 255),
+      'FFE2E2',
+      lab: Lab(92.196, 9.944, 3.638),
+    ),
+    Dmc(
+      'Salmon Light',
+      '761',
+      Rgba(255, 201, 201, a: 255),
+      'FFC9C9',
+      lab: Lab(85.63, 19.14, 7.334),
+    ),
+    Dmc(
+      'Salmon',
+      '760',
+      Rgba(245, 173, 173, a: 255),
+      'F5ADAD',
+      lab: Lab(77.47, 26.37, 10.582),
+    ),
+    Dmc(
+      'Salmon Medium',
+      '3712',
+      Rgba(241, 135, 135, a: 255),
+      'F18787',
+      lab: Lab(67.857, 40.318, 17.984),
+    ),
+    Dmc(
+      'Salmon Dark',
+      '3328',
+      Rgba(227, 109, 109, a: 255),
+      'E36D6D',
+      lab: Lab(60.224, 45.855, 21.978),
+    ),
+    Dmc(
+      'Salmon Very Dark',
+      '347',
+      Rgba(191, 45, 45, a: 255),
+      'BF2D2D',
+      lab: Lab(42.977, 56.903, 36.254),
+    ),
+    Dmc(
+      'Peach',
+      '353',
+      Rgba(254, 215, 204, a: 255),
+      'FED7CC',
+      lab: Lab(88.937, 11.914, 10.471),
+    ),
+    Dmc(
+      'Coral Light',
+      '352',
+      Rgba(253, 156, 151, a: 255),
+      'FD9C97',
+      lab: Lab(74.122, 35.599, 18.023),
+    ),
+    Dmc(
+      'Coral',
+      '351',
+      Rgba(233, 106, 103, a: 255),
+      'E96A67',
+      lab: Lab(60.437, 48.956, 25.848),
+    ),
+    Dmc(
+      'Coral Medium',
+      '350',
+      Rgba(224, 72, 72, a: 255),
+      'E04848',
+      lab: Lab(52.895, 58.767, 33.743),
+    ),
+    Dmc(
+      'Coral Dark',
+      '349',
+      Rgba(210, 16, 53, a: 255),
+      'D21035',
+      lab: Lab(44.701, 68.68, 34.552),
+    ),
+    Dmc(
+      'Coral Red Very Dark',
+      '817',
+      Rgba(187, 5, 31, a: 255),
+      'BB051F',
+      lab: Lab(39.194, 63.379, 40.04),
+    ),
+    Dmc(
+      'Melon Light',
+      '3708',
+      Rgba(255, 203, 213, a: 255),
+      'FFCBD5',
+      lab: Lab(86.393, 19.879, 2.061),
+    ),
+    Dmc(
+      'Melon Medium',
+      '3706',
+      Rgba(255, 173, 188, a: 255),
+      'FFADBC',
+      lab: Lab(78.913, 31.995, 4.642),
+    ),
+    Dmc(
+      'Melon Dark',
+      '3705',
+      Rgba(255, 121, 146, a: 255),
+      'FF7992',
+      lab: Lab(67.285, 53.245, 11.276),
+    ),
+    Dmc(
+      'Melon Very Dark',
+      '3801',
+      Rgba(231, 73, 103, a: 255),
+      'E74967',
+      lab: Lab(54.797, 62.491, 18.248),
+    ),
+    Dmc(
+      'Bright Red',
+      '666',
+      Rgba(227, 29, 66, a: 255),
+      'E31D42',
+      lab: Lab(49.011, 71.561, 32.709),
+    ),
+    Dmc(
+      'Red',
+      '321',
+      Rgba(199, 43, 59, a: 255),
+      'C72B3B',
+      lab: Lab(44.498, 60.472, 30.164),
+    ),
+    Dmc(
+      'Red Medium',
+      '304',
+      Rgba(183, 31, 51, a: 255),
+      'B71F33',
+      lab: Lab(40.058, 58.786, 28.949),
+    ),
+    Dmc(
+      'Red Dark',
+      '498',
+      Rgba(167, 19, 43, a: 255),
+      'A7132B',
+      lab: Lab(35.705, 56.65, 27.947),
+    ),
+    Dmc(
+      'Garnet',
+      '816',
+      Rgba(151, 11, 35, a: 255),
+      '970B23',
+      lab: Lab(31.67, 53.361, 27.431),
+    ),
+    Dmc(
+      'Garnet Medium',
+      '815',
+      Rgba(135, 7, 31, a: 255),
+      '87071F',
+      lab: Lab(27.85, 49.486, 24.699),
+    ),
+    Dmc(
+      'Garnet Dark',
+      '814',
+      Rgba(123, 0, 27, a: 255),
+      '7B001B',
+      lab: Lab(24.608, 47.381, 22.893),
+    ),
+    Dmc(
+      'Carnation Very Light',
+      '894',
+      Rgba(255, 178, 187, a: 255),
+      'FFB2BB',
+      lab: Lab(80.004, 29.243, 6.756),
+    ),
+    Dmc(
+      'Carnation Light',
+      '893',
+      Rgba(252, 144, 162, a: 255),
+      'FC90A2',
+      lab: Lab(71.725, 42.633, 8.555),
+    ),
+    Dmc(
+      'Carnation Medium',
+      '892',
+      Rgba(255, 121, 140, a: 255),
+      'FF798C',
+      lab: Lab(67.148, 52.658, 14.478),
+    ),
+    Dmc(
+      'Carnation Dark',
+      '891',
+      Rgba(255, 87, 115, a: 255),
+      'FF5773',
+      lab: Lab(61.058, 65.313, 20.392),
+    ),
+    Dmc(
+      'Baby Pink',
+      '818',
+      Rgba(255, 223, 217, a: 255),
+      'FFDFD9',
+      lab: Lab(91.255, 10.08, 6.984),
+    ),
+    Dmc(
+      'Geranium Pale',
+      '957',
+      Rgba(253, 181, 181, a: 255),
+      'FDB5B5',
+      lab: Lab(80.329, 26.143, 10.435),
+    ),
+    Dmc(
+      'Geranium',
+      '956',
+      Rgba(255, 145, 145, a: 255),
+      'FF9191',
+      lab: Lab(71.93, 41.342, 18.33),
+    ),
+    Dmc(
+      'Rose Dark',
+      '309',
+      Rgba(86, 74, 74, a: 255),
+      'BA4A4A',
+      lab: Lab(32.636, 5.037, 1.853),
+    ),
+    Dmc(
+      'Dusty Rose Ult Vy Lt',
+      '963',
+      Rgba(255, 215, 215, a: 255),
+      'FFD7D7',
+      lab: Lab(89.284, 13.92, 5.192),
+    ),
+    Dmc(
+      'Dusty Rose Med Vy Lt',
+      '3716',
+      Rgba(255, 189, 189, a: 255),
+      'FFBDBD',
+      lab: Lab(82.555, 23.745, 9.335),
+    ),
+    Dmc(
+      'Dusty Rose Medium',
+      '962',
+      Rgba(230, 138, 138, a: 255),
+      'E68A8A',
+      lab: Lab(67.153, 35.022, 15.112),
+    ),
+    Dmc(
+      'Dusty Rose Dark',
+      '961',
+      Rgba(207, 115, 115, a: 255),
+      'CF7373',
+      lab: Lab(58.756, 36.013, 16.072),
+    ),
+    Dmc(
+      'Raspberry Light',
+      '3833',
+      Rgba(234, 134, 153, a: 255),
+      'EA8699',
+      lab: Lab(67.159, 40.3, 6.756),
+    ),
+    Dmc(
+      'Raspberry Medium',
+      '3832',
+      Rgba(219, 85, 110, a: 255),
+      'DB556E',
+      lab: Lab(54.744, 54.391, 13.709),
+    ),
+    Dmc(
+      'Raspberry Dark',
+      '3831',
+      Rgba(179, 47, 72, a: 255),
+      'B32F48',
+      lab: Lab(41.35, 53.996, 17.378),
+    ),
+    Dmc(
+      'Raspberry Very Dark',
+      '777',
+      Rgba(145, 53, 70, a: 255),
+      '913546',
+      lab: Lab(36.0, 40.27, 10.335),
+    ),
+    Dmc(
+      'Baby Pink Light',
+      '819',
+      Rgba(255, 238, 235, a: 255),
+      'FFEEEB',
+      lab: Lab(95.332, 5.238, 3.503),
+    ),
+    Dmc(
+      'Rose Light',
+      '3326',
+      Rgba(251, 173, 180, a: 255),
+      'FBADB4',
+      lab: Lab(78.282, 29.485, 8.023),
+    ),
+    Dmc(
+      'Pink Medium',
+      '776',
+      Rgba(252, 176, 185, a: 255),
+      'FCB0B9',
+      lab: Lab(79.184, 28.94, 6.619),
+    ),
+    Dmc(
+      'Rose Medium',
+      '899',
+      Rgba(242, 118, 136, a: 255),
+      'F27688',
+      lab: Lab(64.653, 49.254, 12.982),
+    ),
+    Dmc(
+      'Rose',
+      '335',
+      Rgba(238, 84, 110, a: 255),
+      'EE546E',
+      lab: Lab(57.697, 60.881, 18.267),
+    ),
+    Dmc(
+      'Rose Very Dark',
+      '326',
+      Rgba(179, 59, 75, a: 255),
+      'B33B4B',
+      lab: Lab(43.092, 49.586, 17.841),
+    ),
+    Dmc(
+      'Dusty Rose Vry Lt',
+      '151',
+      Rgba(240, 206, 212, a: 255),
+      'F0CED4',
+      lab: Lab(85.716, 12.865, 1.44),
+    ),
+    Dmc(
+      'Dusty Rose Light',
+      '3354',
+      Rgba(228, 166, 172, a: 255),
+      'E4A6AC',
+      lab: Lab(74.026, 23.7, 5.962),
+    ),
+    Dmc(
+      'Dusty Rose',
+      '3733',
+      Rgba(232, 135, 155, a: 255),
+      'E8879B',
+      lab: Lab(67.165, 39.314, 5.604),
+    ),
+    Dmc(
+      'Dusty Rose Very Dark',
+      '3731',
+      Rgba(218, 103, 131, a: 255),
+      'DA6783',
+      lab: Lab(58.269, 47.768, 6.332),
+    ),
+    Dmc(
+      'Dusty Rose Ultra Dark',
+      '3350',
+      Rgba(188, 67, 101, a: 255),
+      'BC4365',
+      lab: Lab(46.506, 51.344, 6.801),
+    ),
+    Dmc(
+      'Dusty Rose Ult Vy Dk',
+      '150',
+      Rgba(171, 2, 73, a: 255),
+      'AB0249',
+      lab: Lab(36.333, 61.659, 9.631),
+    ),
+    Dmc(
+      'Mauve Light',
+      '3689',
+      Rgba(251, 191, 194, a: 255),
+      'FBBFC2',
+      lab: Lab(82.735, 21.941, 6.86),
+    ),
+    Dmc(
+      'Mauve Medium',
+      '3688',
+      Rgba(231, 169, 172, a: 255),
+      'E7A9AC',
+      lab: Lab(75.041, 23.199, 7.46),
+    ),
+    Dmc(
+      'Mauve',
+      '3687',
+      Rgba(201, 107, 112, a: 255),
+      'C96B70',
+      lab: Lab(56.191, 37.644, 14.133),
+    ),
+    Dmc(
+      'Mauve Dark',
+      '3803',
+      Rgba(171, 51, 87, a: 255),
+      'AB3357',
+      lab: Lab(40.757, 51.25, 6.907),
+    ),
+    Dmc(
+      'Mauve Very Dark',
+      '3685',
+      Rgba(136, 21, 49, a: 255),
+      '881531',
+      lab: Lab(29.393, 47.824, 14.77),
+    ),
+    Dmc(
+      'Cranberry Very Light',
+      '605',
+      Rgba(255, 192, 205, a: 255),
+      'FFC0CD',
+      lab: Lab(83.635, 24.444, 2.318),
+    ),
+    Dmc(
+      'Cranberry Light',
+      '604',
+      Rgba(255, 176, 190, a: 255),
+      'FFB0BE',
+      lab: Lab(79.63, 30.699, 4.593),
+    ),
+    Dmc(
+      'Cranberry',
+      '603',
+      Rgba(255, 164, 190, a: 255),
+      'FFA4BE',
+      lab: Lab(76.998, 36.957, 0.773),
+    ),
+    Dmc(
+      'Cranberry Medium',
+      '602',
+      Rgba(226, 72, 116, a: 255),
+      'E24874',
+      lab: Lab(54.095, 62.4, 9.405),
+    ),
+    Dmc(
+      'Cranberry Dark',
+      '601',
+      Rgba(209, 40, 106, a: 255),
+      'D1286A',
+      lab: Lab(47.123, 67.04, 5.121),
+    ),
+    Dmc(
+      'Cranberry Very Dark',
+      '600',
+      Rgba(205, 47, 99, a: 255),
+      'CD2F63',
+      lab: Lab(46.86, 63.499, 8.955),
+    ),
+    Dmc(
+      'Cyclamen Pink Light',
+      '3806',
+      Rgba(255, 140, 174, a: 255),
+      'FF8CAE',
+      lab: Lab(71.604, 47.123, 1.749),
+    ),
+    Dmc(
+      'Cyclamen Pink',
+      '3805',
+      Rgba(243, 71, 139, a: 255),
+      'F3478B',
+      lab: Lab(57.487, 69.669, 1.019),
+    ),
+    Dmc(
+      'Cyclamen Pink Dark',
+      '3804',
+      Rgba(224, 40, 118, a: 255),
+      'E02876',
+      lab: Lab(50.302, 71.807, 2.727),
+    ),
+    Dmc(
+      'Plum Ultra Light',
+      '3609',
+      Rgba(244, 174, 213, a: 255),
+      'F4AED7',
+      lab: Lab(78.642, 31.342, -9.468),
+    ),
+    Dmc(
+      'Plum Very Light',
+      '3608',
+      Rgba(234, 156, 196, a: 255),
+      'EA9CC4',
+      lab: Lab(73.059, 34.75, -8.593),
+    ),
+    Dmc(
+      'Plum Light',
+      '3607',
+      Rgba(197, 73, 137, a: 255),
+      'C54989',
+      lab: Lab(50.027, 55.544, -9.679),
+    ),
+    Dmc(
+      'Plum',
+      '718',
+      Rgba(156, 36, 98, a: 255),
+      '9C2462',
+      lab: Lab(36.388, 53.369, -6.778),
+    ),
+    Dmc(
+      'Plum Medium',
+      '917',
+      Rgba(155, 19, 89, a: 255),
+      '9B1359',
+      lab: Lab(34.305, 56.654, -4.117),
+    ),
+    Dmc(
+      'Plum Dark',
+      '915',
+      Rgba(130, 0, 67, a: 255),
+      '820043',
+      lab: Lab(27.161, 51.715, -0.689),
+    ),
+    Dmc(
+      'Shell Pink Ult Vy Lt',
+      '225',
+      Rgba(255, 223, 213, a: 255),
+      'FFDFD7',
+      lab: Lab(91.162, 9.469, 8.943),
+    ),
+    Dmc(
+      'Shell Pink Very Light',
+      '224',
+      Rgba(235, 183, 175, a: 255),
+      'EBB7AF',
+      lab: Lab(78.824, 17.633, 11.281),
+    ),
+    Dmc(
+      'Shell Pink Med Light',
+      '152',
+      Rgba(226, 160, 153, a: 255),
+      'E2A099',
+      lab: Lab(71.967, 23.608, 13.453),
+    ),
+    Dmc(
+      'Shell Pink Light',
+      '223',
+      Rgba(204, 132, 124, a: 255),
+      'CC847C',
+      lab: Lab(62.334, 26.747, 15.821),
+    ),
+    Dmc(
+      'Shell Pink Med',
+      '3722',
+      Rgba(188, 108, 100, a: 255),
+      'BC6C64',
+      lab: Lab(54.382, 30.905, 18.352),
+    ),
+    Dmc(
+      'Shell Pink Dark',
+      '3721',
+      Rgba(161, 75, 81, a: 255),
+      'A14B51',
+      lab: Lab(43.068, 36.199, 13.613),
+    ),
+    Dmc(
+      'Shell Pink Vy Dk',
+      '221',
+      Rgba(136, 62, 67, a: 255),
+      '8.83E+45',
+      lab: Lab(36.147, 32.109, 12.209),
+    ),
+    Dmc(
+      'Antique Mauve Vy Lt',
+      '778',
+      Rgba(223, 179, 187, a: 255),
+      'DFB3BB',
+      lab: Lab(76.991, 17.147, 1.988),
+    ),
+    Dmc(
+      'Antique Mauve Light',
+      '3727',
+      Rgba(219, 169, 178, a: 255),
+      'DBA9B2',
+      lab: Lab(73.966, 19.676, 2.463),
+    ),
+    Dmc(
+      'Antique Mauve Med',
+      '316',
+      Rgba(183, 115, 127, a: 255),
+      'B7737F',
+      lab: Lab(55.948, 28.37, 4.714),
+    ),
+    Dmc(
+      'Antique Mauve Dark',
+      '3726',
+      Rgba(155, 91, 102, a: 255),
+      '9B5B66',
+      lab: Lab(46.191, 27.621, 5.072),
+    ),
+    Dmc(
+      'Antique Mauve Md Dk',
+      '315',
+      Rgba(129, 73, 82, a: 255),
+      '814952',
+      lab: Lab(37.917, 24.943, 5.078),
+    ),
+    Dmc(
+      'Antique Mauve Vy Dk',
+      '3802',
+      Rgba(113, 65, 73, a: 255),
+      '714149',
+      lab: Lab(33.504, 21.896, 4.171),
+    ),
+    Dmc(
+      'Garnet Very Dark',
+      '902',
+      Rgba(130, 38, 55, a: 255),
+      '822637',
+      lab: Lab(30.419, 40.504, 11.961),
+    ),
+    Dmc(
+      'Antique Violet Vy Lt',
+      '3743',
+      Rgba(215, 203, 211, a: 255),
+      'D7CBD3',
+      lab: Lab(82.84, 5.578, -2.484),
+    ),
+    Dmc(
+      'Antique Violet Light',
+      '3042',
+      Rgba(183, 157, 167, a: 255),
+      'B79DA7',
+      lab: Lab(67.255, 11.285, -1.654),
+    ),
+    Dmc(
+      'Antique Violet Medium',
+      '3041',
+      Rgba(149, 111, 124, a: 255),
+      '956F7C',
+      lab: Lab(50.936, 17.154, -1.295),
+    ),
+    Dmc(
+      'Antique Violet Dark',
+      '3740',
+      Rgba(120, 87, 98, a: 255),
+      '785762',
+      lab: Lab(40.721, 15.474, -0.959),
+    ),
+    Dmc(
+      'Grape Light',
+      '3836',
+      Rgba(186, 145, 170, a: 255),
+      'BA91AA',
+      lab: Lab(64.638, 19.57, -7.169),
+    ),
+    Dmc(
+      'Grape Medium',
+      '3835',
+      Rgba(148, 96, 131, a: 255),
+      '946083',
+      lab: Lab(47.366, 26.686, -10.783),
+    ),
+    Dmc(
+      'Grape Dark',
+      '3834',
+      Rgba(114, 55, 93, a: 255),
+      '72375D',
+      lab: Lab(32.034, 31.194, -10.849),
+    ),
+    Dmc(
+      'Grape Very Dark',
+      '154',
+      Rgba(87, 36, 51, a: 255),
+      '572433',
+      lab: Lab(22.042, 25.338, 1.751),
+    ),
+    Dmc(
+      'Lavender Light',
+      '211',
+      Rgba(227, 203, 227, a: 255),
+      'E3CBE3',
+      lab: Lab(84.271, 12.562, -8.794),
+    ),
+    Dmc(
+      'Lavender Medium',
+      '210',
+      Rgba(195, 159, 195, a: 255),
+      'D29FC3',
+      lab: Lab(69.71, 19.547, -13.467),
+    ),
+    Dmc(
+      'Lavender Dark',
+      '209',
+      Rgba(163, 123, 167, a: 255),
+      'A37BA7',
+      lab: Lab(56.824, 23.339, -17.44),
+    ),
+    Dmc(
+      'Lavender Very Dark',
+      '208',
+      Rgba(131, 91, 139, a: 255),
+      '835B8B',
+      lab: Lab(44.478, 25.176, -20.165),
+    ),
+    Dmc(
+      'Lavender Ultra Dark',
+      '3837',
+      Rgba(108, 58, 110, a: 255),
+      '6C3A6E',
+      lab: Lab(32.569, 30.655, -20.946),
+    ),
+    Dmc(
+      'Violet Dark',
+      '327',
+      Rgba(99, 54, 102, a: 255),
+      '633666',
+      lab: Lab(30.035, 28.306, -19.887),
+    ),
+    Dmc(
+      'Violet Very Light',
+      '153',
+      Rgba(230, 204, 217, a: 255),
+      'E6CCD9',
+      lab: Lab(84.493, 11.275, -3.112),
+    ),
+    Dmc(
+      'Violet Light',
+      '554',
+      Rgba(219, 179, 203, a: 255),
+      'DBB3CB',
+      lab: Lab(77.048, 18.378, -6.673),
+    ),
+    Dmc(
+      'Violet',
+      '553',
+      Rgba(163, 99, 139, a: 255),
+      'A3638B',
+      lab: Lab(50.185, 31.738, -11.125),
+    ),
+    Dmc(
+      'Violet  Medium',
+      '552',
+      Rgba(128, 58, 107, a: 255),
+      '803A6B',
+      lab: Lab(35.355, 36.715, -14.512),
+    ),
+    Dmc(
+      'Violet Very Dark',
+      '550',
+      Rgba(92, 24, 78, a: 255),
+      '5C184E',
+      lab: Lab(21.867, 37.135, -16.903),
+    ),
+    Dmc(
+      'Blue Violet Vy Lt',
+      '3747',
+      Rgba(211, 215, 237, a: 255),
+      'D3D7ED',
+      lab: Lab(86.288, 2.873, -11.236),
+    ),
+    Dmc(
+      'Blue Violet Light',
+      '341',
+      Rgba(183, 191, 221, a: 255),
+      'B7BFDD',
+      lab: Lab(77.608, 3.375, -15.902),
+    ),
+    Dmc(
+      'Blue Violet Med Lt',
+      '156',
+      Rgba(163, 174, 209, a: 255),
+      'A3AED1',
+      lab: Lab(71.325, 3.677, -19.005),
+    ),
+    Dmc(
+      'Blue Violet Medium',
+      '340',
+      Rgba(173, 167, 199, a: 255),
+      'ADA7C7',
+      lab: Lab(69.927, 8.524, -15.544),
+    ),
+    Dmc(
+      'Blue Violet Med Dark',
+      '155',
+      Rgba(152, 145, 182, a: 255),
+      '9891B6',
+      lab: Lab(61.915, 10.238, -18.346),
+    ),
+    Dmc(
+      'Blue Violet Dark',
+      '3746',
+      Rgba(119, 107, 152, a: 255),
+      '776B98',
+      lab: Lab(47.885, 14.57, -22.76),
+    ),
+    Dmc(
+      'Blue Violet Very Dark',
+      '333',
+      Rgba(92, 84, 120, a: 255),
+      '5C5478',
+      lab: Lab(37.792, 11.608, -19.243),
+    ),
+    Dmc(
+      'Cornflower Blue Vy Lt',
+      '157',
+      Rgba(187, 195, 217, a: 255),
+      'BBC3D9',
+      lab: Lab(78.813, 1.654, -11.907),
+    ),
+    Dmc(
+      'Cornflower Blue Light',
+      '794',
+      Rgba(143, 156, 193, a: 255),
+      '8F9CC1',
+      lab: Lab(64.537, 3.716, -20.598),
+    ),
+    Dmc(
+      'Cornflower Blue Med',
+      '793',
+      Rgba(112, 125, 162, a: 255),
+      '707DA2',
+      lab: Lab(52.642, 4.163, -21.341),
+    ),
+    Dmc(
+      'Cornflower Blue',
+      '3807',
+      Rgba(96, 103, 140, a: 255),
+      '60678C',
+      lab: Lab(44.349, 6.475, -21.243),
+    ),
+    Dmc(
+      'Cornflower Blue Dark',
+      '792',
+      Rgba(85, 91, 123, a: 255),
+      '555B7B',
+      lab: Lab(39.316, 5.694, -18.787),
+    ),
+    Dmc(
+      'Cornflower Blu M V D',
+      '158',
+      Rgba(76, 82, 110, a: 255),
+      '4C526E',
+      lab: Lab(35.394, 4.775, -16.855),
+    ),
+    Dmc(
+      'Cornflower Blue V D',
+      '791',
+      Rgba(70, 69, 99, a: 255),
+      '464563',
+      lab: Lab(30.543, 8.027, -17.44),
+    ),
+    Dmc(
+      'Lavender Blue Light',
+      '3840',
+      Rgba(176, 192, 218, a: 255),
+      'B0C0DA',
+      lab: Lab(77.276, -0.019, -14.831),
+    ),
+    Dmc(
+      'Lavender Blue Med',
+      '3839',
+      Rgba(123, 142, 171, a: 255),
+      '7B8EAB',
+      lab: Lab(58.506, 0.031, -17.492),
+    ),
+    Dmc(
+      'Lavender Blue Dark',
+      '3838',
+      Rgba(92, 114, 148, a: 255),
+      '5C7294',
+      lab: Lab(47.557, 0.832, -21.08),
+    ),
+    Dmc(
+      'Delft Blue Pale',
+      '800',
+      Rgba(192, 204, 222, a: 255),
+      'C0CCDE',
+      lab: Lab(81.656, -0.483, -10.309),
+    ),
+    Dmc(
+      'Delft Blue',
+      '809',
+      Rgba(148, 168, 198, a: 255),
+      '94A8C6',
+      lab: Lab(68.299, -0.23, -17.632),
+    ),
+    Dmc(
+      'Delft Blue Medium',
+      '799',
+      Rgba(116, 142, 182, a: 255),
+      '748EB6',
+      lab: Lab(58.449, 0.815, -23.88),
+    ),
+    Dmc(
+      'Delft Blue Dark',
+      '798',
+      Rgba(70, 106, 142, a: 255),
+      '466A8E',
+      lab: Lab(43.6, -2.205, -23.735),
+    ),
+    Dmc(
+      'Royal Blue',
+      '797',
+      Rgba(19, 71, 125, a: 255),
+      '13477D',
+      lab: Lab(29.727, 4.428, -35.333),
+    ),
+    Dmc(
+      'Royal Blue Dark',
+      '796',
+      Rgba(17, 65, 109, a: 255),
+      '11416D',
+      lab: Lab(26.746, 1.61, -29.998),
+    ),
+    Dmc(
+      'Royal Blue Very Dark',
+      '820',
+      Rgba(14, 54, 92, a: 255),
+      '0E365C',
+      lab: Lab(21.96, 1.641, -26.616),
+    ),
+    Dmc(
+      'Blue Ultra Very Light',
+      '162',
+      Rgba(219, 236, 245, a: 255),
+      'DBECF5',
+      lab: Lab(92.417, -3.865, -6.277),
+    ),
+    Dmc(
+      'Blue Very Light',
+      '827',
+      Rgba(189, 221, 237, a: 255),
+      'BDDDED',
+      lab: Lab(86.329, -7.139, -11.335),
+    ),
+    Dmc(
+      'Blue Light',
+      '813',
+      Rgba(161, 194, 215, a: 255),
+      'A1C2D7',
+      lab: Lab(76.72, -6.364, -14.146),
+    ),
+    Dmc(
+      'Blue Medium',
+      '826',
+      Rgba(107, 158, 191, a: 255),
+      '6B9EBF',
+      lab: Lab(62.795, -8.154, -22.34),
+    ),
+    Dmc(
+      'Blue Dark',
+      '825',
+      Rgba(71, 129, 165, a: 255),
+      '4781A5',
+      lab: Lab(51.561, -8.177, -24.944),
+    ),
+    Dmc(
+      'Blue Very Dark',
+      '824',
+      Rgba(57, 105, 135, a: 255),
+      '396987',
+      lab: Lab(42.342, -6.986, -21.538),
+    ),
+    Dmc(
+      'Electric Blue Medium',
+      '996',
+      Rgba(48, 194, 236, a: 255),
+      '30C2EC',
+      lab: Lab(73.068, -23.323, -31.463),
+    ),
+    Dmc(
+      'Electric Blue',
+      '3843',
+      Rgba(20, 170, 208, a: 255),
+      '14AAD0',
+      lab: Lab(64.525, -22.316, -29.356),
+    ),
+    Dmc(
+      'Electric Blue Dark',
+      '995',
+      Rgba(38, 150, 182, a: 255),
+      '2696B6',
+      lab: Lab(57.657, -19.356, -25.363),
+    ),
+    Dmc(
+      'Turquoise Bright Light',
+      '3846',
+      Rgba(6, 227, 230, a: 255),
+      '06E3E6',
+      lab: Lab(82.212, -43.012, -14.37),
+    ),
+    Dmc(
+      'Turquoise Bright Med',
+      '3845',
+      Rgba(4, 196, 202, a: 255),
+      '04C4CA',
+      lab: Lab(72.074, -37.503, -14.558),
+    ),
+    Dmc(
+      'Turquoise Bright Dark',
+      '3844',
+      Rgba(18, 174, 186, a: 255),
+      '12AEBA',
+      lab: Lab(64.92, -31.675, -16.542),
+    ),
+    Dmc(
+      'Blue Gray Light',
+      '159',
+      Rgba(199, 202, 215, a: 255),
+      'C7CAD7',
+      lab: Lab(81.45, 1.452, -6.814),
+    ),
+    Dmc(
+      'Blue Gray Medium',
+      '160',
+      Rgba(153, 159, 183, a: 255),
+      '999FB7',
+      lab: Lab(65.739, 2.899, -13.12),
+    ),
+    Dmc(
+      'Blue Gray',
+      '161',
+      Rgba(120, 128, 164, a: 255),
+      '7880A4',
+      lab: Lab(54.145, 5.413, -20.144),
+    ),
+    Dmc(
+      'Baby Blue Ult Vy Lt',
+      '3756',
+      Rgba(238, 252, 252, a: 255),
+      'EEFCFC',
+      lab: Lab(97.964, -4.563, -1.592),
+    ),
+    Dmc(
+      'Baby Blue Very Light',
+      '775',
+      Rgba(217, 235, 241, a: 255),
+      'D9EBF1',
+      lab: Lab(91.917, -4.77, -4.946),
+    ),
+    Dmc(
+      'Baby Blue Pale',
+      '3841',
+      Rgba(205, 223, 237, a: 255),
+      'CDDFED',
+      lab: Lab(87.905, -3.211, -8.876),
+    ),
+    Dmc(
+      'Baby Blue Light',
+      '3325',
+      Rgba(184, 210, 230, a: 255),
+      'B8D2E6',
+      lab: Lab(82.912, -4.458, -12.761),
+    ),
+    Dmc(
+      'Baby Blue',
+      '3755',
+      Rgba(147, 180, 206, a: 255),
+      '92B4CE',
+      lab: Lab(71.759, -5.164, -16.807),
+    ),
+    Dmc(
+      'Baby Blue Medium',
+      '334',
+      Rgba(115, 159, 193, a: 255),
+      '739FC1',
+      lab: Lab(63.583, -6.06, -22.215),
+    ),
+    Dmc(
+      'Baby Blue Dark',
+      '322',
+      Rgba(90, 143, 184, a: 255),
+      '5A8FB8',
+      lab: Lab(57.347, -5.974, -26.837),
+    ),
+    Dmc(
+      'Baby Blue Very Dark',
+      '312',
+      Rgba(53, 102, 139, a: 255),
+      '35668B',
+      lab: Lab(41.412, -4.695, -25.399),
+    ),
+    Dmc(
+      'Baby Blue Ult Vy Dk',
+      '803',
+      Rgba(44, 89, 124, a: 255),
+      '2C597C',
+      lab: Lab(36.244, -3.814, -24.362),
+    ),
+    Dmc(
+      'Navy Blue',
+      '336',
+      Rgba(37, 59, 115, a: 255),
+      '253B73',
+      lab: Lab(26.037, 11.276, -34.904),
+    ),
+    Dmc(
+      'Navy Blue Dark',
+      '823',
+      Rgba(33, 48, 99, a: 255),
+      '213063',
+      lab: Lab(21.35, 11.998, -32.131),
+    ),
+    Dmc(
+      'Navy Blue Very Dark',
+      '939',
+      Rgba(27, 40, 83, a: 255),
+      '1B2853',
+      lab: Lab(17.344, 10.183, -27.973),
+    ),
+    Dmc(
+      'Antique Blue Ult Vy Lt',
+      '3753',
+      Rgba(219, 226, 233, a: 255),
+      'DBE2E9',
+      lab: Lab(89.55, -1.033, -4.231),
+    ),
+    Dmc(
+      'Antique Blue Very Lt',
+      '3752',
+      Rgba(199, 209, 219, a: 255),
+      'C7D1DB',
+      lab: Lab(83.367, -1.449, -6.114),
+    ),
+    Dmc(
+      'Antique Blue Light',
+      '932',
+      Rgba(162, 181, 198, a: 255),
+      'A2B5C6',
+      lab: Lab(72.764, -2.927, -10.818),
+    ),
+    Dmc(
+      'Antique Blue Medium',
+      '931',
+      Rgba(106, 133, 158, a: 255),
+      '6A859E',
+      lab: Lab(54.352, -3.375, -16.451),
+    ),
+    Dmc(
+      'Antique Blue Dark',
+      '930',
+      Rgba(69, 92, 113, a: 255),
+      '455C71',
+      lab: Lab(38.042, -2.854, -14.7),
+    ),
+    Dmc(
+      'Antique Blue Very Dk',
+      '3750',
+      Rgba(56, 76, 94, a: 255),
+      '384C5E',
+      lab: Lab(31.388, -2.601, -13.045),
+    ),
+    Dmc(
+      'Sky Blue Vy Lt',
+      '828',
+      Rgba(197, 232, 237, a: 255),
+      'C5E8ED',
+      lab: Lab(89.719, -10.323, -6.248),
+    ),
+    Dmc(
+      'Sky Blue Light',
+      '3761',
+      Rgba(172, 216, 226, a: 255),
+      'ACD8E2',
+      lab: Lab(83.638, -12.072, -9.63),
+    ),
+    Dmc(
+      'Sky Blue',
+      '519',
+      Rgba(126, 177, 200, a: 255),
+      '7EB1C8',
+      lab: Lab(69.505, -11.024, -17.038),
+    ),
+    Dmc(
+      'Wedgewood Light',
+      '518',
+      Rgba(79, 147, 167, a: 255),
+      '4F93A7',
+      lab: Lab(57.386, -15.816, -17.14),
+    ),
+    Dmc(
+      'Wedgewood Med',
+      '3760',
+      Rgba(62, 133, 162, a: 255),
+      '3E85A2',
+      lab: Lab(52.295, -13.24, -22.105),
+    ),
+    Dmc(
+      'Wedgewood Dark',
+      '517',
+      Rgba(59, 118, 143, a: 255),
+      '3B768F',
+      lab: Lab(46.803, -11.513, -19.432),
+    ),
+    Dmc(
+      'Wedgewood Vry Dk',
+      '3842',
+      Rgba(50, 102, 124, a: 255),
+      '32667C',
+      lab: Lab(40.632, -10.405, -17.55),
+    ),
+    Dmc(
+      'Wedgewood Ult VyDk',
+      '311',
+      Rgba(28, 80, 102, a: 255),
+      '1C5066',
+      lab: Lab(31.678, -9.274, -17.79),
+    ),
+    Dmc(
+      'Peacock Blue Vy Lt',
+      '747',
+      Rgba(229, 252, 253, a: 255),
+      'E5FCFD',
+      lab: Lab(97.378, -7.253, -3.038),
+    ),
+    Dmc(
+      'Peacock Blue Light',
+      '3766',
+      Rgba(153, 207, 217, a: 255),
+      '99CFD9',
+      lab: Lab(79.845, -15.026, -10.595),
+    ),
+    Dmc(
+      'Peacock Blue',
+      '807',
+      Rgba(100, 171, 186, a: 255),
+      '64ABBA',
+      lab: Lab(66.044, -18.267, -14.647),
+    ),
+    Dmc(
+      'Peacock Blue Dark',
+      '806',
+      Rgba(61, 149, 165, a: 255),
+      '3D95A5',
+      lab: Lab(57.273, -21.122, -16.23),
+    ),
+    Dmc(
+      'Peacock Blue Vy Dk',
+      '3765',
+      Rgba(52, 127, 140, a: 255),
+      '347F8C',
+      lab: Lab(49.255, -18.865, -13.947),
+    ),
+    Dmc(
+      'Turquoise Very Light',
+      '3811',
+      Rgba(188, 227, 230, a: 255),
+      'BCE3E6',
+      lab: Lab(87.651, -11.999, -5.691),
+    ),
+    Dmc(
+      'Turquoise Light',
+      '598',
+      Rgba(144, 195, 204, a: 255),
+      '90C3CC',
+      lab: Lab(75.649, -14.457, -9.898),
+    ),
+    Dmc(
+      'Turquoise',
+      '597',
+      Rgba(91, 163, 179, a: 255),
+      '5BA3B3',
+      lab: Lab(63.072, -18.143, -15.263),
+    ),
+    Dmc(
+      'Turquoise Dark',
+      '3810',
+      Rgba(72, 142, 154, a: 255),
+      '488E9A',
+      lab: Lab(55.131, -18.522, -13.132),
+    ),
+    Dmc(
+      'Turquoise Vy Dark',
+      '3809',
+      Rgba(63, 124, 133, a: 255),
+      '3F7C85',
+      lab: Lab(48.468, -17.059, -10.977),
+    ),
+    Dmc(
+      'Turquoise Ult Vy Dk',
+      '3808',
+      Rgba(54, 105, 112, a: 255),
+      '366970',
+      lab: Lab(41.307, -14.992, -9.217),
+    ),
+    Dmc(
+      'Gray Green Vy Lt',
+      '928',
+      Rgba(221, 227, 227, a: 255),
+      'DDE3E3',
+      lab: Lab(89.793, -2.004, -0.711),
+    ),
+    Dmc(
+      'Gray Green Light',
+      '927',
+      Rgba(189, 203, 203, a: 255),
+      'BDCBCB',
+      lab: Lab(80.651, -4.741, -1.645),
+    ),
+    Dmc(
+      'Gray Green Med',
+      '926',
+      Rgba(152, 174, 174, a: 255),
+      '98AEAE',
+      lab: Lab(69.472, -7.574, -2.578),
+    ),
+    Dmc(
+      'Gray Green Dark',
+      '3768',
+      Rgba(101, 127, 127, a: 255),
+      '657F7F',
+      lab: Lab(51.242, -9.303, -3.097),
+    ),
+    Dmc(
+      'Gray Green Vy Dark',
+      '924',
+      Rgba(86, 106, 106, a: 255),
+      '566A6A',
+      lab: Lab(43.252, -7.43, -2.488),
+    ),
+    Dmc(
+      'Teal Green Light',
+      '3849',
+      Rgba(82, 179, 164, a: 255),
+      '52B3AE',
+      lab: Lab(67.062, -32.206, -1.004),
+    ),
+    Dmc(
+      'Teal Green Med',
+      '3848',
+      Rgba(85, 147, 146, a: 255),
+      '419392',
+      lab: Lab(56.953, -20.22, -5.756),
+    ),
+    Dmc(
+      'Teal Green Dark',
+      '3847',
+      Rgba(52, 125, 117, a: 255),
+      '347D75',
+      lab: Lab(47.856, -24.685, -2.481),
+    ),
+    Dmc(
+      'Sea Green Light',
+      '964',
+      Rgba(169, 226, 216, a: 255),
+      'A9E2D8',
+      lab: Lab(85.899, -20.171, -1.021),
+    ),
+    Dmc(
+      'Sea Green Med',
+      '959',
+      Rgba(89, 199, 180, a: 255),
+      '59C7B4',
+      lab: Lab(73.718, -36.07, -0.007),
+    ),
+    Dmc(
+      'Sea Green Dark',
+      '958',
+      Rgba(62, 182, 161, a: 255),
+      '3EB6A1',
+      lab: Lab(67.317, -38.136, 0.956),
+    ),
+    Dmc(
+      'Sea Green Vy Dk',
+      '3812',
+      Rgba(47, 140, 132, a: 255),
+      '2F8C84',
+      lab: Lab(52.978, -28.84, -3.724),
+    ),
+    Dmc(
+      'Green Bright Lt',
+      '3851',
+      Rgba(73, 179, 161, a: 255),
+      '49B3A1',
+      lab: Lab(66.695, -34.806, 0.085),
+    ),
+    Dmc(
+      'Green Bright Md',
+      '943',
+      Rgba(61, 147, 132, a: 255),
+      '3D9384',
+      lab: Lab(55.61, -29.608, 0.186),
+    ),
+    Dmc(
+      'Green Bright Dk',
+      '3850',
+      Rgba(55, 132, 119, a: 255),
+      '378477',
+      lab: Lab(50.271, -27.006, -0.104),
+    ),
+    Dmc(
+      'Aquamarine Vy Lt',
+      '993',
+      Rgba(144, 192, 180, a: 255),
+      '90C0B4',
+      lab: Lab(74.141, -18.302, 0.906),
+    ),
+    Dmc(
+      'Aquamarine Lt',
+      '992',
+      Rgba(111, 174, 159, a: 255),
+      '6FAE9F',
+      lab: Lab(66.638, -23.706, 1.291),
+    ),
+    Dmc(
+      'Aquamarine',
+      '3814',
+      Rgba(80, 139, 125, a: 255),
+      '508B7D',
+      lab: Lab(53.655, -22.772, 1.46),
+    ),
+    Dmc(
+      'Aquamarine Dk',
+      '991',
+      Rgba(71, 123, 110, a: 255),
+      '477B6E',
+      lab: Lab(47.792, -20.724, 1.655),
+    ),
+    Dmc(
+      'Jade Ultra Vy Lt',
+      '966',
+      Rgba(185, 215, 192, a: 255),
+      'B9D7C0',
+      lab: Lab(83.295, -14.336, 8.019),
+    ),
+    Dmc(
+      'Jade Very Light',
+      '564',
+      Rgba(167, 205, 175, a: 255),
+      'A7CDAF',
+      lab: Lab(79.026, -18.443, 10.813),
+    ),
+    Dmc(
+      'Jade Light',
+      '563',
+      Rgba(143, 192, 152, a: 255),
+      '8FC098',
+      lab: Lab(73.419, -24.186, 15.038),
+    ),
+    Dmc(
+      'Jade Medium',
+      '562',
+      Rgba(83, 151, 106, a: 255),
+      '53976A',
+      lab: Lab(57.088, -32.027, 17.159),
+    ),
+    Dmc(
+      'Jade Green',
+      '505',
+      Rgba(51, 131, 98, a: 255),
+      '338362',
+      lab: Lab(49.275, -32.731, 10.696),
+    ),
+    Dmc(
+      'Celadon Green Lt',
+      '3817',
+      Rgba(153, 195, 170, a: 255),
+      '99C3AA',
+      lab: Lab(75.267, -18.988, 8.021),
+    ),
+    Dmc(
+      'Celadon Green',
+      '3816',
+      Rgba(101, 165, 125, a: 255),
+      '65A57D',
+      lab: Lab(62.64, -29.556, 14.391),
+    ),
+    Dmc(
+      'Celadon Green Md',
+      '163',
+      Rgba(77, 131, 97, a: 255),
+      '4D8361',
+      lab: Lab(50.303, -25.982, 12.866),
+    ),
+    Dmc(
+      'Celadon Green Dk',
+      '3815',
+      Rgba(71, 119, 89, a: 255),
+      '477759',
+      lab: Lab(45.981, -23.507, 11.467),
+    ),
+    Dmc(
+      'Celadon Green VD',
+      '561',
+      Rgba(44, 106, 69, a: 255),
+      '2C6A45',
+      lab: Lab(40.037, -29.324, 14.912),
+    ),
+    Dmc(
+      'Blue Green Vy Lt',
+      '504',
+      Rgba(196, 222, 204, a: 255),
+      'C4DECC',
+      lab: Lab(86.175, -12.004, 5.911),
+    ),
+    Dmc(
+      'Blue Green Lt',
+      '3813',
+      Rgba(178, 212, 189, a: 255),
+      'B2D4BD',
+      lab: Lab(81.961, -15.709, 7.637),
+    ),
+    Dmc(
+      'Blue Green Med',
+      '503',
+      Rgba(123, 172, 148, a: 255),
+      '7BAC94',
+      lab: Lab(66.408, -21.465, 7.136),
+    ),
+    Dmc(
+      'Blue Green',
+      '502',
+      Rgba(91, 144, 113, a: 255),
+      '5B9071',
+      lab: Lab(55.444, -24.762, 10.984),
+    ),
+    Dmc(
+      'Blue Green Dark',
+      '501',
+      Rgba(57, 111, 82, a: 255),
+      '396F52',
+      lab: Lab(42.533, -25.293, 10.703),
+    ),
+    Dmc(
+      'Blue Green Vy Dk',
+      '500',
+      Rgba(4, 77, 51, a: 255),
+      '044D33',
+      lab: Lab(28.307, -27.84, 9.721),
+    ),
+    Dmc(
+      'Nile Green Light',
+      '955',
+      Rgba(162, 214, 173, a: 255),
+      'A2D6AD',
+      lab: Lab(81.177, -24.915, 14.875),
+    ),
+    Dmc(
+      'Nile Green',
+      '954',
+      Rgba(136, 186, 145, a: 255),
+      '88BA91',
+      lab: Lab(71.143, -24.825, 15.577),
+    ),
+    Dmc(
+      'Nile Green Med',
+      '913',
+      Rgba(109, 171, 119, a: 255),
+      '6DAB77',
+      lab: Lab(64.731, -31.076, 20.628),
+    ),
+    Dmc(
+      'Emerald Green Lt',
+      '912',
+      Rgba(27, 157, 107, a: 255),
+      '1B9D6B',
+      lab: Lab(57.471, -45.511, 16.878),
+    ),
+    Dmc(
+      'Emerald Green Med',
+      '911',
+      Rgba(24, 144, 101, a: 255),
+      '189065',
+      lab: Lab(53.037, -41.963, 14.128),
+    ),
+    Dmc(
+      'Emerald Green Dark',
+      '910',
+      Rgba(24, 126, 86, a: 255),
+      '1.87E+58',
+      lab: Lab(46.695, -38.055, 13.969),
+    ),
+    Dmc(
+      'Emerald Green Vy Dk',
+      '909',
+      Rgba(21, 111, 73, a: 255),
+      '156F49',
+      lab: Lab(41.231, -35.161, 14.07),
+    ),
+    Dmc(
+      'Emerald Grn Ult V Dk',
+      '3818',
+      Rgba(17, 90, 59, a: 255),
+      '115A3B',
+      lab: Lab(33.451, -29.931, 11.84),
+    ),
+    Dmc(
+      'Pistachio Green Vy Lt',
+      '369',
+      Rgba(215, 237, 204, a: 255),
+      'D7EDCC',
+      lab: Lab(91.404, -13.124, 13.557),
+    ),
+    Dmc(
+      'Pistachio Green Lt',
+      '368',
+      Rgba(166, 194, 152, a: 255),
+      'A6C298',
+      lab: Lab(75.425, -17.251, 18.05),
+    ),
+    Dmc(
+      'Pistachio Green Med',
+      '320',
+      Rgba(105, 136, 90, a: 255),
+      '69885A',
+      lab: Lab(53.33, -20.053, 21.241),
+    ),
+    Dmc(
+      'Pistachio Green Dk',
+      '367',
+      Rgba(97, 122, 82, a: 255),
+      '617A52',
+      lab: Lab(48.348, -17.05, 19.025),
+    ),
+    Dmc(
+      'Pistachio Grn Vy Dk',
+      '319',
+      Rgba(32, 95, 46, a: 255),
+      '205F2E',
+      lab: Lab(35.378, -31.876, 22.159),
+    ),
+    Dmc(
+      'Pistachio Grn Ult V D',
+      '890',
+      Rgba(23, 73, 35, a: 255),
+      '184923',
+      lab: Lab(26.929, -26.339, 17.875),
+    ),
+    Dmc(
+      'Forest Green Lt',
+      '164',
+      Rgba(200, 216, 184, a: 255),
+      'C8D8B8',
+      lab: Lab(84.407, -11.077, 13.971),
+    ),
+    Dmc(
+      'Forest Green ',
+      '989',
+      Rgba(141, 166, 117, a: 255),
+      '8DA675',
+      lab: Lab(65.136, -17.702, 22.588),
+    ),
+    Dmc(
+      'Forest Green Med',
+      '988',
+      Rgba(115, 139, 91, a: 255),
+      '738B5B',
+      lab: Lab(54.933, -17.603, 22.935),
+    ),
+    Dmc(
+      'Forest Green Dk',
+      '987',
+      Rgba(88, 113, 65, a: 255),
+      '587141',
+      lab: Lab(44.613, -18.462, 23.7),
+    ),
+    Dmc(
+      'Forest Green Vy Dk',
+      '986',
+      Rgba(64, 82, 48, a: 255),
+      '405230',
+      lab: Lab(32.564, -14.017, 17.725),
+    ),
+    Dmc(
+      'Yellow Green Vy Lt',
+      '772',
+      Rgba(228, 236, 212, a: 255),
+      'E4ECD4',
+      lab: Lab(92.238, -6.828, 10.717),
+    ),
+    Dmc(
+      'Yellow Green Lt',
+      '3348',
+      Rgba(204, 217, 177, a: 255),
+      'CCD9B1',
+      lab: Lab(84.811, -11.286, 18.261),
+    ),
+    Dmc(
+      'Yellow Green Med',
+      '3347',
+      Rgba(113, 147, 92, a: 255),
+      '71935C',
+      lab: Lab(57.222, -22.361, 25.374),
+    ),
+    Dmc(
+      'Hunter Green',
+      '3346',
+      Rgba(64, 106, 58, a: 255),
+      '406A3A',
+      lab: Lab(40.741, -25.158, 22.41),
+    ),
+    Dmc(
+      'Hunter Green Dk',
+      '3345',
+      Rgba(27, 89, 21, a: 255),
+      '1B5915',
+      lab: Lab(32.771, -34.016, 31.988),
+    ),
+    Dmc(
+      'Hunter Green Vy Dk',
+      '895',
+      Rgba(27, 83, 0, a: 255),
+      '1B5300',
+      lab: Lab(30.447, -33.143, 37.481),
+    ),
+    Dmc(
+      'Chartreuse Bright',
+      '704',
+      Rgba(158, 207, 52, a: 255),
+      '9ECF34',
+      lab: Lab(77.366, -37.248, 66.818),
+    ),
+    Dmc(
+      'Chartreuse',
+      '703',
+      Rgba(123, 181, 71, a: 255),
+      '7BB547',
+      lab: Lab(67.809, -37.382, 48.931),
+    ),
+    Dmc(
+      'Kelly Green',
+      '702',
+      Rgba(71, 167, 47, a: 255),
+      '47A72F',
+      lab: Lab(60.942, -50.32, 50.931),
+    ),
+    Dmc(
+      'Green Light',
+      '701',
+      Rgba(63, 143, 41, a: 255),
+      '3F8F29',
+      lab: Lab(52.798, -43.825, 44.785),
+    ),
+    Dmc(
+      'Green Bright',
+      '700',
+      Rgba(7, 115, 27, a: 255),
+      '07731B',
+      lab: Lab(41.823, -45.649, 38.694),
+    ),
+    Dmc(
+      'Green',
+      '699',
+      Rgba(5, 101, 23, a: 255),
+      '56517',
+      lab: Lab(36.746, -41.633, 35.111),
+    ),
+    Dmc(
+      'Parrot Green Lt',
+      '907',
+      Rgba(199, 230, 102, a: 255),
+      'C7E666',
+      lab: Lab(86.847, -28.557, 57.929),
+    ),
+    Dmc(
+      'Parrot Green Md',
+      '906',
+      Rgba(127, 179, 53, a: 255),
+      '7FB335',
+      lab: Lab(67.284, -36.438, 55.937),
+    ),
+    Dmc(
+      'Parrot Green Dk',
+      '905',
+      Rgba(98, 138, 40, a: 255),
+      '628A28',
+      lab: Lab(52.869, -29.633, 45.798),
+    ),
+    Dmc(
+      'Parrot Green V Dk',
+      '904',
+      Rgba(85, 120, 34, a: 255),
+      '557822',
+      lab: Lab(46.284, -26.654, 41.265),
+    ),
+    Dmc(
+      'Avocado Grn U Lt',
+      '472',
+      Rgba(216, 228, 152, a: 255),
+      'D8E498',
+      lab: Lab(88.138, -15.87, 35.812),
+    ),
+    Dmc(
+      'Avocado Grn V Lt',
+      '471',
+      Rgba(174, 191, 121, a: 255),
+      'AEBF79',
+      lab: Lab(74.598, -17.263, 33.408),
+    ),
+    Dmc(
+      'Avocado Grn Lt',
+      '470',
+      Rgba(148, 171, 79, a: 255),
+      '94AB4F',
+      lab: Lab(66.509, -22.213, 44.136),
+    ),
+    Dmc(
+      'Avocado Green',
+      '469',
+      Rgba(114, 132, 60, a: 255),
+      '72843C',
+      lab: Lab(52.293, -18.255, 36.239),
+    ),
+    Dmc(
+      'Avocado Green Md',
+      '937',
+      Rgba(98, 113, 51, a: 255),
+      '627133',
+      lab: Lab(45.145, -15.974, 32.166),
+    ),
+    Dmc(
+      'Avocado Grn V Dk',
+      '936',
+      Rgba(76, 88, 38, a: 255),
+      '4C5826',
+      lab: Lab(35.313, -13.405, 27.106),
+    ),
+    Dmc(
+      'Avocado Green Dk',
+      '935',
+      Rgba(66, 77, 33, a: 255),
+      '424D21',
+      lab: Lab(30.821, -12.305, 24.376),
+    ),
+    Dmc(
+      'Avocado Grn Black',
+      '934',
+      Rgba(49, 57, 25, a: 255),
+      '313919',
+      lab: Lab(22.477, -9.515, 18.706),
+    ),
+    Dmc(
+      'Fern Green Lt',
+      '523',
+      Rgba(171, 177, 151, a: 255),
+      'ABB197',
+      lab: Lab(71.102, -6.767, 12.599),
+    ),
+    Dmc(
+      'Green Gray',
+      '3053',
+      Rgba(156, 164, 130, a: 255),
+      '9CA482',
+      lab: Lab(65.928, -8.908, 16.724),
+    ),
+    Dmc(
+      'Green Gray Md',
+      '3052',
+      Rgba(136, 146, 104, a: 255),
+      '889268',
+      lab: Lab(58.781, -11.066, 21.113),
+    ),
+    Dmc(
+      'Green Gray Dk',
+      '3051',
+      Rgba(95, 102, 72, a: 255),
+      '5F6648',
+      lab: Lab(41.85, -8.378, 16.1),
+    ),
+    Dmc(
+      'Fern Green Vy Lt',
+      '524',
+      Rgba(196, 205, 172, a: 255),
+      'C4CDAC',
+      lab: Lab(80.948, -8.828, 15.409),
+    ),
+    Dmc(
+      'Fern Green',
+      '522',
+      Rgba(150, 158, 126, a: 255),
+      '969E7E',
+      lab: Lab(63.708, -8.633, 15.79),
+    ),
+    Dmc(
+      'Fern Green Dark',
+      '520',
+      Rgba(102, 109, 79, a: 255),
+      '666D4F',
+      lab: Lab(44.698, -8.316, 15.911),
+    ),
+    Dmc(
+      'Pine Green',
+      '3364',
+      Rgba(131, 151, 95, a: 255),
+      '83975F',
+      lab: Lab(59.694, -16.998, 27.204),
+    ),
+    Dmc(
+      'Pine Green Md',
+      '3363',
+      Rgba(114, 130, 86, a: 255),
+      '728256',
+      lab: Lab(52.079, -13.948, 21.941),
+    ),
+    Dmc(
+      'Pine Green Dk',
+      '3362',
+      Rgba(94, 107, 71, a: 255),
+      '5E6B47',
+      lab: Lab(43.286, -11.799, 18.598),
+    ),
+    Dmc(
+      'Moss Green Vy Lt',
+      '165',
+      Rgba(239, 244, 164, a: 255),
+      'EFF4A4',
+      lab: Lab(94.198, -13.676, 38.061),
+    ),
+    Dmc(
+      'Moss Green Lt',
+      '3819',
+      Rgba(224, 232, 104, a: 255),
+      'E0E868',
+      lab: Lab(89.186, -19.535, 60.183),
+    ),
+    Dmc(
+      'Moss Green Md Lt',
+      '166',
+      Rgba(192, 200, 64, a: 255),
+      'C0C840',
+      lab: Lab(77.807, -19.561, 63.825),
+    ),
+    Dmc(
+      'Moss Green',
+      '581',
+      Rgba(167, 174, 56, a: 255),
+      'A7AE38',
+      lab: Lab(68.587, -17.538, 56.978),
+    ),
+    Dmc(
+      'Moss Green Dk',
+      '580',
+      Rgba(136, 141, 51, a: 255),
+      '888D33',
+      lab: Lab(56.608, -14.208, 45.848),
+    ),
+    Dmc(
+      'Olive Green Lt',
+      '734',
+      Rgba(199, 192, 119, a: 255),
+      'C7C077',
+      lab: Lab(76.784, -8.129, 37.635),
+    ),
+    Dmc(
+      'Olive Green Md',
+      '733',
+      Rgba(188, 179, 76, a: 255),
+      'BCB34C',
+      lab: Lab(71.862, -9.843, 52.467),
+    ),
+    Dmc(
+      'Olive Green',
+      '732',
+      Rgba(148, 140, 54, a: 255),
+      '948C36',
+      lab: Lab(57.384, -8.127, 45.634),
+    ),
+    Dmc(
+      'Olive Green Dk',
+      '731',
+      Rgba(147, 139, 55, a: 255),
+      '938B37',
+      lab: Lab(57.021, -7.961, 44.753),
+    ),
+    Dmc(
+      'Olive Green V Dk',
+      '730',
+      Rgba(130, 123, 48, a: 255),
+      '827B30',
+      lab: Lab(50.833, -7.346, 40.847),
+    ),
+    Dmc(
+      'Khaki Green Lt',
+      '3013',
+      Rgba(185, 185, 130, a: 255),
+      'B9B982',
+      lab: Lab(73.949, -8.737, 27.996),
+    ),
+    Dmc(
+      'Khaki Green Md',
+      '3012',
+      Rgba(166, 167, 93, a: 255),
+      'A6A75D',
+      lab: Lab(66.926, -11.353, 37.997),
+    ),
+    Dmc(
+      'Khaki Green Dk',
+      '3011',
+      Rgba(137, 138, 88, a: 255),
+      '898A58',
+      lab: Lab(56.287, -8.516, 26.69),
+    ),
+    Dmc(
+      'Mustard Lt',
+      '372',
+      Rgba(204, 183, 132, a: 255),
+      'CCB784',
+      lab: Lab(75.058, 0.073, 28.7),
+    ),
+    Dmc(
+      'Mustard',
+      '371',
+      Rgba(191, 166, 113, a: 255),
+      'BFA671',
+      lab: Lab(69.141, 1.685, 30.791),
+    ),
+    Dmc(
+      'Mustard Medium',
+      '370',
+      Rgba(184, 157, 100, a: 255),
+      'B89D64',
+      lab: Lab(65.923, 2.252, 33.432),
+    ),
+    Dmc(
+      'Golden Olive Vy Lt',
+      '834',
+      Rgba(219, 190, 127, a: 255),
+      'DBBE7F',
+      lab: Lab(78.122, 1.814, 35.586),
+    ),
+    Dmc(
+      'Golden Olive Lt',
+      '833',
+      Rgba(200, 171, 108, a: 255),
+      'C8AB6C',
+      lab: Lab(71.206, 2.177, 36.245),
+    ),
+    Dmc(
+      'Golden Olive',
+      '832',
+      Rgba(189, 155, 81, a: 255),
+      'BD9B51',
+      lab: Lab(65.636, 3.726, 43.007),
+    ),
+    Dmc(
+      'Golden Olive Md',
+      '831',
+      Rgba(170, 143, 86, a: 255),
+      'AA8F56',
+      lab: Lab(60.66, 2.575, 33.956),
+    ),
+    Dmc(
+      'Golden Olive Dk',
+      '830',
+      Rgba(141, 120, 75, a: 255),
+      '8D784B',
+      lab: Lab(51.386, 1.747, 27.663),
+    ),
+    Dmc(
+      'Golden Olive Vy Dk',
+      '829',
+      Rgba(126, 107, 66, a: 255),
+      '7E6B42',
+      lab: Lab(46.102, 1.587, 25.7),
+    ),
+    Dmc(
+      'Drab Brown V Lt',
+      '613',
+      Rgba(220, 196, 170, a: 255),
+      'DCC4AA',
+      lab: Lab(80.515, 4.426, 16.15),
+    ),
+    Dmc(
+      'Drab Brown Lt',
+      '612',
+      Rgba(188, 154, 120, a: 255),
+      'BC9A78',
+      lab: Lab(65.872, 7.808, 22.611),
+    ),
+    Dmc(
+      'Drab Brown',
+      '611',
+      Rgba(150, 118, 86, a: 255),
+      '967656',
+      lab: Lab(51.964, 8.048, 22.386),
+    ),
+    Dmc(
+      'Drab Brown Dk',
+      '610',
+      Rgba(121, 96, 71, a: 255),
+      '796047',
+      lab: Lab(42.59, 6.42, 18.124),
+    ),
+    Dmc(
+      'Yellow Beige Lt',
+      '3047',
+      Rgba(231, 214, 193, a: 255),
+      'E7D6C1',
+      lab: Lab(86.471, 2.478, 12.481),
+    ),
+    Dmc(
+      'Yellow Beige Md',
+      '3046',
+      Rgba(216, 188, 154, a: 255),
+      'D8BC9A',
+      lab: Lab(77.815, 4.917, 20.896),
+    ),
+    Dmc(
+      'Yellow Beige Dk',
+      '3045',
+      Rgba(188, 150, 106, a: 255),
+      'BC966A',
+      lab: Lab(64.6, 8.381, 28.581),
+    ),
+    Dmc(
+      'Yellow Beige V Dk',
+      '167',
+      Rgba(167, 124, 73, a: 255),
+      'A77C49',
+      lab: Lab(55.187, 10.702, 34.09),
+    ),
+    Dmc(
+      'Off White',
+      '746',
+      Rgba(252, 252, 238, a: 255),
+      'FCFCEE',
+      lab: Lab(98.626, -2.386, 6.689),
+    ),
+    Dmc(
+      'Old Gold Vy Lt',
+      '677',
+      Rgba(245, 236, 203, a: 255),
+      'F5ECCB',
+      lab: Lab(93.327, -2.257, 17.101),
+    ),
+    Dmc(
+      'Hazelnut Brown Lt',
+      '422',
+      Rgba(198, 159, 123, a: 255),
+      'C69F7B',
+      lab: Lab(68.191, 9.482, 24.262),
+    ),
+    Dmc(
+      'Hazelnut Brown',
+      '3828',
+      Rgba(183, 139, 97, a: 255),
+      'B78B61',
+      lab: Lab(61.129, 11.419, 28.882),
+    ),
+    Dmc(
+      'Hazelnut Brown Dk',
+      '420',
+      Rgba(160, 112, 66, a: 255),
+      'A07042',
+      lab: Lab(51.216, 13.861, 32.868),
+    ),
+    Dmc(
+      'Hazelnut Brown V Dk',
+      '869',
+      Rgba(131, 94, 57, a: 255),
+      '8.35E+41',
+      lab: Lab(42.953, 10.587, 26.995),
+    ),
+    Dmc(
+      'Topaz',
+      '728',
+      Rgba(228, 180, 104, a: 255),
+      'E4B468',
+      lab: Lab(76.153, 8.598, 45.013),
+    ),
+    Dmc(
+      'Topaz Medium',
+      '783',
+      Rgba(206, 145, 36, a: 255),
+      'CE9124',
+      lab: Lab(64.564, 14.162, 61.781),
+    ),
+    Dmc(
+      'Topaz Dark',
+      '782',
+      Rgba(174, 119, 32, a: 255),
+      'AE7720',
+      lab: Lab(54.34, 14.207, 52.703),
+    ),
+    Dmc(
+      'Topaz Very Dark',
+      '781',
+      Rgba(162, 109, 32, a: 255),
+      'A26D20',
+      lab: Lab(50.361, 14.443, 48.528),
+    ),
+    Dmc(
+      'Topaz Ultra Vy Dk',
+      '780',
+      Rgba(148, 99, 26, a: 255),
+      '94631A',
+      lab: Lab(46.034, 13.553, 46.278),
+    ),
+    Dmc(
+      'Old Gold Lt',
+      '676',
+      Rgba(229, 206, 151, a: 255),
+      'E5CE97',
+      lab: Lab(83.461, 0.137, 30.322),
+    ),
+    Dmc(
+      'Old Gold Medium',
+      '729',
+      Rgba(208, 165, 62, a: 255),
+      'D0A53E',
+      lab: Lab(69.943, 5.301, 57.104),
+    ),
+    Dmc(
+      'Old Gold Dark',
+      '680',
+      Rgba(188, 141, 14, a: 255),
+      'BC8D0E',
+      lab: Lab(61.458, 7.856, 64.079),
+    ),
+    Dmc(
+      'Old Gold Vy Dark',
+      '3829',
+      Rgba(169, 130, 4, a: 255),
+      'A98204',
+      lab: Lab(56.495, 5.152, 61.146),
+    ),
+    Dmc(
+      'Straw Light',
+      '3822',
+      Rgba(246, 220, 152, a: 255),
+      'F6DC98',
+      lab: Lab(88.47, -0.349, 36.697),
+    ),
+    Dmc(
+      'Straw',
+      '3821',
+      Rgba(243, 206, 117, a: 255),
+      'F3CE75',
+      lab: Lab(84.216, 2.236, 48.714),
+    ),
+    Dmc(
+      'Straw Dark',
+      '3820',
+      Rgba(223, 182, 95, a: 255),
+      'DFB65F',
+      lab: Lab(76.051, 4.76, 49.193),
+    ),
+    Dmc(
+      'Straw Very Dark',
+      '3852',
+      Rgba(205, 157, 55, a: 255),
+      'CD9D37',
+      lab: Lab(67.553, 7.953, 57.492),
+    ),
+    Dmc(
+      'Lemon Light',
+      '445',
+      Rgba(255, 251, 139, a: 255),
+      'FFFB8B',
+      lab: Lab(96.869, -13.637, 53.828),
+    ),
+    Dmc(
+      'Lemon',
+      '307',
+      Rgba(253, 237, 84, a: 255),
+      'FDED54',
+      lab: Lab(92.615, -11.548, 72.793),
+    ),
+    Dmc(
+      'Canary Bright',
+      '973',
+      Rgba(255, 227, 0, a: 255),
+      'FFE300',
+      lab: Lab(89.951, -7.946, 89.283),
+    ),
+    Dmc(
+      'Lemon Dark',
+      '444',
+      Rgba(255, 214, 0, a: 255),
+      'FFD600',
+      lab: Lab(86.679, -1.418, 86.961),
+    ),
+    Dmc(
+      'Golden Yellow Vy Lt',
+      '3078',
+      Rgba(253, 249, 205, a: 255),
+      'FDF9CD',
+      lab: Lab(97.245, -5.64, 21.642),
+    ),
+    Dmc(
+      'Topaz Vy Lt',
+      '727',
+      Rgba(255, 241, 175, a: 255),
+      'FFF1AF',
+      lab: Lab(94.851, -4.87, 33.635),
+    ),
+    Dmc(
+      'Topaz Light',
+      '726',
+      Rgba(253, 215, 85, a: 255),
+      'FDD755',
+      lab: Lab(87.065, -0.483, 66.666),
+    ),
+    Dmc(
+      'Topaz Med Lt',
+      '725',
+      Rgba(255, 200, 64, a: 255),
+      'FFC840',
+      lab: Lab(83.41, 7.042, 71.207),
+    ),
+    Dmc(
+      'Canary Deep',
+      '972',
+      Rgba(255, 181, 21, a: 255),
+      'FFB515',
+      lab: Lab(78.672, 15.782, 78.938),
+    ),
+    Dmc(
+      'Yellow Pale Light',
+      '745',
+      Rgba(255, 233, 173, a: 255),
+      'FFE9AD',
+      lab: Lab(92.819, -1.087, 31.93),
+    ),
+    Dmc(
+      'Yellow Pale',
+      '744',
+      Rgba(255, 231, 147, a: 255),
+      'FFE793',
+      lab: Lab(91.917, -2.952, 43.8),
+    ),
+    Dmc(
+      'Yellow Med',
+      '743',
+      Rgba(254, 211, 118, a: 255),
+      'FED376',
+      lab: Lab(86.488, 4.196, 51.212),
+    ),
+    Dmc(
+      'Tangerine Light',
+      '742',
+      Rgba(255, 191, 87, a: 255),
+      'FFBF57',
+      lab: Lab(81.407, 12.82, 59.829),
+    ),
+    Dmc(
+      'Tangerine Med',
+      '741',
+      Rgba(255, 163, 43, a: 255),
+      'FFA32B',
+      lab: Lab(74.59, 25.608, 70.406),
+    ),
+    Dmc(
+      'Tangerine',
+      '740',
+      Rgba(255, 139, 0, a: 255),
+      'FF8B00',
+      lab: Lab(69.273, 37.337, 75.367),
+    ),
+    Dmc(
+      'Pumpkin Light',
+      '970',
+      Rgba(247, 139, 19, a: 255),
+      'F78B13',
+      lab: Lab(68.231, 34.298, 71.332),
+    ),
+    Dmc(
+      'Pumpkin',
+      '971',
+      Rgba(246, 127, 0, a: 255),
+      'F67F00',
+      lab: Lab(65.57, 39.812, 72.486),
+    ),
+    Dmc(
+      'Burnt Orange',
+      '947',
+      Rgba(255, 123, 77, a: 255),
+      'FF7B4D',
+      lab: Lab(66.491, 47.154, 48.113),
+    ),
+    Dmc(
+      'Burnt Orange Med',
+      '946',
+      Rgba(235, 99, 7, a: 255),
+      'EB6307',
+      lab: Lab(58.603, 49.219, 66.317),
+    ),
+    Dmc(
+      'Burnt Orange Dark',
+      '900',
+      Rgba(209, 88, 7, a: 255),
+      'D15807',
+      lab: Lab(52.454, 44.702, 60.462),
+    ),
+    Dmc(
+      'Apricot Very Light',
+      '967',
+      Rgba(255, 222, 213, a: 255),
+      'FFDED5',
+      lab: Lab(90.92, 9.985, 8.596),
+    ),
+    Dmc(
+      'Apricot Light',
+      '3824',
+      Rgba(254, 205, 194, a: 255),
+      'FECDC2',
+      lab: Lab(86.32, 15.691, 12.02),
+    ),
+    Dmc(
+      'Apricot',
+      '3341',
+      Rgba(252, 171, 152, a: 255),
+      'FCAB98',
+      lab: Lab(77.334, 27.51, 21.888),
+    ),
+    Dmc(
+      'Apricot Med',
+      '3340',
+      Rgba(255, 131, 111, a: 255),
+      'FF836F',
+      lab: Lab(68.49, 45.349, 32.469),
+    ),
+    Dmc(
+      'Burnt Orange Bright',
+      '608',
+      Rgba(253, 93, 53, a: 255),
+      'FD5D35',
+      lab: Lab(60.754, 59.05, 53.832),
+    ),
+    Dmc(
+      'Orange?Red Bright',
+      '606',
+      Rgba(250, 50, 3, a: 255),
+      'FA3203',
+      lab: Lab(54.67, 71.888, 66.464),
+    ),
+    Dmc(
+      'Tawny Light',
+      '951',
+      Rgba(255, 226, 207, a: 255),
+      'FFE2CF',
+      lab: Lab(91.756, 7.029, 12.923),
+    ),
+    Dmc(
+      'Mahogany Ult Vy Lt',
+      '3856',
+      Rgba(255, 211, 181, a: 255),
+      'FFD3B5',
+      lab: Lab(87.575, 11.189, 20.644),
+    ),
+    Dmc(
+      'Orange Spice Light',
+      '722',
+      Rgba(247, 151, 111, a: 255),
+      'F7976F',
+      lab: Lab(71.592, 32.154, 36.219),
+    ),
+    Dmc(
+      'Orange Spice Med',
+      '721',
+      Rgba(242, 120, 66, a: 255),
+      'F27842',
+      lab: Lab(63.92, 43.235, 50.252),
+    ),
+    Dmc(
+      'Orange Spice Dark',
+      '720',
+      Rgba(229, 92, 31, a: 255),
+      'E55C1F',
+      lab: Lab(56.497, 50.569, 58.012),
+    ),
+    Dmc(
+      'Pumpkin Pale',
+      '3825',
+      Rgba(253, 189, 150, a: 255),
+      'FDBD96',
+      lab: Lab(81.555, 18.231, 28.695),
+    ),
+    Dmc(
+      'Copper Light',
+      '922',
+      Rgba(226, 115, 35, a: 255),
+      'E27323',
+      lab: Lab(60.384, 38.448, 59.56),
+    ),
+    Dmc(
+      'Copper',
+      '921',
+      Rgba(198, 98, 24, a: 255),
+      'C66218',
+      lab: Lab(52.738, 35.7, 55.447),
+    ),
+    Dmc(
+      'Copper Med',
+      '920',
+      Rgba(172, 84, 20, a: 255),
+      'AC5414',
+      lab: Lab(45.855, 32.307, 49.667),
+    ),
+    Dmc(
+      'Red?Copper',
+      '919',
+      Rgba(166, 69, 16, a: 255),
+      'A64510',
+      lab: Lab(41.846, 37.517, 47.517),
+    ),
+    Dmc(
+      'Red?Copper Dark',
+      '918',
+      Rgba(130, 52, 10, a: 255),
+      '82340A',
+      lab: Lab(32.311, 31.59, 39.687),
+    ),
+    Dmc(
+      'Tawny Vy Light',
+      '3770',
+      Rgba(255, 238, 227, a: 255),
+      'FFEEE3',
+      lab: Lab(95.142, 3.942, 7.373),
+    ),
+    Dmc(
+      'Tawny',
+      '945',
+      Rgba(251, 213, 187, a: 255),
+      'FBD5BB',
+      lab: Lab(87.817, 9.459, 17.781),
+    ),
+    Dmc(
+      'Mahogany Vy Lt',
+      '402',
+      Rgba(247, 167, 119, a: 255),
+      'F7A777',
+      lab: Lab(75.291, 24.433, 36.694),
+    ),
+    Dmc(
+      'Mahogany Light',
+      '3776',
+      Rgba(207, 121, 57, a: 255),
+      'CF7939',
+      lab: Lab(59.192, 28.409, 48.124),
+    ),
+    Dmc(
+      'Mahogany Med',
+      '301',
+      Rgba(179, 95, 43, a: 255),
+      'B35F2B',
+      lab: Lab(49.426, 30.103, 43.501),
+    ),
+    Dmc(
+      'Mahogany Dark',
+      '400',
+      Rgba(143, 67, 15, a: 255),
+      '8F430F',
+      lab: Lab(37.641, 29.154, 42.961),
+    ),
+    Dmc(
+      'Mahogany Vy Dk',
+      '300',
+      Rgba(111, 47, 0, a: 255),
+      '6F2F00',
+      lab: Lab(27.879, 26.009, 38.833),
+    ),
+    Dmc(
+      'Yellow Ultra Pale',
+      '3823',
+      Rgba(255, 253, 227, a: 255),
+      'FFFDE3',
+      lab: Lab(98.851, -3.638, 12.679),
+    ),
+    Dmc(
+      'Autumn Gold Lt',
+      '3855',
+      Rgba(250, 211, 150, a: 255),
+      'FAD396',
+      lab: Lab(86.561, 5.609, 35.282),
+    ),
+    Dmc(
+      'Autumn Gold Med',
+      '3854',
+      Rgba(242, 175, 104, a: 255),
+      'F2AF68',
+      lab: Lab(76.397, 16.989, 45.651),
+    ),
+    Dmc(
+      'Autumn Gold Dk',
+      '3853',
+      Rgba(242, 151, 70, a: 255),
+      'F29746',
+      lab: Lab(70.492, 27.535, 55.348),
+    ),
+    Dmc(
+      'Golden Brown Pale',
+      '3827',
+      Rgba(247, 187, 119, a: 255),
+      'F7BB77',
+      lab: Lab(79.98, 13.913, 42.604),
+    ),
+    Dmc(
+      'Golden Brown Light',
+      '977',
+      Rgba(220, 156, 86, a: 255),
+      'DC9C56',
+      lab: Lab(69.23, 16.715, 45.55),
+    ),
+    Dmc(
+      'Golden Brown Med',
+      '976',
+      Rgba(194, 129, 66, a: 255),
+      'C28142',
+      lab: Lab(59.492, 19.079, 43.569),
+    ),
+    Dmc(
+      'Golden Brown',
+      '3826',
+      Rgba(173, 114, 57, a: 255),
+      'AD7239',
+      lab: Lab(53.183, 17.78, 40.317),
+    ),
+    Dmc(
+      'Golden Brown Dk',
+      '975',
+      Rgba(145, 79, 18, a: 255),
+      '914F12',
+      lab: Lab(40.663, 23.432, 44.459),
+    ),
+    Dmc(
+      'Peach Very Light',
+      '948',
+      Rgba(254, 231, 218, a: 255),
+      'FEE7DA',
+      lab: Lab(93.139, 5.762, 9.157),
+    ),
+    Dmc(
+      'Peach Light',
+      '754',
+      Rgba(247, 203, 191, a: 255),
+      'F7CBBF',
+      lab: Lab(85.123, 13.755, 11.82),
+    ),
+    Dmc(
+      'Terra Cotta Ult Vy Lt',
+      '3771',
+      Rgba(244, 187, 169, a: 255),
+      'F4BBA9',
+      lab: Lab(80.537, 18.082, 17.049),
+    ),
+    Dmc(
+      'Terra Cotta Vy Lt',
+      '758',
+      Rgba(238, 170, 155, a: 255),
+      'EEAA9B',
+      lab: Lab(75.633, 23.072, 17.677),
+    ),
+    Dmc(
+      'Terra Cotta Light',
+      '3778',
+      Rgba(217, 137, 120, a: 255),
+      'D98978',
+      lab: Lab(64.962, 28.667, 21.923),
+    ),
+    Dmc(
+      'Terra Cotta Med',
+      '356',
+      Rgba(197, 106, 91, a: 255),
+      'C56A5B',
+      lab: Lab(55.004, 34.639, 24.601),
+    ),
+    Dmc(
+      'Terra Cotta',
+      '3830',
+      Rgba(185, 85, 68, a: 255),
+      'BC5544',
+      lab: Lab(48.547, 39.119, 29.254),
+    ),
+    Dmc(
+      'Terra Cotta Dark',
+      '355',
+      Rgba(152, 68, 54, a: 255),
+      '984436',
+      lab: Lab(39.708, 34.114, 25.39),
+    ),
+    Dmc(
+      'Terra Cotta Vy Dk',
+      '3777',
+      Rgba(134, 48, 34, a: 255),
+      '863022',
+      lab: Lab(32.475, 36.018, 28.029),
+    ),
+    Dmc(
+      'Rosewood Ult Vy Lt',
+      '3779',
+      Rgba(248, 202, 200, a: 255),
+      'F8CAC8',
+      lab: Lab(85.184, 15.95, 7.138),
+    ),
+    Dmc(
+      'Rosewood Light',
+      '3859',
+      Rgba(186, 139, 124, a: 255),
+      'BA8B7C',
+      lab: Lab(61.963, 15.8, 14.993),
+    ),
+    Dmc(
+      'Rosewood Med',
+      '3858',
+      Rgba(150, 74, 63, a: 255),
+      '964A3F',
+      lab: Lab(40.801, 30.807, 21.281),
+    ),
+    Dmc(
+      'Rosewood Dark',
+      '3857',
+      Rgba(104, 37, 26, a: 255),
+      '68251A',
+      lab: Lab(24.767, 29.343, 22.671),
+    ),
+    Dmc(
+      'Desert Sand Vy Lt',
+      '3774',
+      Rgba(243, 225, 215, a: 255),
+      'F3E1D7',
+      lab: Lab(90.694, 4.507, 7.094),
+    ),
+    Dmc(
+      'Desert Sand Light',
+      '950',
+      Rgba(238, 211, 196, a: 255),
+      'EED3C4',
+      lab: Lab(86.381, 7.028, 10.852),
+    ),
+    Dmc(
+      'Desert Sand',
+      '3064',
+      Rgba(196, 142, 112, a: 255),
+      'C48E70',
+      lab: Lab(63.55, 16.726, 24.056),
+    ),
+    Dmc(
+      'Desert Sand Med',
+      '407',
+      Rgba(187, 129, 97, a: 255),
+      'BB8161',
+      lab: Lab(59.093, 18.642, 26.32),
+    ),
+    Dmc(
+      'Desert Sand Dark',
+      '3773',
+      Rgba(182, 117, 82, a: 255),
+      'B67552',
+      lab: Lab(55.356, 21.825, 29.758),
+    ),
+    Dmc(
+      'Desert Sand Vy Dk',
+      '3772',
+      Rgba(160, 108, 80, a: 255),
+      'A06C50',
+      lab: Lab(50.426, 17.42, 24.02),
+    ),
+    Dmc(
+      'Desert Sand Ult Vy Dk',
+      '632',
+      Rgba(135, 85, 57, a: 255),
+      '875539',
+      lab: Lab(41.126, 17.692, 24.834),
+    ),
+    Dmc(
+      'Shell Gray Light',
+      '453',
+      Rgba(215, 206, 203, a: 255),
+      'D7CECB',
+      lab: Lab(83.391, 2.586, 2.588),
+    ),
+    Dmc(
+      'Shell Gray Med',
+      '452',
+      Rgba(192, 179, 174, a: 255),
+      'C0B3AE',
+      lab: Lab(73.871, 3.758, 4.205),
+    ),
+    Dmc(
+      'Shell Gray Dark',
+      '451',
+      Rgba(145, 123, 115, a: 255),
+      '917B73',
+      lab: Lab(53.41, 7.136, 7.514),
+    ),
+    Dmc(
+      'Cocoa Light',
+      '3861',
+      Rgba(166, 136, 129, a: 255),
+      'A68881',
+      lab: Lab(59.251, 10.273, 8.037),
+    ),
+    Dmc(
+      'Cocoa',
+      '3860',
+      Rgba(125, 93, 87, a: 255),
+      '7D5D57',
+      lab: Lab(42.577, 12.149, 8.53),
+    ),
+    Dmc(
+      'Cocoa Dark',
+      '779',
+      Rgba(98, 75, 69, a: 255),
+      '624B45',
+      lab: Lab(34.104, 8.739, 7.306),
+    ),
+    Dmc(
+      'Cream',
+      '712',
+      Rgba(255, 251, 239, a: 255),
+      'FFFBEF',
+      lab: Lab(98.625, -0.702, 6.203),
+    ),
+    Dmc(
+      'Tan Ult Vy Lt',
+      '739',
+      Rgba(248, 228, 200, a: 255),
+      'F8E4C8',
+      lab: Lab(91.511, 2.457, 16.138),
+    ),
+    Dmc(
+      'Tan Very Light',
+      '738',
+      Rgba(236, 204, 158, a: 255),
+      'ECCC9E',
+      lab: Lab(83.698, 4.728, 27.1),
+    ),
+    Dmc(
+      'Tan Light',
+      '437',
+      Rgba(228, 187, 142, a: 255),
+      'E4BB8E',
+      lab: Lab(78.455, 8.633, 28.331),
+    ),
+    Dmc(
+      'Tan',
+      '436',
+      Rgba(203, 144, 81, a: 255),
+      'CB9051',
+      lab: Lab(64.352, 15.708, 41.862),
+    ),
+    Dmc(
+      'Brown Very Light',
+      '435',
+      Rgba(184, 119, 72, a: 255),
+      'B87748',
+      lab: Lab(55.939, 20.753, 36.006),
+    ),
+    Dmc(
+      'Brown Light',
+      '434',
+      Rgba(152, 94, 51, a: 255),
+      '9.85E+35',
+      lab: Lab(45.524, 19.524, 34.044),
+    ),
+    Dmc(
+      'Brown Med',
+      '433',
+      Rgba(122, 69, 31, a: 255),
+      '7A451F',
+      lab: Lab(34.989, 19.381, 31.934),
+    ),
+    Dmc(
+      'Coffee Brown Dk',
+      '801',
+      Rgba(101, 57, 25, a: 255),
+      '653919',
+      lab: Lab(28.807, 16.504, 27.632),
+    ),
+    Dmc(
+      'Coffee Brown Vy Dk',
+      '898',
+      Rgba(73, 42, 19, a: 255),
+      '492A13',
+      lab: Lab(20.516, 11.956, 20.749),
+    ),
+    Dmc(
+      'Coffee Brown Ult Dk',
+      '938',
+      Rgba(54, 31, 14, a: 255),
+      '361F0E',
+      lab: Lab(14.378, 9.153, 15.464),
+    ),
+    Dmc(
+      'Black Brown',
+      '3371',
+      Rgba(30, 17, 8, a: 255),
+      '1E1108',
+      lab: Lab(6.273, 4.901, 6.2),
+    ),
+    Dmc(
+      'Beige Brown Ult Vy Lt',
+      '543',
+      Rgba(242, 227, 206, a: 255),
+      'F2E3CE',
+      lab: Lab(90.904, 1.713, 12.085),
+    ),
+    Dmc(
+      'Mocha Beige Light',
+      '3864',
+      Rgba(203, 182, 156, a: 255),
+      'CBB69C',
+      lab: Lab(75.172, 3.403, 15.978),
+    ),
+    Dmc(
+      'Mocha Beige Med',
+      '3863',
+      Rgba(164, 131, 92, a: 255),
+      'A4835C',
+      lab: Lab(56.976, 7.33, 25.859),
+    ),
+    Dmc(
+      'Mocha Beige Dark',
+      '3862',
+      Rgba(138, 110, 78, a: 255),
+      '8A6E4E',
+      lab: Lab(48.392, 6.528, 22.035),
+    ),
+    Dmc(
+      'Mocha Brown Vy Dk',
+      '3031',
+      Rgba(75, 60, 42, a: 255),
+      '4B3C2A',
+      lab: Lab(26.433, 3.637, 13.603),
+    ),
+    Dmc(
+      'Snow White',
+      'B5200',
+      Rgba(255, 255, 255, a: 255),
+      'FFFFFF',
+      lab: Lab(100.0, 0.005, -0.01),
+    ),
+    Dmc(
+      'White',
+      'White',
+      Rgba(252, 251, 248, a: 255),
+      'FCFBF8',
+      lab: Lab(98.618, -0.186, 1.54),
+    ),
+    Dmc(
+      'Winter White',
+      '3865',
+      Rgba(249, 247, 241, a: 255),
+      'F9F7F1',
+      lab: Lab(97.233, -0.369, 3.102),
+    ),
+    Dmc(
+      'Ecru',
+      'Ecru',
+      Rgba(240, 234, 218, a: 255),
+      'F0EADA',
+      lab: Lab(92.766, -0.673, 8.474),
+    ),
+    Dmc(
+      'Beige Gray Light',
+      '822',
+      Rgba(231, 226, 211, a: 255),
+      'E7E2D3',
+      lab: Lab(89.899, -0.858, 7.92),
+    ),
+    Dmc(
+      'Beige Gray Med',
+      '644',
+      Rgba(221, 216, 203, a: 255),
+      'DDD8CB',
+      lab: Lab(86.403, -0.527, 7.001),
+    ),
+    Dmc(
+      'Beige Gray Dark',
+      '642',
+      Rgba(164, 152, 120, a: 255),
+      'A49878',
+      lab: Lab(63.098, -0.78, 18.466),
+    ),
+    Dmc(
+      'Beige Gray Vy Dk',
+      '640',
+      Rgba(133, 123, 97, a: 255),
+      '857B61',
+      lab: Lab(51.855, -0.568, 15.625),
+    ),
+    Dmc(
+      'Brown Gray Dark',
+      '3787',
+      Rgba(98, 93, 80, a: 255),
+      '625D50',
+      lab: Lab(39.588, -0.46, 8.19),
+    ),
+    Dmc(
+      'Brown Gray Vy Dk',
+      '3021',
+      Rgba(79, 75, 65, a: 255),
+      '4F4B41',
+      lab: Lab(31.979, -0.318, 6.557),
+    ),
+    Dmc(
+      'Brown Gray Vy Lt',
+      '3024',
+      Rgba(235, 234, 231, a: 255),
+      'EBEAE7',
+      lab: Lab(92.697, -0.189, 1.561),
+    ),
+    Dmc(
+      'Brown Gray Light',
+      '3023',
+      Rgba(177, 170, 151, a: 255),
+      'B1AA97',
+      lab: Lab(69.705, -0.777, 10.691),
+    ),
+    Dmc(
+      'Brown Gray Med',
+      '3022',
+      Rgba(142, 144, 120, a: 255),
+      '8E9078',
+      lab: Lab(59.024, -5.088, 12.53),
+    ),
+    Dmc(
+      'Ash Gray Vy Lt',
+      '535',
+      Rgba(99, 100, 88, a: 255),
+      '636458',
+      lab: Lab(41.956, -2.768, 6.676),
+    ),
+    Dmc(
+      'Mocha Brown Vy Lt',
+      '3033',
+      Rgba(227, 216, 204, a: 255),
+      'E3D8CC',
+      lab: Lab(86.9, 1.75, 7.249),
+    ),
+    Dmc(
+      'Mocha Brown Lt',
+      '3782',
+      Rgba(210, 188, 166, a: 255),
+      'D2BCA6',
+      lab: Lab(77.532, 4.322, 13.98),
+    ),
+    Dmc(
+      'Mocha Brown Med',
+      '3032',
+      Rgba(179, 159, 139, a: 255),
+      'B39F8B',
+      lab: Lab(66.706, 4.092, 13.119),
+    ),
+    Dmc(
+      'Beige Gray Ult Dk',
+      '3790',
+      Rgba(127, 106, 85, a: 255),
+      '7F6A55',
+      lab: Lab(46.279, 4.996, 14.906),
+    ),
+    Dmc(
+      'Mocha Brown Dk',
+      '3781',
+      Rgba(107, 87, 67, a: 255),
+      '6B5743',
+      lab: Lab(38.459, 5.06, 14.721),
+    ),
+    Dmc(
+      'Mocha Brn Ult Vy Lt',
+      '3866',
+      Rgba(250, 246, 240, a: 255),
+      'FAF6F0',
+      lab: Lab(97.035, 0.303, 3.34),
+    ),
+    Dmc(
+      'Beige Brown Vy Lt',
+      '842',
+      Rgba(209, 186, 161, a: 255),
+      'D1BAA1',
+      lab: Lab(76.828, 4.276, 15.672),
+    ),
+    Dmc(
+      'Beige Brown Lt',
+      '841',
+      Rgba(182, 155, 126, a: 255),
+      'B69B7E',
+      lab: Lab(65.666, 5.616, 18.925),
+    ),
+    Dmc(
+      'Beige Brown Med',
+      '840',
+      Rgba(154, 124, 92, a: 255),
+      '9A7C5C',
+      lab: Lab(54.089, 7.041, 21.861),
+    ),
+    Dmc(
+      'Beige Brown Dk',
+      '839',
+      Rgba(103, 85, 65, a: 255),
+      '675541',
+      lab: Lab(37.412, 4.203, 14.453),
+    ),
+    Dmc(
+      'Beige Brown Vy Dk',
+      '838',
+      Rgba(89, 73, 55, a: 255),
+      '594937',
+      lab: Lab(32.179, 3.813, 13.318),
+    ),
+    Dmc(
+      'Beaver Gray Vy Lt',
+      '3072',
+      Rgba(230, 232, 232, a: 255),
+      'E6E8E8',
+      lab: Lab(91.847, -0.664, -0.245),
+    ),
+    Dmc(
+      'Beaver Gray Lt',
+      '648',
+      Rgba(188, 180, 172, a: 255),
+      'BCB4AC',
+      lab: Lab(73.748, 1.425, 5.078),
+    ),
+    Dmc(
+      'Beaver Gray Med',
+      '647',
+      Rgba(176, 166, 156, a: 255),
+      'B0A69C',
+      lab: Lab(68.681, 1.851, 6.458),
+    ),
+    Dmc(
+      'Beaver Gray Dk',
+      '646',
+      Rgba(135, 125, 115, a: 255),
+      '877D73',
+      lab: Lab(53.011, 2.002, 6.816),
+    ),
+    Dmc(
+      'Beaver Gray Vy Dk',
+      '645',
+      Rgba(110, 101, 92, a: 255),
+      '6E655C',
+      lab: Lab(43.353, 1.89, 6.377),
+    ),
+    Dmc(
+      'Beaver Gray Ult Dk',
+      '844',
+      Rgba(72, 72, 72, a: 255),
+      '484848',
+      lab: Lab(30.593, 0.002, -0.004),
+    ),
+    Dmc(
+      'Pearl Gray Vy Lt',
+      '762',
+      Rgba(236, 236, 236, a: 255),
+      'ECECEC',
+      lab: Lab(93.398, 0.005, -0.01),
+    ),
+    Dmc(
+      'Pearl Gray',
+      '415',
+      Rgba(211, 211, 214, a: 255),
+      'D3D3D6',
+      lab: Lab(84.634, 0.552, -1.488),
+    ),
+    Dmc(
+      'Steel Gray Lt',
+      '318',
+      Rgba(171, 171, 171, a: 255),
+      'ABABAB',
+      lab: Lab(69.982, 0.004, -0.008),
+    ),
+    Dmc(
+      'Steel Gray Dk',
+      '414',
+      Rgba(140, 140, 140, a: 255),
+      '8C8C8C',
+      lab: Lab(58.25, 0.003, -0.007),
+    ),
+    Dmc(
+      'Pewter Very Light',
+      '168',
+      Rgba(209, 209, 209, a: 255),
+      'D1D1D1',
+      lab: Lab(83.84, 0.005, -0.009),
+    ),
+    Dmc(
+      'Pewter Light',
+      '169',
+      Rgba(132, 132, 132, a: 255),
+      '848484',
+      lab: Lab(55.148, 0.003, -0.006),
+    ),
+    Dmc(
+      'Pewter Gray',
+      '317',
+      Rgba(108, 108, 108, a: 255),
+      '6C6C6C',
+      lab: Lab(45.629, 0.003, -0.006),
+    ),
+    Dmc(
+      'Pewter Gray Dark',
+      '413',
+      Rgba(86, 86, 86, a: 255),
+      '565656',
+      lab: Lab(36.567, 0.002, -0.005),
+    ),
+    Dmc(
+      'Pewter Gray Vy Dk',
+      '3799',
+      Rgba(66, 66, 66, a: 255),
+      '424242',
+      lab: Lab(27.975, 0.002, -0.004),
+    ),
+    Dmc(
+      'Black',
+      '310',
+      Rgba(0, 0, 0, a: 255),
+      '0',
+      lab: Lab(0.0, 0.0, 0.0),
+    ),
   ];
 }

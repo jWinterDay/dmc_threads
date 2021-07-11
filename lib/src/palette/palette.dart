@@ -1,6 +1,5 @@
 import 'dart:core';
 
-import 'package:built_collection/built_collection.dart';
 import 'package:dmc_threads/src/entities/dmc.dart';
 import 'package:dmc_threads/src/entities/lab.dart';
 import 'package:dmc_threads/src/entities/rgba.dart';
@@ -13,7 +12,7 @@ part 'palette.g.dart';
 abstract class Palette {
   Palette._();
 
-  static BuiltMap<String, Dmc> dmcMap = BuiltMap<String, Dmc>.of(
+  static Map<String, Dmc> dmcMap = Map<String, Dmc>.of(
     <String, Dmc>{
       for (Dmc v in _dmc()) v.code: v,
     },

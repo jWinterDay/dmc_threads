@@ -1,26 +1,15 @@
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
 
+part 'lab.freezed.dart';
 part 'lab.g.dart';
 
-abstract class Lab implements Built<Lab, LabBuilder> {
-  Lab._();
+@freezed
+class Lab with _$Lab {
+  const factory Lab(
+    double l,
+    double a,
+    double b,
+  ) = _Lab;
 
-  factory Lab([Function(LabBuilder builder)? updates]) {
-    return _$Lab(
-      (LabBuilder builder) {
-        _initializeBuilder(builder);
-        builder.update(updates);
-      },
-    );
-  }
-
-  static void _initializeBuilder(LabBuilder builder) => builder;
-  // ..pincodeLockAfterAppPausePeriod = 60;
-
-  double get l;
-  double get a;
-  double get b;
-
-  static Serializer<Lab> get serializer => _$labSerializer;
+  factory Lab.fromJson(Map<String, dynamic> json) => _$LabFromJson(json);
 }

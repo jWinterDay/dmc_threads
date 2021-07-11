@@ -49,24 +49,13 @@ class DmcThreadsGeneratorGenerator extends Generator {
       );
 
       return '''
-      Dmc((DmcBuilder b) {
-        return b
-          ..name = '$name'
-          ..code = '$code'
-          ..rgba = Rgba((RgbaBuilder b2) {
-            return b2
-              ..r = $r
-              ..g = $g
-              ..b = $b;
-          }).toBuilder()
-          ..hex = '$hex'
-          ..lab = Lab((LabBuilder b3) {
-            return b3
-                ..l = ${lab.l}
-                ..a = ${lab.a}
-                ..b = ${lab.b};
-            }).toBuilder();
-        }),
+      Dmc(
+        '$name',
+        '$code',
+        Rgba($r, $g, $b, a: ${a == null ? 255 : int.parse(a)}),
+        '$hex',
+        lab: Lab(${lab.l}, ${lab.a}, ${lab.b}),
+      ),
       ''';
     }).join();
 
@@ -74,7 +63,7 @@ class DmcThreadsGeneratorGenerator extends Generator {
 
     output.write('''
     Iterable<Dmc> _dmc() {
-      return <Dmc>[
+      return const <Dmc>[
         $data
       ];
     }
