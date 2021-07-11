@@ -1,3 +1,5 @@
+## 0.1.1
+    removed base dmc class
 ## 0.1.0
     migrated to freezed
 ## 0.0.5

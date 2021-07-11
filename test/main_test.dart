@@ -4,16 +4,16 @@ import 'package:test/test.dart';
 /// to run tests write `flutter test test/main_test.dart` in terminal
 void main() {
   group('dmc', () {
-    final Map<String, ThreadType> dmcMap = Palette.dmcMap;
+    final Map<String, Dmc> dmcMap = Palette.dmcMap;
 
     test('known code', () {
-      final ThreadType? dmc = Palette.findDmcByCode('3713');
+      final Dmc? dmc = Palette.findDmcByCode('3713');
 
       expect(dmc?.code, '3713');
     });
 
     test('unknown code', () {
-      final ThreadType? dmc = Palette.findDmcByCode('unknown');
+      final Dmc? dmc = Palette.findDmcByCode('unknown');
 
       expect(dmc, isNull);
     });
@@ -57,7 +57,7 @@ void main() {
     test('find nearest black color', () {
       const Lab blackLab = Lab(0, 0, 0);
 
-      final ThreadType? blackDmc = Palette.findNearestPalette(blackLab);
+      final Dmc? blackDmc = Palette.findNearestPalette(blackLab);
 
       expect(blackDmc?.code, '310');
     });
@@ -65,7 +65,7 @@ void main() {
     test('not exists color', () {
       const Lab blackLab = Lab(-1000, -1000, -1000);
 
-      final ThreadType? blackDmc = Palette.findNearestPalette(blackLab);
+      final Dmc? blackDmc = Palette.findNearestPalette(blackLab);
 
       expect(blackDmc, isNull);
     });

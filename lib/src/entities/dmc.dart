@@ -1,13 +1,12 @@
 import 'package:dmc_threads/src/entities/lab.dart';
 import 'package:dmc_threads/src/entities/rgba.dart';
-import 'package:dmc_threads/src/entities/thread_type.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'dmc.freezed.dart';
 part 'dmc.g.dart';
 
 @freezed
-class Dmc with _$Dmc implements ThreadType {
+class Dmc with _$Dmc {
   const factory Dmc(
     String name,
     String code,
